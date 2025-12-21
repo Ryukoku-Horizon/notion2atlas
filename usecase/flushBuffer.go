@@ -2,13 +2,14 @@ package usecase
 
 import (
 	"fmt"
+	"notion2atlas/constants"
 	"notion2atlas/domain"
 	"notion2atlas/filemanager"
 	"notion2atlas/gateway"
 )
 
 func FlushBlockBuffer(blocks []domain.BlockEntity, pageId string) error {
-	path := fmt.Sprintf("public/pageData/%s.json", pageId)
+	path := fmt.Sprintf("%s/%s.json", constants.PAGE_DATA_DIR, pageId)
 	_, err := filemanager.CreateFileIfNotExist(path)
 	if err != nil {
 		fmt.Println("error in usecase/FlushBlockBuffer/filemanager.CreateFileIfNotExist")

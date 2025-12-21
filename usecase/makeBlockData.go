@@ -3,6 +3,7 @@ package usecase
 import (
 	"errors"
 	"fmt"
+	"notion2atlas/constants"
 	"notion2atlas/domain"
 	"notion2atlas/filemanager"
 	"notion2atlas/utils"
@@ -57,15 +58,17 @@ func makeImageData(img domain.ImageProperty, blockId string, pageId string, type
 	}
 	path := ""
 	if img.File != nil {
-		fileName, err := filemanager.DownloadFile(img.File.Url, "public/assets/"+pageId, blockId, ".png")
+		fileName, err := filemanager.DownloadFile(img.File.Url, fmt.Sprintf("%s/%s", constants.ASSETS_DIR, pageId), blockId, ".png")
 		if err != nil {
 			fmt.Println("error in usecase/makeImageData/filemanager.DownloadFile")
 			return nil, err
 		}
 		path = utils.GetDownloadPath(pageId, fileName)
+	} else if img.External != nil {
+		path = img.External.Url
 	} else {
 		fmt.Println("ℹ️ unexpected type: " + img.Type)
-		filemanager.WriteJson(map[string]any{"type": img.Type}, "public/test.js")
+		filemanager.WriteJson(map[string]any{"type": img.Type}, "notion_data/test.json")
 	}
 	data := map[string]any{
 		"parent": richTextModels,

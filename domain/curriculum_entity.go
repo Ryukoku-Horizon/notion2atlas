@@ -11,7 +11,7 @@ type CurriculumEntity struct {
 	Tag            []string `json:"tag"`
 	Visibility     []string `json:"visibility"`
 	Order          int      `json:"order"`
-	Category       string   `json:"category"`
+	Category       []string `json:"category"`
 	IconType       string   `json:"iconType"`
 	IconUrl        string   `json:"iconUrl"`
 	CoverType      string   `json:"coverType"`

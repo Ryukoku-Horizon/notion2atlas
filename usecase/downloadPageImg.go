@@ -18,7 +18,7 @@ func DownloadPageImg(page domain.PageIf) error {
 	coverType, coverUrl := page.GetCover()
 	switch iconType {
 	case "file", "custom_emoji":
-		_, err := filemanager.DownloadFile(iconUrl, fmt.Sprintf("public/assets/%s", page.GetId()), "icon", ".png")
+		_, err := filemanager.DownloadFile(iconUrl, fmt.Sprintf("%s/%s", constants.ASSETS_DIR, page.GetId()), "icon", ".png")
 		if err != nil {
 			fmt.Println("error in usecase/DownloadPageImg/filemanager.DownloadFile iconType")
 			return err
@@ -26,7 +26,7 @@ func DownloadPageImg(page domain.PageIf) error {
 	}
 	switch coverType {
 	case "file":
-		_, err := filemanager.DownloadFile(coverUrl, fmt.Sprintf("public/assets/%s", page.GetId()), "cover", ".png")
+		_, err := filemanager.DownloadFile(coverUrl, fmt.Sprintf("%s/%s", constants.ASSETS_DIR, page.GetId()), "cover", ".png")
 		if err != nil {
 			fmt.Println("error in usecase/DownloadPageImg/filemanager.DownloadFile coverType")
 			return err

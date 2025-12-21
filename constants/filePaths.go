@@ -1,13 +1,17 @@
 package constants
 
+const NT_DATA_DIR = "notion_data"
+
 const (
-	CURRICULUM_DIR = "public/curriculums"
-	PAGE_DIR       = "public/pages"
-	CATEGORY_DIR   = "public/categories"
-	INFO_DIR       = "public/infos"
-	ANSWER_DIR     = "public/answers"
-	SYNCED_DIR     = "public/synced"
-	OGP_DIR        = "public/ogp"
+	CURRICULUM_DIR = NT_DATA_DIR + "/curriculums"
+	PAGE_DIR       = NT_DATA_DIR + "/pages"
+	CATEGORY_DIR   = NT_DATA_DIR + "/categories"
+	INFO_DIR       = NT_DATA_DIR + "/infos"
+	ANSWER_DIR     = NT_DATA_DIR + "/answers"
+	SYNCED_DIR     = NT_DATA_DIR + "/synced"
+	OGP_DIR        = NT_DATA_DIR + "/ogp"
+	ASSETS_DIR     = NT_DATA_DIR + "/assets"
+	PAGE_DATA_DIR  = NT_DATA_DIR + "/pageData"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 )
 
 func InitDir() error {
-	require_dirs := [8]string{"public/assets", "public/pageData", constants.CURRICULUM_DIR, constants.PAGE_DIR, constants.CATEGORY_DIR, constants.INFO_DIR, constants.ANSWER_DIR, constants.SYNCED_DIR}
+	require_dirs := [8]string{constants.ASSETS_DIR, constants.PAGE_DATA_DIR, constants.CURRICULUM_DIR, constants.PAGE_DIR, constants.CATEGORY_DIR, constants.INFO_DIR, constants.ANSWER_DIR, constants.SYNCED_DIR}
 	for _, path := range require_dirs {
 		_, err := filemanager.CreateDirIfNotExist(path)
 		if err != nil {
@@ -34,13 +34,12 @@ func InitDir() error {
 }
 
 func InitOGPDir() error {
-	ogpDir := "public/ogp"
-	_, err := filemanager.CreateDirIfNotExist(ogpDir)
+	_, err := filemanager.CreateDirIfNotExist(constants.OGP_DIR)
 	if err != nil {
 		fmt.Println("error in usecase/InitOGPDir/filemanager.CreateDirIfNotExist")
 		return err
 	}
-	err = filemanager.ClearDir(ogpDir)
+	err = filemanager.ClearDir(constants.OGP_DIR)
 	if err != nil {
 		fmt.Println("error in usecase/InitOGPDir/filemanager.ClearDir")
 		return err

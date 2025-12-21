@@ -5,7 +5,7 @@ type CurriculumProperties struct {
 	Tag        *MultiSelectQuery `json:"tag"`
 	Visibility *MultiSelectQuery `json:"visibility"`
 	Order      NumberQuery       `json:"order"`
-	Category   SelectQuery       `json:"category"`
+	Category   *MultiSelectQuery `json:"category"`
 	Update     ChackBoxQuery     `json:"update"`
 }
 

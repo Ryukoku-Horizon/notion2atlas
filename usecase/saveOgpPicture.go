@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"net/url"
+	"notion2atlas/constants"
 	"notion2atlas/domain"
 	"notion2atlas/filemanager"
 	"time"
@@ -13,15 +14,15 @@ import (
 
 func SaveStaticPageOGPPicture() error {
 	staticPages := []domain.PageEntity{}
-	var isInfoOGPExist = filemanager.FileExists("public/ogp/infos.png")
+	var isInfoOGPExist = filemanager.FileExists(constants.OGP_DIR + "/infos.png")
 	if !isInfoOGPExist {
 		staticPages = append(staticPages, domain.CreatePage("部活情報", "emoji", "ℹ️", "infos"))
 	}
-	var isBasicOGPExist = filemanager.FileExists("public/ogp/basic.png")
+	var isBasicOGPExist = filemanager.FileExists(constants.OGP_DIR + "/basic.png")
 	if !isBasicOGPExist {
 		staticPages = append(staticPages, domain.CreatePage("基礎班カリキュラム", "emoji", "🔰", "basic"))
 	}
-	var isAnswerOGPExist = filemanager.FileExists("public/ogp/answers.png")
+	var isAnswerOGPExist = filemanager.FileExists(constants.OGP_DIR + "/answers.png")
 	if !isAnswerOGPExist {
 		staticPages = append(staticPages, domain.CreatePage("解答ページ", "emoji", "✔️", "answers"))
 	}
@@ -46,7 +47,7 @@ func SaveOGPPicture(p domain.PageIf) error {
 		fmt.Println("error in presentation/HandleCreateGGP/usecase.HTMLToPNG")
 		return err
 	}
-	err = filemanager.SavePNG(fmt.Sprintf("public/ogp/%s.png", id), pngByte)
+	err = filemanager.SavePNG(fmt.Sprintf("%s/%s.png", constants.OGP_DIR, id), pngByte)
 	if err != nil {
 		fmt.Println("error in presentation/HandleCreateGGP/filemanager.SavePNG")
 		return err

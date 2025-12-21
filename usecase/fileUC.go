@@ -131,17 +131,17 @@ func InitCurriculumRelatedDir(curriculumId string) error {
 		if pageId == nil {
 			return fmt.Errorf("unexpected: pageId is nil")
 		}
-		err = filemanager.DelFile(fmt.Sprintf("public/pageData/%s.json", *pageId))
+		err = filemanager.DelFile(fmt.Sprintf("%s/%s.json", constants.PAGE_DATA_DIR, *pageId))
 		if err != nil {
 			fmt.Println("error in usecase/InitCurriculumRelatedDir/filemanager.DelFile")
 			return err
 		}
-		err = filemanager.DelDir("public/assets/" + *pageId)
+		err = filemanager.DelDir(fmt.Sprintf("%s/%s", constants.ASSETS_DIR, *pageId))
 		if err != nil {
 			fmt.Println("error in usecase/InitCurriculumRelatedDir/filemanager.DelDir")
 			return err
 		}
-		err = filemanager.DelFile(fmt.Sprintf("public/ogp/%s.png", *pageId))
+		err = filemanager.DelFile(fmt.Sprintf("%s/%s.png", constants.OGP_DIR, *pageId))
 		if err != nil {
 			fmt.Println("error in usecase/InitCurriculumRelatedDir/filemanager.DelFile")
 			return err

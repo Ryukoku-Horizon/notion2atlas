@@ -72,8 +72,14 @@ func (ntdbq NtDBQueryEntity) ToCurriculumEntity() (*CurriculumEntity, error) {
 			visibility = append(visibility, visibility_item.Name)
 		}
 	}
+	var category = []string{}
+	if pro.Category != nil {
+		var categories = pro.Category.MultiSelect
+		for _, item := range categories {
+			category = append(category, item.Name)
+		}
+	}
 	var order = pro.Order.Number
-	var category = pro.Category.Select.Name
 	var iconType = ntdbq.Icon.Type
 	var iconUrl = ntdbq.Icon.GetIconUrl()
 	var coverUrl = ""

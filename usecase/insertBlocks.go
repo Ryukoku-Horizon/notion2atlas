@@ -2,13 +2,14 @@ package usecase
 
 import (
 	"fmt"
+	"notion2atlas/constants"
 	"notion2atlas/domain"
 	"notion2atlas/filemanager"
 )
 
 func InsertNotionBlocks(bp domain.BasePage, pageBuffer []domain.PageEntity, resourceType string) ([]domain.PageEntity, error) {
-	filemanager.CreateDirIfNotExist("public/assets/" + bp.GetId())
-	err := filemanager.ClearDir("public/assets/" + bp.GetId())
+	filemanager.CreateDirIfNotExist(fmt.Sprintf("%s/%s", constants.ASSETS_DIR, bp.GetId()))
+	err := filemanager.ClearDir(fmt.Sprintf("%s/%s", constants.ASSETS_DIR, bp.GetId()))
 	if err != nil {
 		fmt.Println("error in usecase/InsertCurriculumBlocks/filemanager.ClearDir in curriculum/" + bp.GetTitle())
 		return pageBuffer, err
@@ -80,7 +81,7 @@ func insertBlock(block domain.NTBlockEntity, curriculumId string, pageId string,
 		return buffer, pageBuffer, err
 	}
 	if type_ == "child_page" {
-		filemanager.CreateDirIfNotExist("public/assets/" + block.Id)
+		filemanager.CreateDirIfNotExist(fmt.Sprintf("%s/%s", constants.ASSETS_DIR, block.Id))
 		children, err := GetChildren(block.Id)
 		if err != nil {
 			fmt.Println("error in usecase/insertBlock/GetChildren in " + type_)

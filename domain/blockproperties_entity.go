@@ -31,13 +31,18 @@ type CalloutProperty struct {
 	Color    string             `json:"color"`
 	Icon     IconProperty       `json:"icon"`
 }
+
 type ImageProperty struct {
 	Caption []RichTextProperty `json:"caption"`
 	File    *struct {
 		Url string `json:"url"`
 	} `json:"file"`
+	External *struct {
+		Url string `json:"url"`
+	} `json:"external"`
 	Type string `json:"type"`
 }
+
 type EmbedProperty struct {
 	Caption []RichTextProperty `json:"caption"`
 	Url     string             `json:"url"`
