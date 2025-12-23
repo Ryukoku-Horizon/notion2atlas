@@ -6,34 +6,39 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "✅",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "✅",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "概要",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "概要",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 0
   },
@@ -44,45 +49,51 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "このガイドは、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "このガイドは、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "TypeScript",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "TypeScript",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "がどんな言語なのかを紹介し、「Hello, World!」を出力するところまでをわかりやすく解説する学習資料です。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "がどんな言語なのかを紹介し、「Hello, World!」を出力するところまでをわかりやすく解説する学習資料です。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -92,7 +103,9 @@
     "parentId": "1e2a501ef337803cb6fedfac09f14017",
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 2
   },
   {
@@ -102,22 +115,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "1. TypeScriptとは？",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "1. TypeScriptとは？",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 3
   },
@@ -128,33 +145,38 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「JavaScriptに型（Type）を加えたプログラミング言語」",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "「JavaScriptに型（Type）を加えたプログラミング言語」",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "のことです！",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "のことです！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 4
   },
@@ -165,33 +187,38 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "💡 ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "💡 ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "特徴",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "特徴",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 5
   },
@@ -202,21 +229,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コンパイルすると普通のJavaScriptになる",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コンパイルすると普通のJavaScriptになる",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 6
   },
@@ -227,21 +258,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "型のおかげでバグを減らしやすい",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "型のおかげでバグを減らしやすい",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 7
   },
@@ -252,21 +287,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "大規模開発に向いている",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "大規模開発に向いている",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 8
   },
@@ -277,21 +316,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "例えば、以下のコードを見てください",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "例えば、以下のコードを見てください",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 9
   },
@@ -302,22 +345,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "caption": [],
-      "language": "typescript",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "function add(a: number, b: number): number {\n  return a + b;\n}\n\nadd(1, \"2\"); // ❌ エラーが出る",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "typescript",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "function add(a: number, b: number): number {\n  return a + b;\n}\n\nadd(1, \"2\"); // ❌ エラーが出る",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 10
   },
@@ -328,45 +375,51 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "JavaScriptの場合、このようなコードでもエラーが起きず、アプリでバグが発生した時にどこがおかしいのかを見つけるのが困難です。しかし、TypeScriptの場合、こうして",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "JavaScriptの場合、このようなコードでもエラーが起きず、アプリでバグが発生した時にどこがおかしいのかを見つけるのが困難です。しかし、TypeScriptの場合、こうして",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「間違った使い方」をした部分でエラーが出るので",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "「間違った使い方」をした部分でエラーが出るので",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "、バグをすぐに発見できて、開発がどんどん楽になる、というわけです！",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "、バグをすぐに発見できて、開発がどんどん楽になる、というわけです！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 11
   },
@@ -377,8 +430,11 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 12
   },
@@ -388,7 +444,9 @@
     "parentId": "1e2a501ef337803cb6fedfac09f14017",
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 13
   },
   {
@@ -398,22 +456,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "1-2. 開発環境の構築",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "1-2. 開発環境の構築",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 14
   },
@@ -424,33 +486,38 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "VS Codeを使用",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "VS Codeを使用",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "：Visual Studio Codeを使用",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "：Visual Studio Codeを使用",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 15
   },
@@ -461,93 +528,103 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "公式サイト（",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "公式サイト（",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "https://nodejs.org/ja",
+            "href": "https://nodejs.org/ja",
+            "is_same_bp": false
           },
-          "plain_text": "https://nodejs.org/ja",
-          "href": "https://nodejs.org/ja"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "）からNode.jsをインストール（",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "）からNode.jsをインストール（",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Node.js",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Node.js",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "については",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "については",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "こちら",
+            "href": "/posts/curriculums/1e2a501ef3378044b5f3f682843ee1b2",
+            "is_same_bp": true
           },
-          "plain_text": "こちら",
-          "href": "/posts/curriculums/1e2a501ef3378044b5f3f682843ee1b2"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "で解説しています）",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "で解説しています）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 16
   },
@@ -557,7 +634,9 @@
     "parentId": "1e2a501ef337803cb6fedfac09f14017",
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 17
   },
   {
@@ -567,22 +646,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "プロジェクトの作成",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "プロジェクトの作成",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 18
   },
@@ -593,21 +676,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "新しいフォルダ（ディレクトリ）を作成し、以下のコマンドでプロジェクトを作成します",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "新しいフォルダ（ディレクトリ）を作成し、以下のコマンドでプロジェクトを作成します",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 19
   },
@@ -618,22 +705,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "caption": [],
-      "language": "powershell",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "npm init",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "powershell",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "npm init",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 20
   },
@@ -644,21 +735,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "以下のコマンドでtypescriptとそれを実行するためのライブラリをインストールします",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "以下のコマンドでtypescriptとそれを実行するためのライブラリをインストールします",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 21
   },
@@ -669,21 +764,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "gray",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "typescript - TypeScriptのこと\n@types/node - TypeScriptの型のこと\nts-node - TypeScriptを実行するためのもの",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "gray",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "typescript - TypeScriptのこと\n@types/node - TypeScriptの型のこと\nts-node - TypeScriptを実行するためのもの",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 22
   },
@@ -694,22 +793,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "caption": [],
-      "language": "powershell",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "npm install typescript @types/node ts-node",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "powershell",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "npm install typescript @types/node ts-node",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 23
   },
@@ -720,45 +823,51 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "プロジェクト直下に",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "プロジェクト直下に",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "tsconfig.json",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "tsconfig.json",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "というファイルを設置し、中に以下の内容を記述します",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "というファイルを設置し、中に以下の内容を記述します",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 24
   },
@@ -769,22 +878,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "caption": [],
-      "language": "json",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "{\n    \"compilerOptions\": {\n      \"target\": \"es6\",\n      \"module\": \"commonjs\",\n      \"rootDir\": \"./\",\n      \"outDir\": \"./dist\",\n      \"esModuleInterop\": true,\n      \"strict\": true\n    },\n    \"include\": [\"**/*.ts\", \"index.ts\"],\n    \"exclude\": [\"node_modules\"]\n  }",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "json",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "{\n    \"compilerOptions\": {\n      \"target\": \"es6\",\n      \"module\": \"commonjs\",\n      \"rootDir\": \"./\",\n      \"outDir\": \"./dist\",\n      \"esModuleInterop\": true,\n      \"strict\": true\n    },\n    \"include\": [\"**/*.ts\", \"index.ts\"],\n    \"exclude\": [\"node_modules\"]\n  }",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 25
   },
@@ -795,45 +908,51 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "（",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "（",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "tsconfig.json",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "tsconfig.json",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "は、TypeScriptをコンパイルするための設定ファイルです）",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "は、TypeScriptをコンパイルするための設定ファイルです）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 26
   },
@@ -844,21 +963,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "最後に、package.jsonの中身を以下のように書き換えます",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "最後に、package.jsonの中身を以下のように書き換えます",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 27
   },
@@ -869,22 +992,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "caption": [],
-      "language": "json",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "{\n  \"name\": \"test\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"index.ts\",\n  \"scripts\": {\n    \"index\": \"ts-node index.ts\"\n  },\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"dependencies\": {\n    \"@types/node\": \"^22.15.2\",\n    \"ts-node\": \"^10.9.2\",\n    \"typescript\": \"^5.8.3\"\n  }\n}",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "json",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "{\n  \"name\": \"test\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"index.ts\",\n  \"scripts\": {\n    \"index\": \"ts-node index.ts\"\n  },\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"dependencies\": {\n    \"@types/node\": \"^22.15.2\",\n    \"ts-node\": \"^10.9.2\",\n    \"typescript\": \"^5.8.3\"\n  }\n}",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 28
   },
@@ -895,34 +1022,39 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "1-3. はじめてのプログラム - \"Hello, World!\"",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "1-3. はじめてのプログラム - \"Hello, World!\"",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 29
   },
@@ -933,21 +1065,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "基本的な作動方法を理解するために、「Hello, World!」を出力する簡単なコードを見てみましょう！",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "基本的な作動方法を理解するために、「Hello, World!」を出力する簡単なコードを見てみましょう！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 30
   },
@@ -958,22 +1094,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Hello Worldを表示するコード",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Hello Worldを表示するコード",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 31
   },
@@ -984,22 +1124,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "caption": [],
-      "language": "javascript",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "console.log(\"Hello World!\")",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "javascript",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "console.log(\"Hello World!\")",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 32
   },
@@ -1010,21 +1154,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実行方法：",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実行方法：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 33
   },
@@ -1035,45 +1183,51 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "( 1 ) コードを",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "( 1 ) コードを",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "index.ts",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "index.ts",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ファイルとして保存する",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ファイルとして保存する",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 34
   },
@@ -1084,45 +1238,51 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "( 2 )",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "( 2 )",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " npm run index",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " npm run index",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コマンドを実行",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンドを実行",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 35
   },
@@ -1133,22 +1293,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実行結果：",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実行結果：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 36
   },
@@ -1159,22 +1323,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "caption": [],
-      "language": "plain text",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Hello, World!",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "plain text",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Hello, World!",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 37
   },
@@ -1185,8 +1353,11 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 38
   },
@@ -1197,22 +1368,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コード概説：",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コード概説：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 39
   },
@@ -1223,22 +1398,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "caption": [],
-      "language": "javascript",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "console.log(\"Hello World!\")",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "javascript",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "console.log(\"Hello World!\")",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 40
   },
@@ -1249,21 +1428,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "このように、TypeScriptでは、型の制約がある以外は基本的にJavascriptと同じような構文で書きます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "このように、TypeScriptでは、型の制約がある以外は基本的にJavascriptと同じような構文で書きます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 41
   },
@@ -1274,8 +1457,11 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 42
   },
@@ -1286,8 +1472,11 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e2a501ef337803cb6fedfac09f14017",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 43
   }

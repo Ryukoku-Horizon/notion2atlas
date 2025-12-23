@@ -6,22 +6,26 @@
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "CLIってなに？",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "CLIってなに？",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 0
   },
@@ -31,7 +35,9 @@
     "parentId": "1bea501ef337804c90e8da6f1f5384c1",
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 1
   },
   {
@@ -41,22 +47,26 @@
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "CLIの意味",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "CLIの意味",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 2
   },
@@ -66,7 +76,9 @@
     "parentId": "1bea501ef337804c90e8da6f1f5384c1",
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 3
   },
   {
@@ -76,21 +88,25 @@
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "CLIは「Command Line Interface」の略で、意味はコンピューターソフトウェアやオペレーティングシステムと対話するためのテキストベースのユーザーインターフェース…",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "CLIは「Command Line Interface」の略で、意味はコンピューターソフトウェアやオペレーティングシステムと対話するためのテキストベースのユーザーインターフェース…",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 4
   },
@@ -101,45 +117,51 @@
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "要するに、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "要するに、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "yellow",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "yellow",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "パソコンと文字によって対話をするためのもの",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "パソコンと文字によって対話をするためのもの",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "です。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "です。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 5
   },
@@ -150,22 +172,26 @@
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "CLIの例",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "CLIの例",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 6
   },
@@ -175,7 +201,9 @@
     "parentId": "1bea501ef337804c90e8da6f1f5384c1",
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 7
   },
   {
@@ -185,22 +213,26 @@
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実は…",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実は…",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 8
   },
@@ -210,7 +242,9 @@
     "parentId": "1bea501ef337804c90e8da6f1f5384c1",
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 9
   },
   {
@@ -220,21 +254,25 @@
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "身近なCLIとしては、VSCodeにある実行結果が出る場所の「ターミナル」という場所、これがそうです。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "身近なCLIとしては、VSCodeにある実行結果が出る場所の「ターミナル」という場所、これがそうです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 10
   },
@@ -245,8 +283,13 @@
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1bea501ef337804c90e8da6f1f5384c1/1f0a501ef337807a8c55fc02deebf53f.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1bea501ef337804c90e8da6f1f5384c1/1f0a501ef337807a8c55fc02deebf53f.png",
+        "width": 1997,
+        "height": 1291
+      }
     },
     "order": 11
   },
@@ -257,21 +300,25 @@
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "確かにここには文字しか出てこないですよね？\n例えば、print関数で打たせたものやエラー文…etc。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "確かにここには文字しか出てこないですよね？\n例えば、print関数で打たせたものやエラー文…etc。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 12
   },
@@ -282,21 +329,25 @@
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "そして、この「ターミナル」を通じてCLIをある程度使えるようにするのがこの「CLIの基礎」の目標です。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "そして、この「ターミナル」を通じてCLIをある程度使えるようにするのがこの「CLIの基礎」の目標です。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 13
   },
@@ -307,22 +358,26 @@
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "よく見ると",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "よく見ると",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 14
   },
@@ -332,7 +387,9 @@
     "parentId": "1bea501ef337804c90e8da6f1f5384c1",
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 15
   },
   {
@@ -342,21 +399,25 @@
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "でもこの「ターミナル」にはいつも出てくるのに、まだ説明していない部分があります。\nそれは実行結果などが出る部分ではないところ、以下のようなことが書かれているところです。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "でもこの「ターミナル」にはいつも出てくるのに、まだ説明していない部分があります。\nそれは実行結果などが出る部分ではないところ、以下のようなことが書かれているところです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 16
   },
@@ -367,21 +428,25 @@
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Windowsの人なら↓",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Windowsの人なら↓",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 17
   },
@@ -392,22 +457,26 @@
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
     "data": {
-      "caption": [],
-      "language": "bash",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "PS C:\\Users\\user\\Desktop\\python\\practices\u003e ",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "bash",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "PS C:\\Users\\user\\Desktop\\python\\practices\u003e ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 18
   },
@@ -418,21 +487,25 @@
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Macの人なら↓",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Macの人なら↓",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 19
   },
@@ -443,22 +516,26 @@
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
     "data": {
-      "caption": [],
-      "language": "bash",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "user@MacBook practices % ",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "bash",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "user@MacBook practices % ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 20
   },
@@ -469,21 +546,25 @@
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "もちろんそれだけが機能ではありませんが…\nこれを含めた他機能の説明をする上でOSによってこのように説明が変わってしまうので、自分の使っているOSに合わせた方の説明ページに移動しましょう。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "もちろんそれだけが機能ではありませんが…\nこれを含めた他機能の説明をする上でOSによってこのように説明が変わってしまうので、自分の使っているOSに合わせた方の説明ページに移動しましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 21
   },
@@ -494,10 +575,13 @@
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/grid_blue.svg",
-      "parent": "for Windows(PowerShell)"
+      "type": "child_page",
+      "child_page": {
+        "parent": "for Windows(PowerShell)",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/grid_blue.svg",
+        "coverUrl": ""
+      }
     },
     "order": 22
   },
@@ -508,10 +592,13 @@
     "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
     "pageId": "1bea501ef337804c90e8da6f1f5384c1",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/apple_red.svg",
-      "parent": "for Mac(zsh)"
+      "type": "child_page",
+      "child_page": {
+        "parent": "for Mac(zsh)",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/apple_red.svg",
+        "coverUrl": ""
+      }
     },
     "order": 23
   }

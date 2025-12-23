@@ -8,10 +8,11 @@ const (
 	CATEGORY_DIR   = NT_DATA_DIR + "/categories"
 	INFO_DIR       = NT_DATA_DIR + "/infos"
 	ANSWER_DIR     = NT_DATA_DIR + "/answers"
-	SYNCED_DIR     = NT_DATA_DIR + "/synced"
 	OGP_DIR        = NT_DATA_DIR + "/ogp"
 	ASSETS_DIR     = NT_DATA_DIR + "/assets"
 	PAGE_DATA_DIR  = NT_DATA_DIR + "/pageData"
+	TMP_DIR        = NT_DATA_DIR + "/tmp"
+	SYNCED_DIR     = NT_DATA_DIR + "/synced"
 )
 
 const (

@@ -6,21 +6,25 @@
     "curriculumId": "272a501ef3378040af9bfae333f7427a",
     "pageId": "272a501ef3378040af9bfae333f7427a",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ここでは、アプリケーションを設計する際に必要となるアプリケーションアーキテクチャの基礎を学べます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ここでは、アプリケーションを設計する際に必要となるアプリケーションアーキテクチャの基礎を学べます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -31,8 +35,11 @@
     "curriculumId": "272a501ef3378040af9bfae333f7427a",
     "pageId": "272a501ef3378040af9bfae333f7427a",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 1
   },
@@ -43,21 +50,25 @@
     "curriculumId": "272a501ef3378040af9bfae333f7427a",
     "pageId": "272a501ef3378040af9bfae333f7427a",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Section1：基本情報",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Section1：基本情報",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -68,10 +79,13 @@
     "curriculumId": "272a501ef3378040af9bfae333f7427a",
     "pageId": "272a501ef3378040af9bfae333f7427a",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/question-mark_pink.svg",
-      "parent": "アプリケーションアーキテクチャとは"
+      "type": "child_page",
+      "child_page": {
+        "parent": "アプリケーションアーキテクチャとは",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/question-mark_pink.svg",
+        "coverUrl": ""
+      }
     },
     "order": 0
   },
@@ -82,10 +96,13 @@
     "curriculumId": "272a501ef3378040af9bfae333f7427a",
     "pageId": "272a501ef3378040af9bfae333f7427a",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/list-indent_pink.svg",
-      "parent": "MVCについて"
+      "type": "child_page",
+      "child_page": {
+        "parent": "MVCについて",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/list-indent_pink.svg",
+        "coverUrl": ""
+      }
     },
     "order": 1
   },
@@ -96,21 +113,25 @@
     "curriculumId": "272a501ef3378040af9bfae333f7427a",
     "pageId": "272a501ef3378040af9bfae333f7427a",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Section2：FletでTodoアプリを作ってMVCを学ぼう",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Section2：FletでTodoアプリを作ってMVCを学ぼう",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 3
   },
@@ -121,10 +142,13 @@
     "curriculumId": "272a501ef3378040af9bfae333f7427a",
     "pageId": "272a501ef3378040af9bfae333f7427a",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/soccer_pink.svg",
-      "parent": "FletでTodoアプリを作ってMVCを学ぼう"
+      "type": "child_page",
+      "child_page": {
+        "parent": "FletでTodoアプリを作ってMVCを学ぼう",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/soccer_pink.svg",
+        "coverUrl": ""
+      }
     },
     "order": 0
   },
@@ -135,10 +159,13 @@
     "curriculumId": "272a501ef3378040af9bfae333f7427a",
     "pageId": "272a501ef3378040af9bfae333f7427a",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/code-scan_pink.svg",
-      "parent": "UIを作る"
+      "type": "child_page",
+      "child_page": {
+        "parent": "UIを作る",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/code-scan_pink.svg",
+        "coverUrl": ""
+      }
     },
     "order": 1
   },
@@ -149,10 +176,13 @@
     "curriculumId": "272a501ef3378040af9bfae333f7427a",
     "pageId": "272a501ef3378040af9bfae333f7427a",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/branch-create_pink.svg",
-      "parent": "ロジックを作る"
+      "type": "child_page",
+      "child_page": {
+        "parent": "ロジックを作る",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/branch-create_pink.svg",
+        "coverUrl": ""
+      }
     },
     "order": 2
   },
@@ -163,10 +193,13 @@
     "curriculumId": "272a501ef3378040af9bfae333f7427a",
     "pageId": "272a501ef3378040af9bfae333f7427a",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/database_pink.svg",
-      "parent": "Model層を作る"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Model層を作る",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/database_pink.svg",
+        "coverUrl": ""
+      }
     },
     "order": 3
   },
@@ -177,10 +210,13 @@
     "curriculumId": "272a501ef3378040af9bfae333f7427a",
     "pageId": "272a501ef3378040af9bfae333f7427a",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/video-game-classic_pink.svg",
-      "parent": "Controller層を作る"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Controller層を作る",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/video-game-classic_pink.svg",
+        "coverUrl": ""
+      }
     },
     "order": 4
   },
@@ -191,10 +227,13 @@
     "curriculumId": "272a501ef3378040af9bfae333f7427a",
     "pageId": "272a501ef3378040af9bfae333f7427a",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/preview_pink.svg",
-      "parent": "View層を作る"
+      "type": "child_page",
+      "child_page": {
+        "parent": "View層を作る",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/preview_pink.svg",
+        "coverUrl": ""
+      }
     },
     "order": 5
   },
@@ -205,8 +244,11 @@
     "curriculumId": "272a501ef3378040af9bfae333f7427a",
     "pageId": "272a501ef3378040af9bfae333f7427a",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 4
   }

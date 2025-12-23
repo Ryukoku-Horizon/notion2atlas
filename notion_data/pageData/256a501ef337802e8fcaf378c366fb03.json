@@ -6,22 +6,26 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "256a501ef337802e8fcaf378c366fb03",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "必須ページ",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "必須ページ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 0
   },
@@ -31,7 +35,9 @@
     "parentId": "256a501ef337802e8fcaf378c366fb03",
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "256a501ef337802e8fcaf378c366fb03",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 1
   },
   {
@@ -41,10 +47,13 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "256a501ef337802e8fcaf378c366fb03",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "☸️",
-      "parent": "クラス"
+      "type": "child_page",
+      "child_page": {
+        "parent": "クラス",
+        "iconType": "emoji",
+        "iconUrl": "☸️",
+        "coverUrl": ""
+      }
     },
     "order": 2
   },
@@ -55,10 +64,13 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "256a501ef337802e8fcaf378c366fb03",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "📝",
-      "parent": "クラスの練習問題"
+      "type": "child_page",
+      "child_page": {
+        "parent": "クラスの練習問題",
+        "iconType": "emoji",
+        "iconUrl": "📝",
+        "coverUrl": ""
+      }
     },
     "order": 3
   },
@@ -69,10 +81,13 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "256a501ef337802e8fcaf378c366fb03",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/arrow-down-line_gray.svg",
-      "parent": "import文"
+      "type": "child_page",
+      "child_page": {
+        "parent": "import文",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/arrow-down-line_gray.svg",
+        "coverUrl": ""
+      }
     },
     "order": 4
   },
@@ -83,10 +98,13 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "256a501ef337802e8fcaf378c366fb03",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "📝",
-      "parent": "import文の練習問題"
+      "type": "child_page",
+      "child_page": {
+        "parent": "import文の練習問題",
+        "iconType": "emoji",
+        "iconUrl": "📝",
+        "coverUrl": ""
+      }
     },
     "order": 5
   },
@@ -97,22 +115,26 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "256a501ef337802e8fcaf378c366fb03",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "任意ページ",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "任意ページ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 6
   },
@@ -122,7 +144,9 @@
     "parentId": "256a501ef337802e8fcaf378c366fb03",
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "256a501ef337802e8fcaf378c366fb03",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 7
   },
   {
@@ -132,10 +156,13 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "256a501ef337802e8fcaf378c366fb03",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/skip-forward_pink.svg",
-      "parent": "クラスの継承"
+      "type": "child_page",
+      "child_page": {
+        "parent": "クラスの継承",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/skip-forward_pink.svg",
+        "coverUrl": ""
+      }
     },
     "order": 8
   },
@@ -146,10 +173,13 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "256a501ef337802e8fcaf378c366fb03",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/battery_orange.svg",
-      "parent": "lambda式"
+      "type": "child_page",
+      "child_page": {
+        "parent": "lambda式",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/battery_orange.svg",
+        "coverUrl": ""
+      }
     },
     "order": 9
   },
@@ -160,10 +190,13 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "256a501ef337802e8fcaf378c366fb03",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/report_yellow.svg",
-      "parent": "例外処理"
+      "type": "child_page",
+      "child_page": {
+        "parent": "例外処理",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/report_yellow.svg",
+        "coverUrl": ""
+      }
     },
     "order": 10
   },
@@ -174,10 +207,13 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "256a501ef337802e8fcaf378c366fb03",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/grid-wide_lightgray.svg",
-      "parent": "タプル型"
+      "type": "child_page",
+      "child_page": {
+        "parent": "タプル型",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/grid-wide_lightgray.svg",
+        "coverUrl": ""
+      }
     },
     "order": 11
   }

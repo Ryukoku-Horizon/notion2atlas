@@ -6,21 +6,25 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378100a84de70c910fe58a",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "電卓が完成した方は、以下のアレンジ例を参考にしてオリジナルの電卓を作成してください。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "電卓が完成した方は、以下のアレンジ例を参考にしてオリジナルの電卓を作成してください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -31,25 +35,29 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378100a84de70c910fe58a",
     "data": {
-      "color": "yellow_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "⚠️"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "いくつかのアレンジ例は、スマートフォンでは正常に表示されないかもしれません！",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "yellow_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "いくつかのアレンジ例は、スマートフォンでは正常に表示されないかもしれません！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "⚠️"
         }
-      ]
+      }
     },
     "order": 1
   },
@@ -60,21 +68,25 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378100a84de70c910fe58a",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "もちろん、これらの例に縛られず、自由に作ってもらって大丈夫です！",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "もちろん、これらの例に縛られず、自由に作ってもらって大丈夫です！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -85,21 +97,25 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378100a84de70c910fe58a",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Fletで利用できる便利な機能や、さまざまなコントロールとそのプロパティなどはFlet公式サイトから詳細な説明を見ることができます⇩",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Fletで利用できる便利な機能や、さまざまなコントロールとそのプロパティなどはFlet公式サイトから詳細な説明を見ることができます⇩",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 3
   },
@@ -110,14 +126,17 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378100a84de70c910fe58a",
     "data": {
-      "ogp": {
-        "title": "Flet",
-        "description": "",
-        "image": "",
-        "icon": "https://flet.dev/img/favicon.ico"
-      },
-      "parent": [],
-      "url": "https://flet.dev/docs/controls"
+      "type": "bookmark",
+      "bookmark": {
+        "parent": [],
+        "url": "https://flet.dev/docs/controls",
+        "ogp": {
+          "title": "Controls reference | Flet",
+          "description": "Flet UI is built of controls. Controls are organized into hierarchy, or a tree, where each control has a parent (except Page) and container controls like Column, Dropdown can contain child controls, for example:",
+          "image": "",
+          "icon": "https://flet.dev/img/favicon.ico"
+        }
+      }
     },
     "order": 4
   },
@@ -128,22 +147,26 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378100a84de70c910fe58a",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "色ちがいの電卓",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "色ちがいの電卓",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 5
   },
@@ -154,9 +177,12 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378100a84de70c910fe58a",
     "data": {
-      "canEmbed": true,
-      "parent": [],
-      "url": "https://flet-samples.fly.dev/various_calc/colored"
+      "type": "embed",
+      "embed": {
+        "parent": [],
+        "url": "https://flet-samples.fly.dev/various_calc/colored",
+        "canEmbed": true
+      }
     },
     "order": 6
   },
@@ -167,8 +193,11 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378100a84de70c910fe58a",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 7
   },
@@ -178,7 +207,9 @@
     "parentId": "1f2a501ef3378100a84de70c910fe58a",
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378100a84de70c910fe58a",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 8
   },
   {
@@ -188,22 +219,26 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378100a84de70c910fe58a",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "履歴・メモ機能付き電卓",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "履歴・メモ機能付き電卓",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 9
   },
@@ -214,9 +249,12 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378100a84de70c910fe58a",
     "data": {
-      "canEmbed": true,
-      "parent": [],
-      "url": "https://flet-samples.fly.dev/various_calc/hist_memo"
+      "type": "embed",
+      "embed": {
+        "parent": [],
+        "url": "https://flet-samples.fly.dev/various_calc/hist_memo",
+        "canEmbed": true
+      }
     },
     "order": 10
   },
@@ -227,8 +265,11 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378100a84de70c910fe58a",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 11
   },
@@ -238,7 +279,9 @@
     "parentId": "1f2a501ef3378100a84de70c910fe58a",
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378100a84de70c910fe58a",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 12
   },
   {
@@ -248,22 +291,26 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378100a84de70c910fe58a",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "GOGO電卓",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "GOGO電卓",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 13
   },
@@ -274,9 +321,12 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378100a84de70c910fe58a",
     "data": {
-      "canEmbed": false,
-      "parent": [],
-      "url": "https://singlepage.kouryakubon.com/"
+      "type": "embed",
+      "embed": {
+        "parent": [],
+        "url": "https://singlepage.kouryakubon.com/",
+        "canEmbed": false
+      }
     },
     "order": 14
   },
@@ -287,8 +337,11 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378100a84de70c910fe58a",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 15
   }

@@ -6,8 +6,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781198c88d6b2b00d184d",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 0
   },
@@ -18,45 +21,51 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781198c88d6b2b00d184d",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ここでは、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ここでは、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": true
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": true
+            },
+            "plain_text": "百の位に0が使えるようにするプログラムを作る",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "百の位に0が使えるようにするプログラムを作る",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "問題になります。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "問題になります。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -67,8 +76,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781198c88d6b2b00d184d",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 2
   },
@@ -79,93 +91,103 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781198c88d6b2b00d184d",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "先に謝らせてください。本当にごめんなさい。今回作成した",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "先に謝らせてください。本当にごめんなさい。今回作成した",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "gray",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "gray",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Numer0n",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Numer0n",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ですが、実は一つ欠陥がありました。それは、3桁の数字を作成するときに、100～999までの範囲の乱数を使っていたと思うのですが、これだと、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ですが、実は一つ欠陥がありました。それは、3桁の数字を作成するときに、100～999までの範囲の乱数を使っていたと思うのですが、これだと、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「012」や「094」といった百の位に0がある3桁の数字が作成できない",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "「012」や「094」といった百の位に0がある3桁の数字が作成できない",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ことにこのカリキュラムを完成させてから気づきました。本来なら第2章でそれを取り入れて解説しようと考えたのですが、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ことにこのカリキュラムを完成させてから気づきました。本来なら第2章でそれを取り入れて解説しようと考えたのですが、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "このカリキュラムを再編しなければいけない",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "このカリキュラムを再編しなければいけない",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ので今回は第4章で扱うことになりました。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ので今回は第4章で扱うことになりました。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 3
   },
@@ -176,8 +198,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781198c88d6b2b00d184d",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 4
   },
@@ -188,93 +213,103 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781198c88d6b2b00d184d",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ちなみに、この機能を実装するために必要な新しい知識はありません。ヒントは、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ちなみに、この機能を実装するために必要な新しい知識はありません。ヒントは、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": true
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": true
+            },
+            "plain_text": "正解の数字が何桁になった時に百の位に0が必要なのか",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "正解の数字が何桁になった時に百の位に0が必要なのか",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": true
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": true
+            },
+            "plain_text": "3桁の数字を扱っていたリストをどうやって扱うか",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "3桁の数字を扱っていたリストをどうやって扱うか",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": true
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": true
+            },
+            "plain_text": "第2章で扱うとなぜカリキュラムを再編しなくてはいけないのか",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "第2章で扱うとなぜカリキュラムを再編しなくてはいけないのか",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を考えると何を使って実装するかが見えてくると思います。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を考えると何を使って実装するかが見えてくると思います。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 5
   },
@@ -285,8 +320,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781198c88d6b2b00d184d",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 6
   },
@@ -296,7 +334,9 @@
     "parentId": "1eca501ef33781198c88d6b2b00d184d",
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781198c88d6b2b00d184d",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 7
   },
   {
@@ -306,33 +346,38 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781198c88d6b2b00d184d",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "前：",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "前：",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "4-3 正解するまでにかかった回数を表示できるようにしよう",
-          "href": "/posts/curriculums/1eca501ef33781e2bb62d04269f9236f"
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "4-3 正解するまでにかかった回数を表示できるようにしよう",
+            "href": "/posts/curriculums/1eca501ef33781e2bb62d04269f9236f",
+            "is_same_bp": true
+          }
+        ]
+      }
     },
     "order": 8
   },
@@ -343,8 +388,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781198c88d6b2b00d184d",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 9
   },
@@ -355,33 +403,38 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781198c88d6b2b00d184d",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "目次：",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "目次：",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "数当てゲームをPythonで作ってみよう",
-          "href": "/posts/curriculums/1eca501ef33780fca5bdf2a1ea7ef2ca"
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "数当てゲームをPythonで作ってみよう",
+            "href": "/posts/curriculums/1eca501ef33780fca5bdf2a1ea7ef2ca",
+            "is_same_bp": true
+          }
+        ]
+      }
     },
     "order": 10
   }

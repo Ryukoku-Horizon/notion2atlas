@@ -6,45 +6,51 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ここでは、これから活動で使用するプログラミング言語である ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ここでは、これから活動で使用するプログラミング言語である ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Python",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Python",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": " をインストールする方法を紹介します。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " をインストールする方法を紹介します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -54,7 +60,9 @@
     "parentId": "1d8a501ef3378046aa5fe50c89a862f6",
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 1
   },
   {
@@ -64,21 +72,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "目次",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "目次",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -88,7 +100,26 @@
     "parentId": "1d8a501ef3378046aa5fe50c89a862f6",
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
-    "data": "_",
+    "data": {
+      "type": "table_of_contents",
+      "table_of_contents": [
+        {
+          "header_type": 1,
+          "block_id": "1d8a501ef33780519598dc66548323b6",
+          "text": "Pythonインストール方法"
+        },
+        {
+          "header_type": 2,
+          "block_id": "1d8a501ef337808d9071de19b7e14c1c",
+          "text": "1. ダウンロード"
+        },
+        {
+          "header_type": 2,
+          "block_id": "1d8a501ef337807d9245d9d92bde9728",
+          "text": "2. インストール"
+        }
+      ]
+    },
     "order": 3
   },
   {
@@ -98,25 +129,29 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "color": "yellow_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "⚠️"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ここで紹介する方法はWindows PC向けです。Windows以外のパソコン（MacやLinux）をお使いでPythonのインストール方法がわからない人は誰か先輩に聞いて下さい。",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "yellow_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ここで紹介する方法はWindows PC向けです。Windows以外のパソコン（MacやLinux）をお使いでPythonのインストール方法がわからない人は誰か先輩に聞いて下さい。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "⚠️"
         }
-      ]
+      }
     },
     "order": 4
   },
@@ -127,22 +162,26 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Pythonインストール方法",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Pythonインストール方法",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 5
   },
@@ -152,7 +191,9 @@
     "parentId": "1d8a501ef3378046aa5fe50c89a862f6",
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 6
   },
   {
@@ -162,22 +203,26 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "1. ダウンロード",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "1. ダウンロード",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 7
   },
@@ -188,57 +233,64 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "まず、Python公式サイト（",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "まず、Python公式サイト（",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "blue",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "blue",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "https://www.python.org/downloads/",
+            "href": "https://www.python.org/downloads/",
+            "is_same_bp": false
           },
-          "plain_text": "https://www.python.org/downloads/",
-          "href": "https://www.python.org/downloads/"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "）",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "）",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "にアクセスしてください。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "にアクセスしてください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 8
   },
@@ -249,45 +301,51 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Download Python 3.12.2",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Download Python 3.12.2",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "」をクリックして、インストールファイルをダウンロードしましょう。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」をクリックして、インストールファイルをダウンロードしましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 9
   },
@@ -298,8 +356,13 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1d8a501ef3378046aa5fe50c89a862f6/1d8a501ef33780a299a6d35bb1377104.jpg"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1d8a501ef3378046aa5fe50c89a862f6/1d8a501ef33780a299a6d35bb1377104.jpg",
+        "width": 3236,
+        "height": 1969
+      }
     },
     "order": 10
   },
@@ -310,22 +373,26 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "2. インストール",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "2. インストール",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 11
   },
@@ -336,21 +403,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ダウンロードが完了したら、インストールをしましょう。ブラウザの右上のアイコンからインストールファイルを実行するか、エクスプローラーから実行しましょう。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ダウンロードが完了したら、インストールをしましょう。ブラウザの右上のアイコンからインストールファイルを実行するか、エクスプローラーから実行しましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 12
   },
@@ -361,21 +432,27 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ブラウザから実行",
-          "href": null
-        }
-      ],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1d8a501ef3378046aa5fe50c89a862f6/1d8a501ef33780d58a28ce013ef0765b.jpg"
+      "type": "image",
+      "image": {
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ブラウザから実行",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1d8a501ef3378046aa5fe50c89a862f6/1d8a501ef33780d58a28ce013ef0765b.jpg",
+        "width": 2140,
+        "height": 927
+      }
     },
     "order": 13
   },
@@ -386,21 +463,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "または",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "または",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 14
   },
@@ -411,21 +492,27 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "エクスプローラーから実行",
-          "href": null
-        }
-      ],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1d8a501ef3378046aa5fe50c89a862f6/1d8a501ef337805bb073d81e8038ca59.jpg"
+      "type": "image",
+      "image": {
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "エクスプローラーから実行",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1d8a501ef3378046aa5fe50c89a862f6/1d8a501ef337805bb073d81e8038ca59.jpg",
+        "width": 3868,
+        "height": 2179
+      }
     },
     "order": 15
   },
@@ -436,21 +523,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実行されたら",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実行されたら",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 16
   },
@@ -461,69 +552,77 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Add python.exe to PATH",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Add python.exe to PATH",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」にチェックを入れてから、「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "」にチェックを入れてから、「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Install Now",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Install Now",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "」をクリック\n（「このアプリがデバイスに変更を加えることを許可しますか?」と出たら、「はい」をクリック）",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」をクリック\n（「このアプリがデバイスに変更を加えることを許可しますか?」と出たら、「はい」をクリック）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 17
   },
@@ -534,8 +633,13 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1d8a501ef3378046aa5fe50c89a862f6/1d8a501ef33780a699ecd0d99b2ecab0.jpg"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1d8a501ef3378046aa5fe50c89a862f6/1d8a501ef33780a699ecd0d99b2ecab0.jpg",
+        "width": 2250,
+        "height": 1387
+      }
     },
     "order": 0
   },
@@ -546,21 +650,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "インストールが進行するので、完了するまで少し待つ",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "インストールが進行するので、完了するまで少し待つ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 18
   },
@@ -571,8 +679,13 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1d8a501ef3378046aa5fe50c89a862f6/1d8a501ef337802dbc33d16940c0b09b.jpg"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1d8a501ef3378046aa5fe50c89a862f6/1d8a501ef337802dbc33d16940c0b09b.jpg",
+        "width": 986,
+        "height": 604
+      }
     },
     "order": 0
   },
@@ -583,21 +696,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "インストールが終了したら、右下の「Close」をクリック",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "インストールが終了したら、右下の「Close」をクリック",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 19
   },
@@ -608,8 +725,13 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1d8a501ef3378046aa5fe50c89a862f6/1d8a501ef3378036a81efbbba1ca6a9e.jpg"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1d8a501ef3378046aa5fe50c89a862f6/1d8a501ef3378036a81efbbba1ca6a9e.jpg",
+        "width": 982,
+        "height": 605
+      }
     },
     "order": 0
   },
@@ -620,25 +742,29 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "❗"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "人によっては、このウィンドウに「Disable path length limit」と出るかもしれません。",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "人によっては、このウィンドウに「Disable path length limit」と出るかもしれません。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "❗"
         }
-      ]
+      }
     },
     "order": 1
   },
@@ -649,21 +775,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "その場合には、その「Disable path length limit」をクリックして次に進んでください。もし「このアプリがデバイスに変更を加えることを許可しますか?」と出たら、「はい」をクリックしてください。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "その場合には、その「Disable path length limit」をクリックして次に進んでください。もし「このアプリがデバイスに変更を加えることを許可しますか?」と出たら、「はい」をクリックしてください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -674,8 +804,13 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1d8a501ef3378046aa5fe50c89a862f6/1d8a501ef33780359679edf2b89bf2af.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1d8a501ef3378046aa5fe50c89a862f6/1d8a501ef33780359679edf2b89bf2af.png",
+        "width": 820,
+        "height": 505
+      }
     },
     "order": 1
   },
@@ -686,8 +821,11 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 20
   },
@@ -698,21 +836,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef3378046aa5fe50c89a862f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "これで、Pythonのインストールは完了です！",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "これで、Pythonのインストールは完了です！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 21
   }

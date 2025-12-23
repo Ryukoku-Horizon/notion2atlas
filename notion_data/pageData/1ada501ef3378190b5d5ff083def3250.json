@@ -6,21 +6,25 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "今回はpythonとそのライブラリであるsqlite3を使用して、データベースのデータを削除する方法を紹介します。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "今回はpythonとそのライブラリであるsqlite3を使用して、データベースのデータを削除する方法を紹介します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -31,22 +35,26 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "データの削除方法",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "データの削除方法",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 1
   },
@@ -56,7 +64,9 @@
     "parentId": "1ada501ef3378190b5d5ff083def3250",
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 2
   },
   {
@@ -66,21 +76,25 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "データの削除方法を見ていきましょう。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "データの削除方法を見ていきましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 3
   },
@@ -91,27 +105,31 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default_background",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/code_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "default_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "データを削除するSQL文",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/code_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "データを削除するSQL文",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 4
   },
@@ -122,22 +140,26 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "caption": [],
-      "language": "sql",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "DELETE FROM テーブル名 WHERE 条件",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "sql",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "DELETE FROM テーブル名 WHERE 条件",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -148,45 +170,51 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "データを削除するときは",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "データを削除するときは",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "DELETE",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "DELETE",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": " を使います。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " を使います。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 5
   },
@@ -197,33 +225,38 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "FROM テーブル名",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "FROM テーブル名",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "で、どのテーブルかを指定します。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "で、どのテーブルかを指定します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 6
   },
@@ -234,57 +267,64 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "WHERE 条件",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "WHERE 条件",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "で、どの行のデータを削除するかを指定します。\n",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "で、どの行のデータを削除するかを指定します。\n",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "WHERE",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "WHERE",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "句がなければ、テーブル内のすべての行のデータが削除されてしまうので、基本的に必ずつけるようにしましょう。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "句がなければ、テーブル内のすべての行のデータが削除されてしまうので、基本的に必ずつけるようにしましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 7
   },
@@ -295,22 +335,26 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実際にデータを削除してみよう",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実際にデータを削除してみよう",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 8
   },
@@ -320,7 +364,9 @@
     "parentId": "1ada501ef3378190b5d5ff083def3250",
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 9
   },
   {
@@ -330,45 +376,51 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "blue",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "blue",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "データの保存(Create)",
+            "href": "/posts/curriculums/1ada501ef3378124834cd232ae4e3855",
+            "is_same_bp": true
           },
-          "plain_text": "データの保存(Create)",
-          "href": "/posts/curriculums/1ada501ef3378124834cd232ae4e3855"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "」で保存したデータを削除してみましょう。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」で保存したデータを削除してみましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 10
   },
@@ -379,21 +431,25 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "新たにdelete.pyというファイルを作成してください。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "新たにdelete.pyというファイルを作成してください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 11
   },
@@ -404,21 +460,25 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "delete.pyの内容を以下のようにしてください。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "delete.pyの内容を以下のようにしてください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 12
   },
@@ -429,27 +489,31 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default_background",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/code_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "default_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "delete.py",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/code_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "delete.py",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 13
   },
@@ -460,46 +524,52 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "caption": [],
-      "language": "python",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "code",
+      "code": {
+        "language": "python",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "import sqlite3\n\ndbname = 'TEST.db'\nconn = sqlite3.connect(dbname)\ncur = conn.cursor()\n\n# データを削除する",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "import sqlite3\n\ndbname = 'TEST.db'\nconn = sqlite3.connect(dbname)\ncur = conn.cursor()\n\n# データを削除する",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "\n",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "\n",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "cur.execute('DELETE FROM person WHERE id = 1')\n\nconn.commit()\n\ncur.close()\nconn.close()",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "cur.execute('DELETE FROM person WHERE id = 1')\n\nconn.commit()\n\ncur.close()\nconn.close()",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -510,21 +580,25 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "delete.pyを実行してください。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "delete.pyを実行してください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 14
   },
@@ -535,21 +609,25 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "TEST.dbの内容が以下のようになっていれば削除に成功です。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "TEST.dbの内容が以下のようになっていれば削除に成功です。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 15
   },
@@ -560,8 +638,13 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1ada501ef3378190b5d5ff083def3250/1ada501ef33781b5ba31f1be2d5bd661.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1ada501ef3378190b5d5ff083def3250/1ada501ef33781b5ba31f1be2d5bd661.png",
+        "width": 1568,
+        "height": 622
+      }
     },
     "order": 16
   },
@@ -572,21 +655,25 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コードを見ていきましょう。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コードを見ていきましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 17
   },
@@ -597,21 +684,25 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "SQL文は以下のようになっています。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "SQL文は以下のようになっています。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 18
   },
@@ -622,22 +713,26 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "caption": [],
-      "language": "sql",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "DELETE FROM person WHERE id = 1",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "sql",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "DELETE FROM person WHERE id = 1",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 19
   },
@@ -648,33 +743,38 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "DELETE",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "DELETE",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "でデータを削除することを示しています。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "でデータを削除することを示しています。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 20
   },
@@ -685,33 +785,38 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "FROM person",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "FROM person",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "で、対象がpersonテーブルであることを示しています。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "で、対象がpersonテーブルであることを示しています。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 21
   },
@@ -722,57 +827,64 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "WHERE id = 1",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "WHERE id = 1",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " で、対象が",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " で、対象が",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "id=1",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "id=1",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "の行であることを示しています。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "の行であることを示しています。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 22
   },
@@ -783,22 +895,26 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "任意のデータを扱う",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "任意のデータを扱う",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 23
   },
@@ -808,7 +924,9 @@
     "parentId": "1ada501ef3378190b5d5ff083def3250",
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 24
   },
   {
@@ -818,21 +936,25 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "データの削除をより実用的に扱う場合、任意の行のデータを削除できる必要があります。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "データの削除をより実用的に扱う場合、任意の行のデータを削除できる必要があります。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 25
   },
@@ -843,21 +965,25 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "任意の行のデータを削除する方法を見ていきましょう。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "任意の行のデータを削除する方法を見ていきましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 26
   },
@@ -868,27 +994,31 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default_background",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/code_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "default_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "例：任意のidの行を削除する",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/code_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "例：任意のidの行を削除する",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 27
   },
@@ -899,22 +1029,26 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "caption": [],
-      "language": "python",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "cur.execute('DELETE FROM テーブル名 WHERE id = ?', (削除したい行のid,))",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "python",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "cur.execute('DELETE FROM テーブル名 WHERE id = ?', (削除したい行のid,))",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -925,69 +1059,77 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "🛑 ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "🛑 ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "cur",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "cur",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " = ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " = ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "cursor",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "cursor",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "オブジェクト",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "オブジェクト",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -998,21 +1140,25 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "例えば、personテーブルで、任意のidの行のデータを削除したければ、以下のようなコードになります。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "例えば、personテーブルで、任意のidの行のデータを削除したければ、以下のようなコードになります。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 28
   },
@@ -1023,27 +1169,31 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default_background",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/code_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "default_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "personテーブルで任意のidの行のデータを削除する",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/code_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "personテーブルで任意のidの行のデータを削除する",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 29
   },
@@ -1054,94 +1204,104 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "caption": [],
-      "language": "python",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "code",
+      "code": {
+        "language": "python",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "import sqlite3\n\ndbname = 'TEST.db'\nconn = sqlite3.connect(dbname)\ncur = conn.cursor()\n\n# 任意の値を入れる",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "import sqlite3\n\ndbname = 'TEST.db'\nconn = sqlite3.connect(dbname)\ncur = conn.cursor()\n\n# 任意の値を入れる",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "\n",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "\n",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "target_id = 1",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "target_id = 1",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "\n\n",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "\n\n",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "# データを削除する",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "# データを削除する",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "\n",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "\n",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "cur.execute('DELETE FROM person WHERE id = ?', (target_id, ))\n\nconn.commit()\n\ncur.close()\nconn.close()",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "cur.execute('DELETE FROM person WHERE id = ?', (target_id, ))\n\nconn.commit()\n\ncur.close()\nconn.close()",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -1152,45 +1312,51 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "このコードでは、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "このコードでは、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "target_id",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "target_id",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "の値によって、任意のidの行を削除できます。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "の値によって、任意のidの行を削除できます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 30
   },
@@ -1201,8 +1367,11 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 31
   },
@@ -1213,53 +1382,59 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "次→",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "CRUD操作を使い回せるようにしよう",
-          "href": "/posts/curriculums/1ada501ef33781d28f41cd45c5a72b38",
-          "mention": {
-            "content": {
-              "iconType": "external",
-              "iconUrl": "https://www.notion.so/icons/sliders-horizontal_blue.svg",
-              "title": "CRUD操作を使い回せるようにしよう"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "次→",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "CRUD操作を使い回せるようにしよう",
+            "href": "/posts/curriculums/1ada501ef33781d28f41cd45c5a72b38",
+            "mention": {
+              "content": {
+                "iconType": "external",
+                "iconUrl": "https://www.notion.so/icons/sliders-horizontal_blue.svg",
+                "title": "CRUD操作を使い回せるようにしよう"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": true
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 32
   },
@@ -1270,8 +1445,11 @@
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "pageId": "1ada501ef3378190b5d5ff083def3250",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 33
   }

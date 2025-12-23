@@ -3,6 +3,7 @@ package presentation
 import (
 	"fmt"
 	"notion2atlas/usecase"
+	postprocess "notion2atlas/usecase/PostProcess"
 )
 
 func HandleUpdateData() error {
@@ -12,7 +13,7 @@ func HandleUpdateData() error {
 		panic(err)
 	}
 	fmt.Println("start process curriculums")
-	err = updateCurriculum()
+	curriculum_nde, err := updateCurriculum()
 	if err != nil {
 		return err
 	}
@@ -22,16 +23,29 @@ func HandleUpdateData() error {
 		return err
 	}
 	fmt.Println("start process infos")
-	err = updateInfo()
+	info_nde, err := updateInfo()
 	if err != nil {
 		return err
 	}
 	fmt.Println("start process answers")
-	err = updateAnswer()
+	answer_nde, err := updateAnswer()
 	if err != nil {
 		return err
 	}
 	err = usecase.SaveStaticPageOGPPicture()
+	if err != nil {
+		return err
+	}
+	// var pageEntities = []domain.Entity{}
+	pageEntities := append(
+		curriculum_nde.New,
+		curriculum_nde.Edit...,
+	)
+	pageEntities = append(pageEntities, info_nde.New...)
+	pageEntities = append(pageEntities, info_nde.Edit...)
+	pageEntities = append(pageEntities, answer_nde.New...)
+	pageEntities = append(pageEntities, answer_nde.Edit...)
+	err = postprocess.RewriteToAtlEntity(pageEntities)
 	if err != nil {
 		return err
 	}

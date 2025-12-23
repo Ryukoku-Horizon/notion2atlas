@@ -1,0 +1,113 @@
+package postprocess
+
+import (
+	"errors"
+	"fmt"
+	"notion2atlas/constants"
+	"notion2atlas/domain"
+	"notion2atlas/filemanager"
+	"os"
+)
+
+func processSyncedChild(atlEntity domain.AtlBlockEntity) (*[]domain.AtlBlockEntity, error) {
+	syncedId := string(*atlEntity.Data.Synced)
+	originals, err := filemanager.ReadJson[[]domain.BlockEntity](constants.SYNCED_PATH)
+	if err != nil {
+		fmt.Println("error in postprocess/processSyncedChild/filemanager.ReadJson:14")
+		return nil, err
+	}
+	var original *domain.BlockEntity
+	for _, ori := range originals {
+		if syncedId == ori.Id {
+			original = &ori
+		}
+	}
+	if original == nil {
+		fmt.Printf("original not found, synced_id:%s\n", syncedId)
+		return nil, nil
+	}
+	pageDataPath := fmt.Sprintf("%s/%s.json", constants.PAGE_DATA_DIR, original.PageId)
+	atlEntities, err := filemanager.ReadJson[[]domain.AtlBlockEntity](pageDataPath)
+	if err != nil {
+		if !errors.Is(err, os.ErrNotExist) {
+			fmt.Println("error in postprocess/processSyncedChild/filemanager.ReadJson:30")
+			return nil, err
+		}
+		tmpDataPath := fmt.Sprintf("%s/%s.json", constants.TMP_DIR, original.PageId)
+		entities, err := filemanager.ReadJson[[]domain.BlockEntity](tmpDataPath)
+		if err != nil {
+			fmt.Println("error in postprocess/processSyncedChild/filemanager.ReadJson:37")
+			return nil, err
+		}
+		if len(entities) == 0 {
+			return nil, nil
+		}
+		atlEntities, err = processEntities(entities, original.Id, original.PageId)
+		if err != nil {
+			fmt.Println("error in postprocess/processSyncedChild/processEntities:45")
+			return nil, err
+		}
+		if len(atlEntities) == 0 {
+			return nil, nil
+		}
+	}
+	var oriChildren []domain.AtlBlockEntity
+	for _, ent := range atlEntities {
+		if syncedId == ent.ParentId {
+			child := domain.AtlBlockEntity{
+				Id:           ent.Id,
+				Type:         ent.Type,
+				ParentId:     atlEntity.Id,
+				CurriculumId: atlEntity.CurriculumId,
+				PageId:       atlEntity.PageId,
+				Data:         ent.Data,
+				Order:        ent.Order,
+			}
+			oriChildren = append(oriChildren, child)
+			oriChildren = appendChild(oriChildren, atlEntities, ent.Id)
+		}
+	}
+	return &oriChildren, nil
+}
+
+func appendChild(oriChildren []domain.AtlBlockEntity, entities []domain.AtlBlockEntity, parentId string) []domain.AtlBlockEntity {
+	children := []domain.AtlBlockEntity{}
+	for _, ent := range entities {
+		if ent.PageId == parentId {
+			children = append(oriChildren, ent)
+			children = appendChild(oriChildren, entities, ent.Id)
+		}
+	}
+	return append(oriChildren, children...)
+}
+
+func processEntities(entities []domain.BlockEntity, originalId string, originalPageId string) ([]domain.AtlBlockEntity, error) {
+	children := []domain.BlockEntity{}
+	children = appendEntChild(children, entities, originalId)
+	path := fmt.Sprintf("%s/%s.json", constants.TMP_DIR, originalPageId)
+	pageEntities, err := filemanager.ReadJson[[]domain.PageEntity](path)
+	if err != nil {
+		if !errors.Is(err, os.ErrNotExist) {
+			fmt.Println("error in postprocess/processEntities/filemanager.ReadJson:88")
+			return nil, err
+		}
+		return nil, nil
+	}
+	atlBlocks, err := blockToAtlEntity(children, pageEntities)
+	if err != nil {
+		fmt.Println("error in postprocess/processEntites/blockToAtlEntity:95")
+		return nil, err
+	}
+	return atlBlocks, nil
+}
+
+func appendEntChild(children []domain.BlockEntity, allEntities []domain.BlockEntity, parentId string) []domain.BlockEntity {
+	newChildren := []domain.BlockEntity{}
+	for _, ent := range allEntities {
+		if ent.PageId == parentId {
+			newChildren = append(newChildren, ent)
+			newChildren = appendEntChild(newChildren, allEntities, ent.Id)
+		}
+	}
+	return append(children, newChildren...)
+}

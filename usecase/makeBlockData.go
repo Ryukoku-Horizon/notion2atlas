@@ -7,50 +7,63 @@ import (
 	"notion2atlas/domain"
 	"notion2atlas/filemanager"
 	"notion2atlas/utils"
+	"strings"
 )
 
-func makeParagraphData(para domain.ParagraphProperty, type_ string) (map[string]any, error) {
+func makeParagraphData(para domain.ParagraphProperty, type_ string) (*domain.BlockEntityData, error) {
 	richTextModels, err := ProcessRichText(para.RichText, type_)
 	if err != nil {
 		fmt.Println("error in usecase/makeParagraphData/ProcessRichText")
 		return nil, err
 	}
-	data := map[string]any{
-		"color":  para.Color,
-		"parent": richTextModels,
+	paragraph := domain.ParagraphEntity{
+		Color:  para.Color,
+		Parent: richTextModels,
 	}
-	return data, nil
+	data := domain.BlockEntityData{
+		Type:      paragraph.GetType(),
+		Paragraph: &paragraph,
+	}
+	return &data, nil
 }
 
-func makeToDoData(todo domain.ToDoProperty, type_ string) (map[string]any, error) {
+func makeToDoData(todo domain.ToDoProperty, type_ string) (*domain.BlockEntityData, error) {
 	richTextModels, err := ProcessRichText(todo.RichText, type_)
 	if err != nil {
 		fmt.Println("error in usecase/makeParagraphData/ProcessRichText")
 		return nil, err
 	}
-	data := map[string]any{
-		"color":   todo.Color,
-		"parent":  richTextModels,
-		"checked": todo.Checked,
+	todoEntity := domain.TodoEntity{
+		Color:   todo.Color,
+		Parent:  richTextModels,
+		Checked: todo.Checked,
 	}
-	return data, nil
+	data := domain.BlockEntityData{
+		Type: todoEntity.GetType(),
+		Todo: &todoEntity,
+	}
+	return &data, nil
 }
 
-func makeHeaderData(header domain.HeaderProperty, type_ string) (map[string]any, error) {
+func makeHeaderData(header domain.HeaderProperty, type_ string) (*domain.BlockEntityData, error) {
 	richTextModels, err := ProcessRichText(header.RichText, type_)
 	if err != nil {
 		fmt.Println("error in usecase/makeHeaderData/ProcessRichText")
 		return nil, err
 	}
-	data := map[string]any{
-		"color":         header.Color,
-		"parent":        richTextModels,
-		"is_toggleable": header.IsToggleable,
+	headerEntity := domain.HeaderEntity{
+		Color:        header.Color,
+		Parent:       richTextModels,
+		IsToggleable: header.IsToggleable,
 	}
-	return data, nil
+	data := domain.BlockEntityData{
+		Type:   headerEntity.GetType(),
+		Header: &headerEntity,
+	}
+	return &data, nil
 }
 
-func makeImageData(img domain.ImageProperty, blockId string, pageId string, type_ string) (map[string]any, error) {
+func makeImageData(img domain.ImageProperty, blockId string, pageId string, type_ string) (*domain.BlockEntityData, error) {
 	richTextModels, err := ProcessRichText(img.Caption, type_)
 	if err != nil {
 		fmt.Println("error in usecase/makeImageData/ProcessRichText")
@@ -70,15 +83,20 @@ func makeImageData(img domain.ImageProperty, blockId string, pageId string, type
 		fmt.Println("ℹ️ unexpected type: " + img.Type)
 		filemanager.WriteJson(map[string]any{"type": img.Type}, "notion_data/test.json")
 	}
-	data := map[string]any{
-		"parent": richTextModels,
-		"url":    path,
+	imageEntity := domain.ImageEntity{
+		Parent: richTextModels,
+		Url:    path,
 	}
-	return data, nil
+	data := domain.BlockEntityData{
+		Type:  imageEntity.GetType(),
+		Image: &imageEntity,
+	}
+
+	return &data, nil
 }
 
-func makeEmbedData(embed domain.EmbedProperty, type_ string) (map[string]any, error) {
-	var data map[string]any
+func makeEmbedData(embed domain.EmbedProperty, type_ string) (*domain.BlockEntityData, error) {
+	var data domain.BlockEntityData
 	parent, err := ProcessRichText(embed.Caption, type_)
 	if err != nil {
 		fmt.Println("error in usecase/makeEmbedData/ProcessRichText")
@@ -87,10 +105,14 @@ func makeEmbedData(embed domain.EmbedProperty, type_ string) (map[string]any, er
 	switch type_ {
 	case "embed":
 		canEmbed := utils.CanEmbed(embed.Url)
-		data = map[string]any{
-			"canEmbed": canEmbed,
-			"parent":   parent,
-			"url":      embed.Url,
+		embedEntity := domain.EmbedEntity{
+			CanEmbed: canEmbed,
+			Parent:   parent,
+			Url:      embed.Url,
+		}
+		data = domain.BlockEntityData{
+			Type:  embedEntity.GetType(),
+			Embed: &embedEntity,
 		}
 	case "bookmark":
 		ogpData, err := utils.GetOGP(embed.Url)
@@ -98,26 +120,30 @@ func makeEmbedData(embed domain.EmbedProperty, type_ string) (map[string]any, er
 			fmt.Println("error in usecase/makeEmbedData/utils.GetOGP")
 			return nil, err
 		}
-		data = map[string]any{
-			"parent": parent,
-			"url":    embed.Url,
-			"ogp":    ogpData,
+		bookmarkEntity := domain.BookmarkEntity{
+			Parent: parent,
+			Url:    embed.Url,
+			Ogp:    *ogpData,
+		}
+		data = domain.BlockEntityData{
+			Type:     bookmarkEntity.GetType(),
+			Bookmark: &bookmarkEntity,
 		}
 	}
-	return data, nil
+	return &data, nil
 }
 
-func makeTableData(table domain.TableProperty) (map[string]any, error) {
-	data, err := domain.Struct2Map(table)
-	if err != nil {
-		fmt.Println("error in usecase/makeTableData/converter.Struct2Map")
-		return nil, err
+func makeTableData(table domain.TableProperty) (*domain.BlockEntityData, error) {
+	tableEntity := domain.TableEntity(table)
+	data := domain.BlockEntityData{
+		Type:  "table",
+		Table: &tableEntity,
 	}
-	return data, nil
+	return &data, nil
 }
 
-func makeTableRowData(table_row domain.TableRowProperty, type_ string) ([][]RichTextModel, error) {
-	var cells [][]RichTextModel
+func makeTableRowData(table_row domain.TableRowProperty, type_ string) (*domain.BlockEntityData, error) {
+	var cells [][]domain.RichTextEntity
 	for _, cell := range table_row.Cells {
 		richTextModel, err := ProcessRichText(cell, type_)
 		if err != nil {
@@ -126,10 +152,15 @@ func makeTableRowData(table_row domain.TableRowProperty, type_ string) ([][]Rich
 		}
 		cells = append(cells, richTextModel)
 	}
-	return cells, nil
+	tableRowEntity := domain.TableRowEntity(cells)
+	data := domain.BlockEntityData{
+		Type:     tableRowEntity.GetType(),
+		TableRow: &tableRowEntity,
+	}
+	return &data, nil
 }
 
-func makeChildPageData(pageId string, type_ string) (map[string]any, *domain.NtPageEntity, error) {
+func makeChildPageData(pageId string, type_ string) (*domain.BlockEntityData, *domain.NtPageEntity, error) {
 	pageDataAddress, err := GetPageItem(pageId, type_)
 	if err != nil {
 		if errors.Is(err, domain.ErrNotionErrorResponse) {
@@ -147,11 +178,15 @@ func makeChildPageData(pageId string, type_ string) (map[string]any, *domain.NtP
 		return nil, nil, err
 	}
 	urls := GetPathRewritedUrl(pageDataAddress)
-	data := map[string]any{
-		"parent":   pageDataAddress.Title,
-		"iconType": pageDataAddress.IconType,
-		"iconUrl":  urls.IconUrl,
-		"coverUrl": urls.CoverUrl,
+	childPageEntity := domain.ChildPageEntity{
+		Parent:   pageDataAddress.Title,
+		IconType: pageDataAddress.IconType,
+		IconUrl:  urls.IconUrl,
+		CoverUrl: urls.CoverUrl,
+	}
+	data := domain.BlockEntityData{
+		Type:      childPageEntity.GetType(),
+		ChildPage: &childPageEntity,
 	}
 	pageRepo := domain.NtPageEntity{
 		Id:        pageDataAddress.Id,
@@ -161,12 +196,13 @@ func makeChildPageData(pageId string, type_ string) (map[string]any, *domain.NtP
 		CoverType: pageDataAddress.CoverType,
 		Title:     pageDataAddress.Title,
 	}
-	return data, &pageRepo, nil
+	return &data, &pageRepo, nil
 }
 
-func makeLinkToPageData(link_to_page domain.LinkToPageProperty, type_ string) (map[string]any, error) {
+func makeLinkToPageData(link_to_page domain.LinkToPageProperty, type_ string) (*domain.BlockEntityData, error) {
 	pageId := link_to_page.PageId
-	link := "/posts/curriculums/" + pageId
+	nohyphenId := strings.ReplaceAll(pageId, "-", "")
+	link := "/posts/curriculums/" + nohyphenId
 	pageData, err := GetPageItem(pageId, type_)
 	if err != nil {
 		if errors.Is(err, domain.ErrNotionErrorResponse) {
@@ -176,16 +212,20 @@ func makeLinkToPageData(link_to_page domain.LinkToPageProperty, type_ string) (m
 		return nil, err
 	}
 	urls := GetPathRewritedUrl(pageData)
-	data := map[string]any{
-		"link":     link,
-		"iconUrl":  urls.IconUrl,
-		"iconType": pageData.IconType,
-		"title":    pageData.Title,
+	linktopageEntity := domain.LinkToPageEntity{
+		Link:     link,
+		IconUrl:  urls.IconUrl,
+		IconType: pageData.IconType,
+		Title:    pageData.Title,
 	}
-	return data, nil
+	data := domain.BlockEntityData{
+		Type:       linktopageEntity.GetType(),
+		LinkToPage: &linktopageEntity,
+	}
+	return &data, nil
 }
 
-func makeCodeData(code domain.CodeProperty, type_ string) (map[string]any, error) {
+func makeCodeData(code domain.CodeProperty, type_ string) (*domain.BlockEntityData, error) {
 	codeContent, err := ProcessRichText(code.RichText, type_)
 	if err != nil {
 		fmt.Println("error in usecase/makeCodeData/ProcessRichText(code.RichText)")
@@ -196,38 +236,57 @@ func makeCodeData(code domain.CodeProperty, type_ string) (map[string]any, error
 		fmt.Println("error in usecase/makeCodeData/ProcessRichText(code.Caption)")
 		return nil, err
 	}
-	data := map[string]any{
-		"language": code.Language,
-		"caption":  caption,
-		"parent":   codeContent,
+	codeEntity := domain.CodeEntity{
+		Language: code.Language,
+		Caption:  caption,
+		Parent:   codeContent,
 	}
-	return data, nil
+	data := domain.BlockEntityData{
+		Type: codeEntity.GetType(),
+		Code: &codeEntity,
+	}
+	return &data, nil
 }
 
-func makeCalloutData(callout domain.CalloutProperty, type_ string) (map[string]any, error) {
+func makeCalloutData(callout domain.CalloutProperty, type_ string) (*domain.BlockEntityData, error) {
 	richText, err := ProcessRichText(callout.RichText, type_)
 	if err != nil {
 		fmt.Println("error in usecase/makeCalloutData/ProcessRichText")
 		return nil, err
 	}
-	data := map[string]any{
-		"icon":   callout.Icon,
-		"color":  callout.Color,
-		"parent": richText,
+	calloutEntity := domain.CalloutEntity{
+		Icon:   callout.Icon,
+		Color:  callout.Color,
+		Parent: richText,
 	}
-	return data, nil
+	data := domain.BlockEntityData{
+		Type:    calloutEntity.GetType(),
+		Callout: &calloutEntity,
+	}
+	return &data, nil
 }
 
-func makeSyncedBlockData(syncedBlock domain.SyncedProperty) string {
+func makeSyncedBlockData(syncedBlock domain.SyncedProperty) *domain.BlockEntityData {
 	syncedFrom := syncedBlock.SyncedFrom
 	if syncedFrom == nil {
-		return "original"
+		syncedEntity := domain.SyncedEntity("original")
+		data := domain.BlockEntityData{
+			Type:   syncedEntity.GetType(),
+			Synced: &syncedEntity,
+		}
+		return &data
 	} else {
-		return syncedBlock.SyncedFrom.BlockId
+		nohyphenId := strings.ReplaceAll(syncedBlock.SyncedFrom.BlockId, "-", "")
+		syncedEntity := domain.SyncedEntity(nohyphenId)
+		data := domain.BlockEntityData{
+			Type:   syncedEntity.GetType(),
+			Synced: &syncedEntity,
+		}
+		return &data
 	}
 }
 
-func makeChildDatabaseData(database_id string) (map[string]any, error) {
+func makeChildDatabaseData(database_id string) (*domain.BlockEntityData, error) {
 	dbData, err := GetDBItem(database_id)
 	if err != nil {
 		if errors.Is(err, domain.ErrNotionErrorResponse) {
@@ -241,9 +300,13 @@ func makeChildDatabaseData(database_id string) (map[string]any, error) {
 		fmt.Println("error in usecase/makeChildDatabaseData/GetDBQuery")
 		return nil, err
 	}
-	data := map[string]any{
-		"database_data": dbData,
-		"query_data":    dbQueryData,
+	childdbEntity := domain.ChildDBEntity{
+		DatabaseData: dbData,
+		QueryData:    dbQueryData,
 	}
-	return data, nil
+	data := domain.BlockEntityData{
+		Type:    childdbEntity.GetType(),
+		ChildDB: &childdbEntity,
+	}
+	return &data, nil
 }

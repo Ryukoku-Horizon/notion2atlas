@@ -28,7 +28,6 @@ func (c InfoEntity) GetLastEditedTime() string {
 func (c InfoEntity) GetUpdate() bool {
 	return c.Update
 }
-
 func (c InfoEntity) GetTime() (*time.Time, error) {
 	lastEditedTime, err := time.Parse(time.RFC3339, c.LastEditedTime)
 	if err != nil {

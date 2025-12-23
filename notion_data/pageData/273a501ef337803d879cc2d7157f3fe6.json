@@ -6,21 +6,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ここではGitHubのブランチについて説明します",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ここではGitHubのブランチについて説明します",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -31,22 +35,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ブランチ",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ブランチ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 1
   },
@@ -56,7 +64,9 @@
     "parentId": "273a501ef337803d879cc2d7157f3fe6",
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 2
   },
   {
@@ -66,45 +76,51 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "GitHubの",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "GitHubの",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ブランチ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ブランチ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "は、リポジトリ（プロジェクト全体）の中で「別の作業用の道」を作る仕組みです。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "は、リポジトリ（プロジェクト全体）の中で「別の作業用の道」を作る仕組みです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 3
   },
@@ -115,21 +131,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "mainブランチ",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "mainブランチ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 4
   },
@@ -140,21 +160,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "→ 公開する完成版の道。安定しているコードがここに置かれます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "→ 公開する完成版の道。安定しているコードがここに置かれます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -165,21 +189,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ブランチを作る",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ブランチを作る",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 5
   },
@@ -190,21 +218,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "→ 「main から分かれる脇道」を作るイメージ。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "→ 「main から分かれる脇道」を作るイメージ。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -215,21 +247,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "その脇道では自由に工事（新機能追加や修正）をしても、本線（main）には影響しません。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "その脇道では自由に工事（新機能追加や修正）をしても、本線（main）には影響しません。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -240,21 +276,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "作業が終わったらマージする",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "作業が終わったらマージする",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 6
   },
@@ -265,21 +305,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "→ 脇道での工事が終わったら、本線に道を合流させる（＝変更を取り込む）ことができます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "→ 脇道での工事が終わったら、本線に道を合流させる（＝変更を取り込む）ことができます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -290,22 +334,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "一文でまとめると",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "一文でまとめると",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 7
   },
@@ -316,21 +364,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ブランチは「安全に別作業をするための分岐ルート」。本線に影響を与えずに試したり改良できて、必要なときに合流させられる仕組み。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ブランチは「安全に別作業をするための分岐ルート」。本線に影響を与えずに試したり改良できて、必要なときに合流させられる仕組み。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 8
   },
@@ -341,22 +393,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ブランチの基本操作",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ブランチの基本操作",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 9
   },
@@ -366,7 +422,9 @@
     "parentId": "273a501ef337803d879cc2d7157f3fe6",
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 10
   },
   {
@@ -376,21 +434,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ではまず、ブランチの基本操作の方法を説明します。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ではまず、ブランチの基本操作の方法を説明します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 11
   },
@@ -401,53 +463,59 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "VSCodeでクローンしたリポジトリを開いてください。（リポジトリの作成・クローンはこちらで説明してます→",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Git,GitHubのはじめ方",
-          "href": "/posts/curriculums/266a501ef337808e8078e09ab83d6de8",
-          "mention": {
-            "content": {
-              "iconType": "emoji",
-              "iconUrl": "🔰",
-              "title": "Git,GitHubのはじめ方"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "VSCodeでクローンしたリポジトリを開いてください。（リポジトリの作成・クローンはこちらで説明してます→",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " ）",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Git,GitHubのはじめ方",
+            "href": "/posts/curriculums/266a501ef337808e8078e09ab83d6de8",
+            "mention": {
+              "content": {
+                "iconType": "emoji",
+                "iconUrl": "🔰",
+                "title": "Git,GitHubのはじめ方"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": true
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 12
   },
@@ -458,22 +526,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ブランチの確認",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ブランチの確認",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 13
   },
@@ -484,45 +556,51 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ブランチは、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ブランチは、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git branch",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git branch",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コマンドを実行すると確認できます",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンドを実行すると確認できます",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 14
   },
@@ -533,69 +611,77 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "みなさんは実行すると",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "みなさんは実行すると",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": true,
-            "color": "gray",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": true,
+              "color": "gray",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "*",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "*",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": true,
-            "color": "green",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": true,
+              "color": "green",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "main",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "main",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "と出てくると思います",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "と出てくると思います",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 15
   },
@@ -606,25 +692,29 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "💡"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実際の出力画像",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実際の出力画像",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
         }
-      ]
+      }
     },
     "order": 16
   },
@@ -635,8 +725,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef3378075bb9ccca4a4975f47.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef3378075bb9ccca4a4975f47.png",
+        "width": 956,
+        "height": 64
+      }
     },
     "order": 0
   },
@@ -647,33 +742,38 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git branch",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git branch",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コマンドでは、「存在するブランチ」と「操作中のブランチ」を確認できます。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンドでは、「存在するブランチ」と「操作中のブランチ」を確認できます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 17
   },
@@ -684,25 +784,29 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "orange_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "💡"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "存在するブランチが一覧で表示され、緑色で表示されたのが操作中のブランチです。",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "orange_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "存在するブランチが一覧で表示され、緑色で表示されたのが操作中のブランチです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
         }
-      ]
+      }
     },
     "order": 18
   },
@@ -713,21 +817,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "つまり、上記の出力の場合、存在するのはmainブランチのみで、操作中のブランチはmainブランチです。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "つまり、上記の出力の場合、存在するのはmainブランチのみで、操作中のブランチはmainブランチです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 19
   },
@@ -738,22 +846,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ブランチの作成",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ブランチの作成",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 20
   },
@@ -764,45 +876,51 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ブランチを作成するには",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ブランチを作成するには",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git checkout -b 新しいブランチ名",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git checkout -b 新しいブランチ名",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "というコマンドを実行します",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "というコマンドを実行します",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 21
   },
@@ -813,27 +931,31 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/code_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実行例：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/code_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実行例：",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 22
   },
@@ -844,8 +966,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef33780f69332e3022abe3819.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef33780f69332e3022abe3819.png",
+        "width": 1128,
+        "height": 112
+      }
     },
     "order": 0
   },
@@ -856,33 +983,38 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git checkout -b develop",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git checkout -b develop",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "は「developという名前のブランチ」を作成するコマンドです",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "は「developという名前のブランチ」を作成するコマンドです",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -893,21 +1025,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "このようにして新しいブランチを作成できます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "このようにして新しいブランチを作成できます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 23
   },
@@ -918,21 +1054,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ちなみに、このコマンドでブランチを作成すると、自動で操作中のブランチが新しく作ったブランチに移動します。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ちなみに、このコマンドでブランチを作成すると、自動で操作中のブランチが新しく作ったブランチに移動します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 24
   },
@@ -943,45 +1083,51 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "この状態で",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "この状態で",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git branch",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git branch",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コマンドを実行してみましょう",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンドを実行してみましょう",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 25
   },
@@ -992,27 +1138,31 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/code_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "出力結果",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/code_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "出力結果",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 26
   },
@@ -1023,8 +1173,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef337803ab96de6c27a4ec2f3.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef337803ab96de6c27a4ec2f3.png",
+        "width": 952,
+        "height": 86
+      }
     },
     "order": 0
   },
@@ -1035,21 +1190,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "出力からわかることは、developブランチとmainブランチが存在し、操作中のブランチはdevelopブランチということです。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "出力からわかることは、developブランチとmainブランチが存在し、操作中のブランチはdevelopブランチということです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 27
   },
@@ -1060,22 +1219,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ブランチを切り替える",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ブランチを切り替える",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 28
   },
@@ -1086,45 +1249,51 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "操作中のブランチを切り替えるには",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "操作中のブランチを切り替えるには",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git checkout 既存のブランチ名",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git checkout 既存のブランチ名",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "というコマンドを実行します。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "というコマンドを実行します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 29
   },
@@ -1135,33 +1304,38 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git checkout main",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git checkout main",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "と実行してみましょう。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "と実行してみましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 30
   },
@@ -1172,27 +1346,31 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/code_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実行例：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/code_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実行例：",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 31
   },
@@ -1203,8 +1381,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef33780918eabdf27d2c4f833.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef33780918eabdf27d2c4f833.png",
+        "width": 1046,
+        "height": 94
+      }
     },
     "order": 0
   },
@@ -1215,45 +1398,51 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "それから、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "それから、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git branch",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git branch",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を実行すると",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を実行すると",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 32
   },
@@ -1264,8 +1453,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef3378012a6d1e8b2f5a47a3a.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef3378012a6d1e8b2f5a47a3a.png",
+        "width": 946,
+        "height": 78
+      }
     },
     "order": 33
   },
@@ -1276,21 +1470,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "このように現在操作中のブランチがmainブランチに切り替わりました",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "このように現在操作中のブランチがmainブランチに切り替わりました",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 34
   },
@@ -1301,22 +1499,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ブランチを分けて作業する",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ブランチを分けて作業する",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 35
   },
@@ -1326,7 +1528,9 @@
     "parentId": "273a501ef337803d879cc2d7157f3fe6",
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 36
   },
   {
@@ -1336,21 +1540,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "基本的にGitHubでは、mainブランチに完成版のコードをのせて、それ以外のブランチで作業を進めます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "基本的にGitHubでは、mainブランチに完成版のコードをのせて、それ以外のブランチで作業を進めます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 37
   },
@@ -1361,21 +1569,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "なので、開発を進める時には基本的に、",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "なので、開発を進める時には基本的に、",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 38
   },
@@ -1386,21 +1598,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ブランチを分ける",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ブランチを分ける",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 39
   },
@@ -1411,21 +1627,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "各ブランチで作業を進める",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "各ブランチで作業を進める",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 40
   },
@@ -1436,21 +1656,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "問題なく機能を実装できたらmainブランチに統合（マージ）する",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "問題なく機能を実装できたらmainブランチに統合（マージ）する",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 41
   },
@@ -1461,21 +1685,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "という流れになります",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "という流れになります",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 42
   },
@@ -1486,25 +1714,29 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "orange_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "💡"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "mainブランチには常に実行可能な状態（完成版）のコードを載せておきましょう。",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "orange_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "mainブランチには常に実行可能な状態（完成版）のコードを載せておきましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
         }
-      ]
+      }
     },
     "order": 43
   },
@@ -1515,21 +1747,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "そうするとことによって、修復不可能なエラーが出ても、いつでも実行可能な状態に戻ることができます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "そうするとことによって、修復不可能なエラーが出ても、いつでも実行可能な状態に戻ることができます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -1540,21 +1776,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "つまり逆にいうと、何か新しい機能を実装するなら、mainブランチ以外で作業すると良いということです。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "つまり逆にいうと、何か新しい機能を実装するなら、mainブランチ以外で作業すると良いということです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -1565,22 +1805,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実際にブランチを分けて内容を変更してみよう",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実際にブランチを分けて内容を変更してみよう",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 44
   },
@@ -1591,21 +1835,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "まず、操作するブランチをdevelopブランチに切り替えます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "まず、操作するブランチをdevelopブランチに切り替えます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 45
   },
@@ -1616,33 +1864,38 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git checkout develop",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git checkout develop",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コマンドを実行してください。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンドを実行してください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 46
   },
@@ -1653,33 +1906,38 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git branch",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git branch",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コマンドで確認すると、操作中のブランチはdevelopブランチです",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンドで確認すると、操作中のブランチはdevelopブランチです",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 47
   },
@@ -1690,8 +1948,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef3378051b03ad221a7a29f84.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef3378051b03ad221a7a29f84.png",
+        "width": 952,
+        "height": 86
+      }
     },
     "order": 48
   },
@@ -1702,21 +1965,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "この状態で内容を変更します",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "この状態で内容を変更します",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 49
   },
@@ -1727,21 +1994,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ここでは試しに、develop.txtというファイルを作り、内容を書き込んでみます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ここでは試しに、develop.txtというファイルを作り、内容を書き込んでみます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 50
   },
@@ -1752,8 +2023,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef3378015abe9dc41fc7e6d50.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef3378015abe9dc41fc7e6d50.png",
+        "width": 1374,
+        "height": 664
+      }
     },
     "order": 51
   },
@@ -1764,21 +2040,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "内容を書き込んだら、ファイル（develop.txt）を保存します。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "内容を書き込んだら、ファイル（develop.txt）を保存します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 52
   },
@@ -1789,21 +2069,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "それから、以下のコマンドを実行してください",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "それから、以下のコマンドを実行してください",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 53
   },
@@ -1814,21 +2098,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "git add .",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git add .",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 54
   },
@@ -1839,21 +2127,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "git commit -m “developブランチを編集”",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git commit -m “developブランチを編集”",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 55
   },
@@ -1864,25 +2156,29 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "orange_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "💡"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "pushはしないのか？",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "orange_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "pushはしないのか？",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
         }
-      ]
+      }
     },
     "order": 56
   },
@@ -1893,21 +2189,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "そう思った人もいると思いますが、ここではpushをしなくてもいいです。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "そう思った人もいると思いますが、ここではpushをしなくてもいいです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -1918,45 +2218,51 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ここで",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ここで",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git commit",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git commit",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コマンドについて補足すると、このコマンドはそのリポジトリで変更を確定するコマンドです。もっと厳密に言えば、操作しているブランチ（developブランチ）での変更をローカル環境のリポジトリで確定するコマンドです。ローカル環境というのは、要は「あなたのPC内で」ということです。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンドについて補足すると、このコマンドはそのリポジトリで変更を確定するコマンドです。もっと厳密に言えば、操作しているブランチ（developブランチ）での変更をローカル環境のリポジトリで確定するコマンドです。ローカル環境というのは、要は「あなたのPC内で」ということです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -1967,69 +2273,77 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "つまり、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "つまり、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git commit",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git commit",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を実行し、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "を実行し、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git push",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git push",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を実行しなければ、GitHubのネットワーク上にあるリポジトリには影響を及ぼしませんが、あなたのPC内のリポジトリで変更を確定するということです。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を実行しなければ、GitHubのネットワーク上にあるリポジトリには影響を及ぼしませんが、あなたのPC内のリポジトリで変更を確定するということです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -2040,45 +2354,51 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "この状態で、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "この状態で、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git checkout main",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git checkout main",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コマンド（mainブランチに切り替えるコマンド）を実行してください。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンド（mainブランチに切り替えるコマンド）を実行してください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 57
   },
@@ -2089,21 +2409,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "すると、以下のようにdevelop.txtというファイル（developブランチで追加したファイル）が消えます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "すると、以下のようにdevelop.txtというファイル（developブランチで追加したファイル）が消えます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 58
   },
@@ -2114,8 +2438,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef3378007a3f6dfdbda755980.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef3378007a3f6dfdbda755980.png",
+        "width": 1292,
+        "height": 646
+      }
     },
     "order": 59
   },
@@ -2126,21 +2455,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "developブランチで作業したとしても、mainブランチには影響を及ぼさないため、mainブランチは作業前と同じ状態なのです。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "developブランチで作業したとしても、mainブランチには影響を及ぼさないため、mainブランチは作業前と同じ状態なのです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 60
   },
@@ -2151,45 +2484,51 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "この状態でもう一度developブランチに戻ります（",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "この状態でもう一度developブランチに戻ります（",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git checkout develop",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git checkout develop",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コマンド）",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンド）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 61
   },
@@ -2200,21 +2539,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "すると、以下のように追加したファイルが戻ります",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "すると、以下のように追加したファイルが戻ります",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 62
   },
@@ -2225,8 +2568,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef3378092b395f1b88a2304ef.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef3378092b395f1b88a2304ef.png",
+        "width": 1356,
+        "height": 590
+      }
     },
     "order": 63
   },
@@ -2237,25 +2585,29 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "orange_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "💡"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "このように、ブランチを分けると、分岐して安全に作業ができます",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "orange_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "このように、ブランチを分けると、分岐して安全に作業ができます",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
         }
-      ]
+      }
     },
     "order": 64
   },
@@ -2266,22 +2618,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ブランチを統合（マージ）する",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ブランチを統合（マージ）する",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 65
   },
@@ -2291,7 +2647,9 @@
     "parentId": "273a501ef337803d879cc2d7157f3fe6",
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 66
   },
   {
@@ -2301,21 +2659,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "一度説明しましたが、基本的にGitHubでは、mainブランチに完成版のコードをのせて、それ以外のブランチで作業を進めます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "一度説明しましたが、基本的にGitHubでは、mainブランチに完成版のコードをのせて、それ以外のブランチで作業を進めます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 67
   },
@@ -2326,21 +2688,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "なので、他のブランチで作業が完了したら最終的にはmainブランチに統合する必要があります。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "なので、他のブランチで作業が完了したら最終的にはmainブランチに統合する必要があります。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 68
   },
@@ -2351,49 +2717,55 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "orange_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "💡"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "callout",
+      "callout": {
+        "color": "orange_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ちなみに、統合することを",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ちなみに、統合することを",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "マージ（merge）",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "マージ（merge）",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "と言います",
-          "href": null
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "と言います",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
         }
-      ]
+      }
     },
     "order": 69
   },
@@ -2404,45 +2776,51 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "マージするには、取り込むブランチに切り替えてから",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "マージするには、取り込むブランチに切り替えてから",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git merge 作業が完了したブランチ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git merge 作業が完了したブランチ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コマンドを実行します。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンドを実行します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 70
   },
@@ -2453,21 +2831,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ここでは、developブランチをmainブランチにマージしましょう。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ここでは、developブランチをmainブランチにマージしましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 71
   },
@@ -2478,45 +2860,51 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "まずmainブランチに切り替えます。（",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "まずmainブランチに切り替えます。（",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git checkout main",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git checkout main",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コマンド）",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンド）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 72
   },
@@ -2527,45 +2915,51 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "次に、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "次に、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git merge develop",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git merge develop",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を実行します（developブランチを統合するコマンド）",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を実行します（developブランチを統合するコマンド）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 73
   },
@@ -2576,25 +2970,29 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "orange_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "💡"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実行結果：",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "orange_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実行結果：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
         }
-      ]
+      }
     },
     "order": 74
   },
@@ -2605,8 +3003,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef33780be8ab1c78f892ce651.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef33780be8ab1c78f892ce651.png",
+        "width": 1044,
+        "height": 230
+      }
     },
     "order": 0
   },
@@ -2617,21 +3020,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "すると、mainブランチにdevelopブランチで変更した内容が追加されます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "すると、mainブランチにdevelopブランチで変更した内容が追加されます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 75
   },
@@ -2642,27 +3049,31 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/code_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "mainブランチに追加されている↓",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/code_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "mainブランチに追加されている↓",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 76
   },
@@ -2673,8 +3084,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef33780eb9542f117cf566149.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/273a501ef337803d879cc2d7157f3fe6/277a501ef33780eb9542f117cf566149.png",
+        "width": 1176,
+        "height": 526
+      }
     },
     "order": 0
   },
@@ -2685,21 +3101,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "このようにして、ブランチを分けて作業→ブランチを統合できます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "このようにして、ブランチを分けて作業→ブランチを統合できます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 77
   },
@@ -2710,57 +3130,63 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "orange_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "💡"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ちなみに、ブランチをマージする時によくブランチ同士が競合状態になることがあります。その時は、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "競合エラーの原因と解決方法",
-          "href": "/posts/curriculums/272a501ef33780c7a5e6fb2c06746bc3",
-          "mention": {
-            "content": {
-              "iconType": "external",
-              "iconUrl": "https://www.notion.so/icons/merge_red.svg",
-              "title": "競合エラーの原因と解決方法"
+      "type": "callout",
+      "callout": {
+        "color": "orange_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "ちなみに、ブランチをマージする時によくブランチ同士が競合状態になることがあります。その時は、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " で解説した解決方法でだいたい解決できます。",
-          "href": null
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "競合エラーの原因と解決方法",
+            "href": "/posts/curriculums/272a501ef33780c7a5e6fb2c06746bc3",
+            "mention": {
+              "content": {
+                "iconType": "external",
+                "iconUrl": "https://www.notion.so/icons/merge_red.svg",
+                "title": "競合エラーの原因と解決方法"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": true
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " で解説した解決方法でだいたい解決できます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
         }
-      ]
+      }
     },
     "order": 78
   },
@@ -2771,22 +3197,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "まとめ",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "まとめ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 79
   },
@@ -2796,7 +3226,9 @@
     "parentId": "273a501ef337803d879cc2d7157f3fe6",
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 80
   },
   {
@@ -2806,21 +3238,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ブランチとは、「安全に別作業をするための分岐ルート」。本線に影響を与えずに試したり改良できて、必要なときに合流させられる仕組み。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ブランチとは、「安全に別作業をするための分岐ルート」。本線に影響を与えずに試したり改良できて、必要なときに合流させられる仕組み。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 81
   },
@@ -2831,21 +3267,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "mainブランチには常に実行可能な状態（完成版）のコードを載せておきましょう。（修復不可能なエラーが出ても、いつでも実行可能な状態に戻ることができます。）",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "mainブランチには常に実行可能な状態（完成版）のコードを載せておきましょう。（修復不可能なエラーが出ても、いつでも実行可能な状態に戻ることができます。）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 82
   },
@@ -2856,8 +3296,11 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 83
   },
@@ -2867,7 +3310,9 @@
     "parentId": "273a501ef337803d879cc2d7157f3fe6",
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 84
   },
   {
@@ -2877,53 +3322,59 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "273a501ef337803d879cc2d7157f3fe6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "番外編→",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "リモートとローカルについて",
-          "href": "/posts/curriculums/277a501ef33780b786eee25597018d01",
-          "mention": {
-            "content": {
-              "iconType": "emoji",
-              "iconUrl": "🌐",
-              "title": "リモートとローカルについて"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "番外編→",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "リモートとローカルについて",
+            "href": "/posts/curriculums/277a501ef33780b786eee25597018d01",
+            "mention": {
+              "content": {
+                "iconType": "emoji",
+                "iconUrl": "🌐",
+                "title": "リモートとローカルについて"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": true
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 85
   }

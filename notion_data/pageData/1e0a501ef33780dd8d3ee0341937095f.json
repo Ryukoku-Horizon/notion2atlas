@@ -6,10 +6,13 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780dd8d3ee0341937095f",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "Cガイド"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Cガイド",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 0
   },
@@ -20,10 +23,13 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780dd8d3ee0341937095f",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "C++ガイド"
+      "type": "child_page",
+      "child_page": {
+        "parent": "C++ガイド",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 1
   },
@@ -34,10 +40,13 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780dd8d3ee0341937095f",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "C#ガイド"
+      "type": "child_page",
+      "child_page": {
+        "parent": "C#ガイド",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 2
   },
@@ -48,10 +57,13 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780dd8d3ee0341937095f",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "JAVAガイド"
+      "type": "child_page",
+      "child_page": {
+        "parent": "JAVAガイド",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 3
   },
@@ -62,10 +74,13 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780dd8d3ee0341937095f",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "Pythonガイド"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Pythonガイド",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 4
   },
@@ -76,10 +91,13 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780dd8d3ee0341937095f",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "Goガイド"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Goガイド",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 5
   },
@@ -90,10 +108,13 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780dd8d3ee0341937095f",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "JavaScriptガイド"
+      "type": "child_page",
+      "child_page": {
+        "parent": "JavaScriptガイド",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 6
   },
@@ -104,10 +125,13 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780dd8d3ee0341937095f",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "Node.jsガイド"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Node.jsガイド",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 7
   },
@@ -118,10 +142,13 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780dd8d3ee0341937095f",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "TypeScriptガイド"
+      "type": "child_page",
+      "child_page": {
+        "parent": "TypeScriptガイド",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 8
   },
@@ -132,8 +159,11 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780dd8d3ee0341937095f",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 9
   },
@@ -144,21 +174,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780dd8d3ee0341937095f",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "誤字脱字、不自然な表現があれば、発展班運営に連絡をお願い致します。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "誤字脱字、不自然な表現があれば、発展班運営に連絡をお願い致します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 10
   },
@@ -169,8 +203,11 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780dd8d3ee0341937095f",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 11
   }

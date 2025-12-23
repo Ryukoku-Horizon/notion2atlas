@@ -6,8 +6,11 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 0
   },
@@ -18,34 +21,39 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "✅",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "✅",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "概要",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "概要",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 1
   },
@@ -56,45 +64,51 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "このガイドは、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "このガイドは、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C++言語",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "C++言語",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "がどんな言語なのかを紹介し、「Hello, World!」を出力するところまでをわかりやすく解説する学習資料です。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "がどんな言語なのかを紹介し、「Hello, World!」を出力するところまでをわかりやすく解説する学習資料です。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -104,7 +118,9 @@
     "parentId": "1e0a501ef33780afba2ce028d73d0c32",
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 3
   },
   {
@@ -114,22 +130,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "1. C++言語とは？",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "1. C++言語とは？",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 4
   },
@@ -140,69 +160,77 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "✔️ C++は、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "✔️ C++は、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C言語を拡張",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "C言語を拡張",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "して作られた言語で、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "して作られた言語で、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "オブジェクト指向",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "オブジェクト指向",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "にも対応しています。\u003cbr\u003e\n✔️ ゲーム開発やシステム開発、競技プログラミングなど幅広い分野で使用されています。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "にも対応しています。\u003cbr\u003e\n✔️ ゲーム開発やシステム開発、競技プログラミングなど幅広い分野で使用されています。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 5
   },
@@ -213,33 +241,38 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "💡",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "💡",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "C++の特徴",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C++の特徴",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 6
   },
@@ -250,33 +283,38 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C言語の上位互換",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "C言語の上位互換",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "：C言語のコードがほとんどそのまま動くため、Cの知識も活かせます。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "：C言語のコードがほとんどそのまま動くため、Cの知識も活かせます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 7
   },
@@ -287,33 +325,38 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "オブジェクト指向",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "オブジェクト指向",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "：クラスや継承、ポリモーフィズムといった設計手法に対応しています。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "：クラスや継承、ポリモーフィズムといった設計手法に対応しています。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 8
   },
@@ -324,33 +367,38 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "高速で柔軟",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "高速で柔軟",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "：コンパイル後の実行速度が非常に速く、大規模なプログラムにも対応できます。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "：コンパイル後の実行速度が非常に速く、大規模なプログラムにも対応できます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 9
   },
@@ -361,33 +409,38 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "細かい制御が可能",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "細かい制御が可能",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "：メモリ管理など低レベルな操作もC同様に行えます。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "：メモリ管理など低レベルな操作もC同様に行えます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 10
   },
@@ -397,7 +450,9 @@
     "parentId": "1e0a501ef33780afba2ce028d73d0c32",
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 11
   },
   {
@@ -407,22 +462,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "1-2. 開発環境の構築",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "1-2. 開発環境の構築",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 12
   },
@@ -433,22 +492,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "(1) WindowsでのC++開発環境構築 (おすすめ)",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "(1) WindowsでのC++開発環境構築 (おすすめ)",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 13
   },
@@ -458,7 +521,9 @@
     "parentId": "1e0a501ef33780afba2ce028d73d0c32",
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 14
   },
   {
@@ -467,7 +532,9 @@
     "parentId": "1e0a501ef33781779114f386be552923",
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 0
   },
   {
@@ -477,33 +544,38 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Visual Studio",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Visual Studio",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "：C++向けの機能が充実したMicrosoft公式IDE",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "：C++向けの機能が充実したMicrosoft公式IDE",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -514,33 +586,38 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "→ ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "→ ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Visual Studio公式サイト",
-          "href": "https://visualstudio.microsoft.com/ja/"
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Visual Studio公式サイト",
+            "href": "https://visualstudio.microsoft.com/ja/",
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -550,7 +627,9 @@
     "parentId": "1e0a501ef33781779114f386be552923",
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 1
   },
   {
@@ -560,33 +639,38 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "VS Codeの設定",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "VS Codeの設定",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "：",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -597,45 +681,51 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C++拡張機能 (",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "C++拡張機能 (",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C/C++",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "C/C++",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": " by Microsoft) をインストール",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " by Microsoft) をインストール",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -646,69 +736,77 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コンパイラとして",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "コンパイラとして",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "MinGW",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "MinGW",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "や",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "や",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "MSVC",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "MSVC",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を利用",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を利用",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -719,22 +817,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "(2) Macでの開発環境構築（VS Code）",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "(2) Macでの開発環境構築（VS Code）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 15
   },
@@ -744,7 +846,9 @@
     "parentId": "1e0a501ef33780afba2ce028d73d0c32",
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 16
   },
   {
@@ -753,7 +857,9 @@
     "parentId": "1e0a501ef33781d3a44fe0086aa488bf",
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 0
   },
   {
@@ -763,33 +869,38 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "VS Codeの設定",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "VS Codeの設定",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "：",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -800,21 +911,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "拡張機能：「C/C++」と「Code Runner」をインストール",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "拡張機能：「C/C++」と「Code Runner」をインストール",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -825,8 +940,11 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 1
   },
@@ -836,7 +954,9 @@
     "parentId": "1e0a501ef33781d3a44fe0086aa488bf",
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 1
   },
   {
@@ -846,33 +966,38 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コンパイラ（g++）のインストール",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "コンパイラ（g++）のインストール",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "：",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -883,22 +1008,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "caption": [],
-      "language": "bash",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "brew install gcc",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "bash",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "brew install gcc",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -909,33 +1038,38 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実行方法（ターミナル）",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "実行方法（ターミナル）",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "：",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 17
   },
@@ -946,22 +1080,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "caption": [],
-      "language": "bash",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "g++ example.cpp -o example\n./example",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "bash",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "g++ example.cpp -o example\n./example",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -972,45 +1110,51 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "※ ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "※ ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "g++",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "g++",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "はC++用のコンパイラです。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "はC++用のコンパイラです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 18
   },
@@ -1020,7 +1164,9 @@
     "parentId": "1e0a501ef33780afba2ce028d73d0c32",
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 19
   },
   {
@@ -1030,22 +1176,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "1-3. はじめてのプログラム - \"Hello, World!\"",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "1-3. はじめてのプログラム - \"Hello, World!\"",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 20
   },
@@ -1056,21 +1206,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "C++で一番シンプルなプログラム、「Hello, World!」を見てみましょう！",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C++で一番シンプルなプログラム、「Hello, World!」を見てみましょう！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 21
   },
@@ -1081,22 +1235,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Hello Worldを表示するコード",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Hello Worldを表示するコード",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 22
   },
@@ -1107,22 +1265,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "caption": [],
-      "language": "c++",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "#include \u003ciostream\u003e\n\nint main() {\n    std::cout \u003c\u003c \"Hello, World!\" \u003c\u003c std::endl;\n    return 0;\n}",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "c++",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "#include \u003ciostream\u003e\n\nint main() {\n    std::cout \u003c\u003c \"Hello, World!\" \u003c\u003c std::endl;\n    return 0;\n}",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 23
   },
@@ -1133,21 +1295,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実行方法：",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実行方法：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 24
   },
@@ -1158,45 +1324,51 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ファイルを保存 ( ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ファイルを保存 ( ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "example.cpp",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "example.cpp",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "など )",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "など )",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 25
   },
@@ -1207,21 +1379,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ターミナルでコンパイル",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ターミナルでコンパイル",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 26
   },
@@ -1232,21 +1408,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実行",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実行",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 27
   },
@@ -1257,22 +1437,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実行結果：",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実行結果：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 28
   },
@@ -1283,22 +1467,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "caption": [],
-      "language": "plain text",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Hello, World!",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "plain text",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Hello, World!",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 29
   },
@@ -1309,22 +1497,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コード概説：",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コード概説：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 30
   },
@@ -1335,22 +1527,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "caption": [],
-      "language": "c++",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "#include \u003ciostream\u003e                     // 1. 入出力用ヘッダーを読み込み\n\nint main() {                           // 2. プログラムの開始点となるmain関数\n    std::cout \u003c\u003c \"Hello, World!\"       // 3. 出力ストリームで画面に表示\n              \u003c\u003c std::endl;            //    改行も一緒に出力\n    return 0;                          // 4. 正常終了を表す\n}",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "c++",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "#include \u003ciostream\u003e                     // 1. 入出力用ヘッダーを読み込み\n\nint main() {                           // 2. プログラムの開始点となるmain関数\n    std::cout \u003c\u003c \"Hello, World!\"       // 3. 出力ストリームで画面に表示\n              \u003c\u003c std::endl;            //    改行も一緒に出力\n    return 0;                          // 4. 正常終了を表す\n}",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 31
   },
@@ -1361,69 +1557,77 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C++では、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "C++では、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "#include \u003ciostream\u003e",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "#include \u003ciostream\u003e",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "で入出力のためのヘッダーを読み込み、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "で入出力のためのヘッダーを読み込み、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "std::cout",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "std::cout",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "で文字列を画面に表示します。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "で文字列を画面に表示します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 32
   },
@@ -1434,45 +1638,51 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "最後に",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "最後に",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "return 0;",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "return 0;",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "でプログラムの正常終了を示します。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "でプログラムの正常終了を示します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 33
   },
@@ -1483,8 +1693,11 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 34
   },
@@ -1495,49 +1708,55 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "💡"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C++は",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "C++は",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "手続き型 + オブジェクト指向",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "手続き型 + オブジェクト指向",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "のハイブリッド言語です。",
-          "href": null
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "のハイブリッド言語です。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
         }
-      ]
+      }
     },
     "order": 35
   },
@@ -1548,21 +1767,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780afba2ce028d73d0c32",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "まずは手続き的に書き、徐々にクラスや関数分割などに慣れていきましょう。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "まずは手続き的に書き、徐々にクラスや関数分割などに慣れていきましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   }

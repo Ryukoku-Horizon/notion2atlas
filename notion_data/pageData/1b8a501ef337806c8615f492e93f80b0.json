@@ -5,7 +5,9 @@
     "parentId": "1b8a501ef337806c8615f492e93f80b0",
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 0
   },
   {
@@ -15,21 +17,25 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Pythonの学習の第一歩として、好きな言葉を画面に表示する方法を学びましょう。次のようなプログラムを書いてみましょう。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Pythonの学習の第一歩として、好きな言葉を画面に表示する方法を学びましょう。次のようなプログラムを書いてみましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -40,27 +46,31 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "blue",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/code_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "blue",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "プログラム",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/code_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "プログラム",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 2
   },
@@ -71,22 +81,26 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "caption": [],
-      "language": "python",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "print(\"Hello World!\")",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "python",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "print(\"Hello World!\")",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -97,21 +111,25 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "書けたら、VSCode上部",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "書けたら、VSCode上部",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 3
   },
@@ -122,8 +140,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1b8a501ef337806c8615f492e93f80b0/1b8a501ef33781e4aa9fc0302b572134.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1b8a501ef337806c8615f492e93f80b0/1b8a501ef33781e4aa9fc0302b572134.png",
+        "width": 834,
+        "height": 60
+      }
     },
     "order": 4
   },
@@ -134,21 +157,25 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "の右にある再生ボタン(▷)を押すと実行できます。\nまた、この時のように何か作業が終わるごとに保存しておきましょう。（保存はWindowsなら Ctrl + S 、Macなら command + Shift + S）",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "の右にある再生ボタン(▷)を押すと実行できます。\nまた、この時のように何か作業が終わるごとに保存しておきましょう。（保存はWindowsなら Ctrl + S 、Macなら command + Shift + S）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 5
   },
@@ -159,45 +186,51 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実際に押してみると、以下のように「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "実際に押してみると、以下のように「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Hello World!",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Hello World!",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "」とVSCode下部のターミナルという部分に表示されます。（最後の青丸行の次行から黒丸行の前行までが実行結果で今回は一行です。）",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」とVSCode下部のターミナルという部分に表示されます。（最後の青丸行の次行から黒丸行の前行までが実行結果で今回は一行です。）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 6
   },
@@ -208,8 +241,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1b8a501ef337806c8615f492e93f80b0/1b8a501ef337816da7b6c170fceff89c.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1b8a501ef337806c8615f492e93f80b0/1b8a501ef337816da7b6c170fceff89c.png",
+        "width": 1090,
+        "height": 264
+      }
     },
     "order": 7
   },
@@ -220,33 +258,38 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Hello World!",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Hello World!",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "の部分を別の言葉に変えてみましょう。例えば、",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "の部分を別の言葉に変えてみましょう。例えば、",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 8
   },
@@ -257,27 +300,31 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "blue",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/code_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "blue",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "プログラム",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/code_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "プログラム",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 9
   },
@@ -288,22 +335,26 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "caption": [],
-      "language": "python",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "print(\"Hello Horizon!\")",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "python",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "print(\"Hello Horizon!\")",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -314,45 +365,51 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "保存をして実行してみると、このように「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "保存をして実行してみると、このように「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Hello Horizon!",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Hello Horizon!",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "」が表示されます。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」が表示されます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 10
   },
@@ -363,8 +420,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1b8a501ef337806c8615f492e93f80b0/1b8a501ef33781dcb617f164505fdf1d.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1b8a501ef337806c8615f492e93f80b0/1b8a501ef33781dcb617f164505fdf1d.png",
+        "width": 1088,
+        "height": 346
+      }
     },
     "order": 11
   },
@@ -375,45 +437,51 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "このように、任意の文字や言葉を画面に表示することをプログラミングでは",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "このように、任意の文字や言葉を画面に表示することをプログラミングでは",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "出力",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "出力",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "といいます。つまり、一最初のプログラムは「Hello World!を出力した」と言う事ができます。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "といいます。つまり、一最初のプログラムは「Hello World!を出力した」と言う事ができます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 12
   },
@@ -424,117 +492,129 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "また、今回",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "また、今回",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "print",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "print",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "という言葉をプログラムに書いて出力をしました。これを ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "という言葉をプログラムに書いて出力をしました。これを ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "print関数",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "print関数",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " と呼びます。",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " と呼びます。",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "print関数",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "print関数",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "は続く",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "は続く",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "()",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "()",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "の中に入っている言葉を出力する働きを持ちます。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "の中に入っている言葉を出力する働きを持ちます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 13
   },
@@ -545,33 +625,38 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "()",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "()",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "の中身を様々な言葉に置き換えて、実行をしてみましょう。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "の中身を様々な言葉に置き換えて、実行をしてみましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 14
   },
@@ -582,8 +667,11 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 15
   },
@@ -594,25 +682,29 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "green_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "📌"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "yellow",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "プログラミングは実践あるのみです！",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "green_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "yellow",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "プログラミングは実践あるのみです！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "📌"
         }
-      ]
+      }
     },
     "order": 16
   },
@@ -623,8 +715,11 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 17
   },
@@ -635,45 +730,51 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ここで、これからプログラミングをしていくうえで一つ注意点です。それは、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ここで、これからプログラミングをしていくうえで一つ注意点です。それは、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "プログラム上に全角文字が存在してはいけない",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "プログラム上に全角文字が存在してはいけない",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ということです。なぜダメなのか簡単にいうと、半角文字と全角文字は意味的には同じでもパソコンにとっては全くの別文字だからです。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ということです。なぜダメなのか簡単にいうと、半角文字と全角文字は意味的には同じでもパソコンにとっては全くの別文字だからです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 18
   },
@@ -684,49 +785,55 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "blue_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "☝"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "callout",
+      "callout": {
+        "color": "blue_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "その違いをわかりやすくまとめているのが",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "その違いをわかりやすくまとめているのが",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "このサイト",
+            "href": "https://ruby-pc.com/hanzenkaku/",
+            "is_same_bp": false
           },
-          "plain_text": "このサイト",
-          "href": "https://ruby-pc.com/hanzenkaku/"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "です。",
-          "href": null
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "です。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "☝"
         }
-      ]
+      }
     },
     "order": 19
   },
@@ -737,21 +844,25 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "では、以下のプログラムを見てみてください。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "では、以下のプログラムを見てみてください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 20
   },
@@ -762,27 +873,31 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "blue",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/code_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "blue",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "プログラム",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/code_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "プログラム",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 21
   },
@@ -793,22 +908,26 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "caption": [],
-      "language": "python",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "print（\"Hello Horizon!\"）",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "python",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "print（\"Hello Horizon!\"）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -819,69 +938,77 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "見た目ではわかりにくいですが、このプログラムは",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "見た目ではわかりにくいですが、このプログラムは",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "（",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "（",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " と ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " と ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "）",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "）",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "が全角文字になっています。これで実行をすると…",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "が全角文字になっています。これで実行をすると…",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 22
   },
@@ -892,8 +1019,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1b8a501ef337806c8615f492e93f80b0/1b8a501ef33781b080bcd291183e889f.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1b8a501ef337806c8615f492e93f80b0/1b8a501ef33781b080bcd291183e889f.png",
+        "width": 1096,
+        "height": 198
+      }
     },
     "order": 23
   },
@@ -904,45 +1036,51 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "いつもの青丸の行に赤丸の行としてこのようなエラーが出ていしまいます。この他にも、全角の空白によってエラーが引き起こされることもあります。ぜひ意識してみてください。ただし、例外として ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "いつもの青丸の行に赤丸の行としてこのようなエラーが出ていしまいます。この他にも、全角の空白によってエラーが引き起こされることもあります。ぜひ意識してみてください。ただし、例外として ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "””",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "””",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "（ダブルクオーテーション）で括られている中身には全角文字があっても問題ありません。\n　　↓ これはOK",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "（ダブルクオーテーション）で括られている中身には全角文字があっても問題ありません。\n　　↓ これはOK",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 24
   },
@@ -953,27 +1091,31 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "blue",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/code_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "blue",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "プログラム",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/code_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "プログラム",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 25
   },
@@ -984,22 +1126,26 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "caption": [],
-      "language": "python",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "print(\"こんにちは！\")",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "python",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "print(\"こんにちは！\")",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -1010,21 +1156,25 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "これを実行してみると…",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "これを実行してみると…",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 26
   },
@@ -1035,8 +1185,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1b8a501ef337806c8615f492e93f80b0/1b8a501ef3378159a7d3e66cd8b01286.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1b8a501ef337806c8615f492e93f80b0/1b8a501ef3378159a7d3e66cd8b01286.png",
+        "width": 1092,
+        "height": 622
+      }
     },
     "order": 27
   },
@@ -1047,21 +1202,25 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "というようにエラーしっかりと実行されます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "というようにエラーしっかりと実行されます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 28
   },
@@ -1072,8 +1231,11 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 29
   },
@@ -1084,21 +1246,25 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1b8a501ef337806c8615f492e93f80b0",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "次回(2.変数)",
-          "href": "/posts/curriculums/1b8a501ef33780f1af62f3552733a81d"
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "次回(2.変数)",
+            "href": "/posts/curriculums/1b8a501ef33780f1af62f3552733a81d",
+            "is_same_bp": true
+          }
+        ]
+      }
     },
     "order": 0
   }

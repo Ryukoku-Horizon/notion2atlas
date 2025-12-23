@@ -6,22 +6,26 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef33780a8846dcdc0f52c57b8",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "1. VSCodeとは？",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "1. VSCodeとは？",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 0
   },
@@ -31,7 +35,9 @@
     "parentId": "1d8a501ef33780a8846dcdc0f52c57b8",
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef33780a8846dcdc0f52c57b8",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 1
   },
   {
@@ -41,8 +47,13 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef33780a8846dcdc0f52c57b8",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1d8a501ef33780a8846dcdc0f52c57b8/1d8a501ef3378159a63ad166e5969258.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1d8a501ef33780a8846dcdc0f52c57b8/1d8a501ef3378159a63ad166e5969258.png",
+        "width": 2880,
+        "height": 1728
+      }
     },
     "order": 2
   },
@@ -53,21 +64,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef33780a8846dcdc0f52c57b8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "これがVSCodeです！",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "これがVSCodeです！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 3
   },
@@ -78,21 +93,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef33780a8846dcdc0f52c57b8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Visual Studio Code（略称：VSCode）は、プログラムを書くためのアプリであり、Pythonをはじめ、他さまざまな言語の開発環境として利用できます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Visual Studio Code（略称：VSCode）は、プログラムを書くためのアプリであり、Pythonをはじめ、他さまざまな言語の開発環境として利用できます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 4
   },
@@ -103,8 +122,11 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef33780a8846dcdc0f52c57b8",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 5
   },
@@ -115,21 +137,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef33780a8846dcdc0f52c57b8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "VSCodeには、以下のような便利な機能が備わっています。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "VSCodeには、以下のような便利な機能が備わっています。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 6
   },
@@ -140,11 +166,14 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef33780a8846dcdc0f52c57b8",
     "data": {
-      "color": "blue_background",
-      "icon": {
-        "type": ""
-      },
-      "parent": []
+      "type": "callout",
+      "callout": {
+        "color": "blue_background",
+        "parent": [],
+        "icon": {
+          "type": ""
+        }
+      }
     },
     "order": 7
   },
@@ -155,33 +184,38 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef33780a8846dcdc0f52c57b8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "エディターと実行結果を同じ画面で確認できる",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "エディターと実行結果を同じ画面で確認できる",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -192,21 +226,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef33780a8846dcdc0f52c57b8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ワンクリックでプログラム実行が可能",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ワンクリックでプログラム実行が可能",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -217,21 +255,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef33780a8846dcdc0f52c57b8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "エクスプローラーを開かずにファイル管理ができる",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "エクスプローラーを開かずにファイル管理ができる",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -242,33 +284,38 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef33780a8846dcdc0f52c57b8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "豊富な拡張機能で自分好みにカスタマイズできる",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "豊富な拡張機能で自分好みにカスタマイズできる",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 3
   },
@@ -279,21 +326,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef33780a8846dcdc0f52c57b8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "では、さっそくインストールしてみましょう！\n",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "では、さっそくインストールしてみましょう！\n",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 8
   },
@@ -304,8 +355,11 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef33780a8846dcdc0f52c57b8",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 9
   },
@@ -316,21 +370,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef33780a8846dcdc0f52c57b8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "と、その前にWindowsとMacでVSCodeのダウンロード方法が違います。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "と、その前にWindowsとMacでVSCodeのダウンロード方法が違います。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 10
   },
@@ -341,21 +399,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef33780a8846dcdc0f52c57b8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "以下にWindowsユーザーとMacユーザー別のページがあるのでクリックしてください。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "以下にWindowsユーザーとMacユーザー別のページがあるのでクリックしてください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 11
   },
@@ -366,27 +428,31 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef33780a8846dcdc0f52c57b8",
     "data": {
-      "color": "yellow_background",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/book-closed_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "yellow_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "パソコン別",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/book-closed_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "パソコン別",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 12
   },
@@ -397,10 +463,13 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef33780a8846dcdc0f52c57b8",
     "data": {
-      "coverUrl": "https://www.notion.so/images/page-cover/met_fitz_henry_lane.jpg",
-      "iconType": "emoji",
-      "iconUrl": "🪟",
-      "parent": "VSCodeのチュートリアル：Windows"
+      "type": "child_page",
+      "child_page": {
+        "parent": "VSCodeのチュートリアル：Windows",
+        "iconType": "emoji",
+        "iconUrl": "🪟",
+        "coverUrl": "https://www.notion.so/images/page-cover/met_fitz_henry_lane.jpg"
+      }
     },
     "order": 0
   },
@@ -411,10 +480,13 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef33780a8846dcdc0f52c57b8",
     "data": {
-      "coverUrl": "https://www.notion.so/images/page-cover/nasa_great_sandy_desert_australia.jpg",
-      "iconType": "emoji",
-      "iconUrl": "🍎",
-      "parent": "VSCodeのチュートリアル：Mac"
+      "type": "child_page",
+      "child_page": {
+        "parent": "VSCodeのチュートリアル：Mac",
+        "iconType": "emoji",
+        "iconUrl": "🍎",
+        "coverUrl": "https://www.notion.so/images/page-cover/nasa_great_sandy_desert_australia.jpg"
+      }
     },
     "order": 1
   },
@@ -425,8 +497,11 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef33780a8846dcdc0f52c57b8",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 13
   }

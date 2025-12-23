@@ -6,53 +6,59 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "256a501ef33780a9a46fc17219f411da",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "セットアップがまだの方は、こちら（→",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Git、GitHubセットアップ",
-          "href": "/posts/curriculums/1ada501ef3378122b26fd5ed2f5d6a1b",
-          "mention": {
-            "content": {
-              "iconType": "external",
-              "iconUrl": "https://www.notion.so/icons/gear_orange.svg",
-              "title": "Git、GitHubセットアップ"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "セットアップがまだの方は、こちら（→",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " ）でセットアップの方法を解説しています。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Git、GitHubセットアップ",
+            "href": "/posts/curriculums/1ada501ef3378122b26fd5ed2f5d6a1b",
+            "mention": {
+              "content": {
+                "iconType": "external",
+                "iconUrl": "https://www.notion.so/icons/gear_orange.svg",
+                "title": "Git、GitHubセットアップ"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ）でセットアップの方法を解説しています。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -63,22 +69,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "256a501ef33780a9a46fc17219f411da",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "必須ページ",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "必須ページ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 1
   },
@@ -88,7 +98,9 @@
     "parentId": "256a501ef33780a9a46fc17219f411da",
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "256a501ef33780a9a46fc17219f411da",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 2
   },
   {
@@ -98,10 +110,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "256a501ef33780a9a46fc17219f411da",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "❓",
-      "parent": "Git、Githubとは "
+      "type": "child_page",
+      "child_page": {
+        "parent": "Git、Githubとは ",
+        "iconType": "emoji",
+        "iconUrl": "❓",
+        "coverUrl": ""
+      }
     },
     "order": 3
   },
@@ -112,10 +127,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "256a501ef33780a9a46fc17219f411da",
     "data": {
-      "coverUrl": "https://www.notion.so/images/page-cover/nasa_fingerprints_of_water_on_the_sand.jpg",
-      "iconType": "emoji",
-      "iconUrl": "🔰",
-      "parent": "Git,GitHubのはじめ方"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Git,GitHubのはじめ方",
+        "iconType": "emoji",
+        "iconUrl": "🔰",
+        "coverUrl": "https://www.notion.so/images/page-cover/nasa_fingerprints_of_water_on_the_sand.jpg"
+      }
     },
     "order": 4
   },
@@ -126,10 +144,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "256a501ef33780a9a46fc17219f411da",
     "data": {
-      "coverUrl": "https://www.notion.so/images/page-cover/met_terracotta_funerary_plaque.jpg",
-      "iconType": "emoji",
-      "iconUrl": "👥",
-      "parent": "チーム開発での使い方"
+      "type": "child_page",
+      "child_page": {
+        "parent": "チーム開発での使い方",
+        "iconType": "emoji",
+        "iconUrl": "👥",
+        "coverUrl": "https://www.notion.so/images/page-cover/met_terracotta_funerary_plaque.jpg"
+      }
     },
     "order": 5
   },
@@ -140,10 +161,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "256a501ef33780a9a46fc17219f411da",
     "data": {
-      "coverUrl": "https://www.notion.so/images/page-cover/met_paul_signac.jpg",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/merge_red.svg",
-      "parent": "競合エラーの原因と解決方法"
+      "type": "child_page",
+      "child_page": {
+        "parent": "競合エラーの原因と解決方法",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/merge_red.svg",
+        "coverUrl": "https://www.notion.so/images/page-cover/met_paul_signac.jpg"
+      }
     },
     "order": 6
   },
@@ -154,10 +178,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "256a501ef33780a9a46fc17219f411da",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/branch-merge_orange.svg",
-      "parent": "ブランチを分ける"
+      "type": "child_page",
+      "child_page": {
+        "parent": "ブランチを分ける",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/branch-merge_orange.svg",
+        "coverUrl": ""
+      }
     },
     "order": 7
   },
@@ -168,22 +195,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "256a501ef33780a9a46fc17219f411da",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "任意ページ",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "任意ページ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 8
   },
@@ -193,7 +224,9 @@
     "parentId": "256a501ef33780a9a46fc17219f411da",
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "256a501ef33780a9a46fc17219f411da",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 9
   },
   {
@@ -203,10 +236,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "256a501ef33780a9a46fc17219f411da",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "🌐",
-      "parent": "リモートとローカルについて"
+      "type": "child_page",
+      "child_page": {
+        "parent": "リモートとローカルについて",
+        "iconType": "emoji",
+        "iconUrl": "🌐",
+        "coverUrl": ""
+      }
     },
     "order": 10
   },
@@ -217,10 +253,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "256a501ef33780a9a46fc17219f411da",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/new-document_orange.svg",
-      "parent": "Push時のコマンドについて"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Push時のコマンドについて",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/new-document_orange.svg",
+        "coverUrl": ""
+      }
     },
     "order": 11
   },
@@ -231,10 +270,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "256a501ef33780a9a46fc17219f411da",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/archive_orange.svg",
-      "parent": "ステージとコミットについて"
+      "type": "child_page",
+      "child_page": {
+        "parent": "ステージとコミットについて",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/archive_orange.svg",
+        "coverUrl": ""
+      }
     },
     "order": 12
   },
@@ -245,10 +287,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "256a501ef33780a9a46fc17219f411da",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/database_orange.svg",
-      "parent": "リポジトリについて"
+      "type": "child_page",
+      "child_page": {
+        "parent": "リポジトリについて",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/database_orange.svg",
+        "coverUrl": ""
+      }
     },
     "order": 13
   },
@@ -259,10 +304,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "256a501ef33780a9a46fc17219f411da",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/bomb_orange.svg",
-      "parent": "not a git repositoryエラーについて"
+      "type": "child_page",
+      "child_page": {
+        "parent": "not a git repositoryエラーについて",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/bomb_orange.svg",
+        "coverUrl": ""
+      }
     },
     "order": 14
   },
@@ -273,8 +321,11 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "256a501ef33780a9a46fc17219f411da",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 15
   }

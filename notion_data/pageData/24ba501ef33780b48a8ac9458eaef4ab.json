@@ -1,36 +1,31 @@
 [
   {
-    "id": "24ba501ef3378144a184d9dfeafaa873",
-    "type": "synced_block",
-    "parentId": "24ba501ef33780b48a8ac9458eaef4ab",
-    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "pageId": "24ba501ef33780b48a8ac9458eaef4ab",
-    "data": "4ff4c5f6-a94b-4cb6-bde6-ef0068b9286c",
-    "order": 0
-  },
-  {
     "id": "24ba501ef337816393dae4a7f9ac5384",
     "type": "heading_2",
     "parentId": "24ba501ef33780b48a8ac9458eaef4ab",
     "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
     "pageId": "24ba501ef33780b48a8ac9458eaef4ab",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "問題1",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "問題1",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 1
   },
@@ -41,57 +36,64 @@
     "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
     "pageId": "24ba501ef33780b48a8ac9458eaef4ab",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "\u003ch1\u003e",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "\u003ch1\u003e",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "タグ～",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "タグ～",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "\u003ch6\u003e",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "\u003ch6\u003e",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "タグまでを使用して、以下のように6つのサイズの見出しを並べてください。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "タグまでを使用して、以下のように6つのサイズの見出しを並べてください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -102,27 +104,31 @@
     "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
     "pageId": "24ba501ef33780b48a8ac9458eaef4ab",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/photo-landscape_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "お手本画像",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/photo-landscape_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "お手本画像",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 3
   },
@@ -133,8 +139,13 @@
     "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
     "pageId": "24ba501ef33780b48a8ac9458eaef4ab",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/24ba501ef33780b48a8ac9458eaef4ab/24ba501ef33781c9a439c7c440ea59a8.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/24ba501ef33780b48a8ac9458eaef4ab/24ba501ef33781c9a439c7c440ea59a8.png",
+        "width": 1186,
+        "height": 691
+      }
     },
     "order": 0
   },
@@ -145,22 +156,26 @@
     "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
     "pageId": "24ba501ef33780b48a8ac9458eaef4ab",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "問題2",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "問題2",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 4
   },
@@ -171,33 +186,38 @@
     "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
     "pageId": "24ba501ef33780b48a8ac9458eaef4ab",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "\u003cp\u003e",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "\u003cp\u003e",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "タグを四つ使用して、以下のような複数の段落を持つページを作ってください。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "タグを四つ使用して、以下のような複数の段落を持つページを作ってください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 5
   },
@@ -208,27 +228,31 @@
     "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
     "pageId": "24ba501ef33780b48a8ac9458eaef4ab",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/photo-landscape_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "お手本画像",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/photo-landscape_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "お手本画像",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 6
   },
@@ -239,8 +263,13 @@
     "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
     "pageId": "24ba501ef33780b48a8ac9458eaef4ab",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/24ba501ef33780b48a8ac9458eaef4ab/24ba501ef337811c9a73f32d0671801b.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/24ba501ef33780b48a8ac9458eaef4ab/24ba501ef337811c9a73f32d0671801b.png",
+        "width": 1200,
+        "height": 332
+      }
     },
     "order": 0
   },
@@ -251,8 +280,11 @@
     "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
     "pageId": "24ba501ef33780b48a8ac9458eaef4ab",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 7
   },
@@ -263,53 +295,59 @@
     "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
     "pageId": "24ba501ef33780b48a8ac9458eaef4ab",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "次：",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "演習問題2",
-          "href": "/posts/curriculums/24ba501ef337806390e9d0177ad55025",
-          "mention": {
-            "content": {
-              "iconType": "emoji",
-              "iconUrl": "✏️",
-              "title": "演習問題2"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "次：",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "演習問題2",
+            "href": "/posts/curriculums/24ba501ef337806390e9d0177ad55025",
+            "mention": {
+              "content": {
+                "iconType": "emoji",
+                "iconUrl": "✏️",
+                "title": "演習問題2"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": true
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 8
   }

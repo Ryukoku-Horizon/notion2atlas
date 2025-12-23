@@ -6,21 +6,25 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef3378033aba3e2b9e036eacf",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ここでは、Dockerについて解説します。できるだけ平易の言葉を使ってわかりやすく解説します！",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ここでは、Dockerについて解説します。できるだけ平易の言葉を使ってわかりやすく解説します！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -31,21 +35,25 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef3378033aba3e2b9e036eacf",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "セットアップ",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "セットアップ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -56,10 +64,13 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef3378033aba3e2b9e036eacf",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/arrow-down-line_blue.svg",
-      "parent": "Dockerのインストール"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Dockerのインストール",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/arrow-down-line_blue.svg",
+        "coverUrl": ""
+      }
     },
     "order": 0
   },
@@ -70,21 +81,25 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef3378033aba3e2b9e036eacf",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "基礎編",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "基礎編",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -95,10 +110,13 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef3378033aba3e2b9e036eacf",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/question-mark_blue.svg",
-      "parent": "Dockerとは？"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Dockerとは？",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/question-mark_blue.svg",
+        "coverUrl": ""
+      }
     },
     "order": 0
   },
@@ -109,10 +127,13 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef3378033aba3e2b9e036eacf",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/photo-landscape_blue.svg",
-      "parent": "イメージとコンテナについて"
+      "type": "child_page",
+      "child_page": {
+        "parent": "イメージとコンテナについて",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/photo-landscape_blue.svg",
+        "coverUrl": ""
+      }
     },
     "order": 1
   },
@@ -123,21 +144,25 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef3378033aba3e2b9e036eacf",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実践編",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実践編",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 3
   },
@@ -148,10 +173,13 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef3378033aba3e2b9e036eacf",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/package_blue.svg",
-      "parent": "コンテナ起動までの流れ"
+      "type": "child_page",
+      "child_page": {
+        "parent": "コンテナ起動までの流れ",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/package_blue.svg",
+        "coverUrl": ""
+      }
     },
     "order": 0
   }

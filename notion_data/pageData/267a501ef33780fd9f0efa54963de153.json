@@ -6,21 +6,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "このページでは、複数ページを扱うアプリを作るうえで必要な知識であるルーティングについて説明するための前知識を説明します。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "このページでは、複数ページを扱うアプリを作るうえで必要な知識であるルーティングについて説明するための前知識を説明します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -30,7 +34,9 @@
     "parentId": "267a501ef33780fd9f0efa54963de153",
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 1
   },
   {
@@ -40,22 +46,26 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ルーティングとは",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ルーティングとは",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 2
   },
@@ -65,7 +75,9 @@
     "parentId": "267a501ef33780fd9f0efa54963de153",
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 3
   },
   {
@@ -75,21 +87,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ルーティングとは、複数のページ間を移動できるように繋げることです。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ルーティングとは、複数のページ間を移動できるように繋げることです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 4
   },
@@ -100,21 +116,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ルーティングを実装することで、より規模の大きいアプリを作ることが可能になります。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ルーティングを実装することで、より規模の大きいアプリを作ることが可能になります。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 5
   },
@@ -125,34 +145,39 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "flet create",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "flet create",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コマンド",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンド",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 6
   },
@@ -162,7 +187,9 @@
     "parentId": "267a501ef33780fd9f0efa54963de153",
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 7
   },
   {
@@ -172,45 +199,51 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "まず、説明をするうえで共通の認識を持ってもらうために",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "まず、説明をするうえで共通の認識を持ってもらうために",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "flet create",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "flet create",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コマンドで作ったアプリの雛形を題材に話を進めていきます。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンドで作ったアプリの雛形を題材に話を進めていきます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 8
   },
@@ -221,21 +254,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "CLI(ターミナルなど)にて、",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "CLI(ターミナルなど)にて、",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 9
   },
@@ -246,22 +283,26 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "caption": [],
-      "language": "plain text",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "flet create 保存する名前",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "plain text",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "flet create 保存する名前",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 10
   },
@@ -272,21 +313,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "と打つと、",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "と打つと、",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 11
   },
@@ -297,22 +342,26 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "caption": [],
-      "language": "plain text",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "保存する名前\n\t├─ src\n\t│  ├─ assets\n\t│  │  ├─ icon.png\n\t│  │  └─ splash_android.png\n\t│  └─ main.py\n\t├─ .gitignore\n\t├─ pyproject.toml\n\t└─ README.md",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "plain text",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "保存する名前\n\t├─ src\n\t│  ├─ assets\n\t│  │  ├─ icon.png\n\t│  │  └─ splash_android.png\n\t│  └─ main.py\n\t├─ .gitignore\n\t├─ pyproject.toml\n\t└─ README.md",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 12
   },
@@ -323,21 +372,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "という構造のフォルダができます（「保存する名前」部分の文字列は任意）。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "という構造のフォルダができます（「保存する名前」部分の文字列は任意）。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 13
   },
@@ -348,21 +401,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "この中の「main.py」では、",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "この中の「main.py」では、",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 14
   },
@@ -373,22 +430,26 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "caption": [],
-      "language": "python",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "import flet as ft\n\n\ndef main(page: ft.Page):\n    counter = ft.Text(\"0\", size=50, data=0)\n\n    def increment_click(e):\n        counter.data += 1\n        counter.value = str(counter.data)\n        counter.update()\n\n    page.floating_action_button = ft.FloatingActionButton(\n        icon=ft.Icons.ADD, on_click=increment_click\n    )\n    page.add(\n        ft.SafeArea(\n            ft.Container(\n                counter,\n                alignment=ft.alignment.center,\n            ),\n            expand=True,\n        )\n    )\n\n\nft.app(main)\n",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "python",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "import flet as ft\n\n\ndef main(page: ft.Page):\n    counter = ft.Text(\"0\", size=50, data=0)\n\n    def increment_click(e):\n        counter.data += 1\n        counter.value = str(counter.data)\n        counter.update()\n\n    page.floating_action_button = ft.FloatingActionButton(\n        icon=ft.Icons.ADD, on_click=increment_click\n    )\n    page.add(\n        ft.SafeArea(\n            ft.Container(\n                counter,\n                alignment=ft.alignment.center,\n            ),\n            expand=True,\n        )\n    )\n\n\nft.app(main)\n",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 15
   },
@@ -399,21 +460,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "という内容のコードが生成されます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "という内容のコードが生成されます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 16
   },
@@ -424,21 +489,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "以下では、このコードをもとに説明をしていきます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "以下では、このコードをもとに説明をしていきます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 17
   },
@@ -449,22 +518,26 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Viewコントロール\n（ページを管理するコントロール）",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Viewコントロール\n（ページを管理するコントロール）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 18
   },
@@ -474,7 +547,9 @@
     "parentId": "267a501ef33780fd9f0efa54963de153",
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 19
   },
   {
@@ -484,22 +559,26 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Viewコントロールとは",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Viewコントロールとは",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 20
   },
@@ -509,7 +588,9 @@
     "parentId": "267a501ef33780fd9f0efa54963de153",
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 21
   },
   {
@@ -519,21 +600,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Fletアプリにおいて、「1ページ」に相当するのがViewコントロールです。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Fletアプリにおいて、「1ページ」に相当するのがViewコントロールです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 22
   },
@@ -544,21 +629,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "家全体がアプリ(Page)だとすると、Viewはその中にある個々の「部屋」にあたります。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "家全体がアプリ(Page)だとすると、Viewはその中にある個々の「部屋」にあたります。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 23
   },
@@ -569,21 +658,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実行して見えている画面は、このViewの一つにすぎません。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実行して見えている画面は、このViewの一つにすぎません。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 24
   },
@@ -594,21 +687,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "そして、先ほど作ったコード中には書いていないものの、内部的には使われています。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "そして、先ほど作ったコード中には書いていないものの、内部的には使われています。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 25
   },
@@ -619,8 +716,11 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 26
   },
@@ -631,21 +731,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "では、実際に書いて使うとするとどのようにするのでしょうか？",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "では、実際に書いて使うとするとどのようにするのでしょうか？",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 27
   },
@@ -656,21 +760,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "それは以下のようになります（太字の部分が変更があった部分）。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "それは以下のようになります（太字の部分が変更があった部分）。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 28
   },
@@ -681,46 +789,52 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "caption": [],
-      "language": "python",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "code",
+      "code": {
+        "language": "python",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "import flet as ft\n\n\ndef main(page: ft.Page):\n    counter = ft.Text(\"0\", size=50, data=0)\n\n    def increment_click(e):\n        counter.data += 1\n        counter.value = str(counter.data)\n        counter.update()\n\n  ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "import flet as ft\n\n\ndef main(page: ft.Page):\n    counter = ft.Text(\"0\", size=50, data=0)\n\n    def increment_click(e):\n        counter.data += 1\n        counter.value = str(counter.data)\n        counter.update()\n\n  ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "  home_view = ft.View(\n        route=\"/\",\n        controls=[\n            ft.SafeArea(\n                ft.Container(\n                    counter,\n                    alignment=ft.alignment.center,\n                ),  #\n                expand=True,\n            ) \n        ],\n        floating_action_button=ft.FloatingActionButton(\n            icon=ft.Icons.ADD, on_click=increment_click\n        )\n    )\n    page.views.append(home_view)\n    page.update()",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "  home_view = ft.View(\n        route=\"/\",\n        controls=[\n            ft.SafeArea(\n                ft.Container(\n                    counter,\n                    alignment=ft.alignment.center,\n                ),  #\n                expand=True,\n            ) \n        ],\n        floating_action_button=ft.FloatingActionButton(\n            icon=ft.Icons.ADD, on_click=increment_click\n        )\n    )\n    page.views.append(home_view)\n    page.update()",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "\n\nft.app(main)\n",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "\n\nft.app(main)\n",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 29
   },
@@ -731,21 +845,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "元のコードとの相違点を比べてみましょう。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "元のコードとの相違点を比べてみましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 30
   },
@@ -755,7 +873,9 @@
     "parentId": "267a501ef33780fd9f0efa54963de153",
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 31
   },
   {
@@ -765,93 +885,103 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "page.add",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "page.add",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」に書いていたコントロールを",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "」に書いていたコントロールを",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "View",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "View",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "の「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "の「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "controls",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "controls",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "」プロパティに入れている。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」プロパティに入れている。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 32
   },
@@ -862,93 +992,103 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "page.floating_action_button",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "page.floating_action_button",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」に書かれていたコントロールを",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "」に書かれていたコントロールを",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "View",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "View",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "の「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "の「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "floating_action_button",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "floating_action_button",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "」プロパティに入れている。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」プロパティに入れている。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 33
   },
@@ -959,45 +1099,51 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ページの内部識別用の名前となる「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ページの内部識別用の名前となる「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "route",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "route",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "」プロパティを設定している。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」プロパティを設定している。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 34
   },
@@ -1008,93 +1154,103 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "page.add",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "page.add",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」部分が「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "」部分が「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "page.views.append(home_view)",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "page.views.append(home_view)",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」と「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "」と「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "page.update()",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "page.update()",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "」に変更されている。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」に変更されている。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 35
   },
@@ -1104,7 +1260,9 @@
     "parentId": "267a501ef33780fd9f0efa54963de153",
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 36
   },
   {
@@ -1114,21 +1272,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": " について、これはページ内の内装といったイメージで、今までよく使ってきたコントロールを使って見た目や機能を追加します。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " について、これはページ内の内装といったイメージで、今までよく使ってきたコントロールを使って見た目や機能を追加します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 37
   },
@@ -1139,69 +1301,77 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "について、これは1と違いページ内の外装ともいえる部分で、アプリにありがちな画面を移動してもアプリ内の画面上で常に同じ位置に表示されるコントロールを設定します。\nこれには他にも「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "について、これは1と違いページ内の外装ともいえる部分で、アプリにありがちな画面を移動してもアプリ内の画面上で常に同じ位置に表示されるコントロールを設定します。\nこれには他にも「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "appbar",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "appbar",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」や「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "」や「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "navigation_bar",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "navigation_bar",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "」など様々あります。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」など様々あります。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 38
   },
@@ -1212,45 +1382,51 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "について、このコードでは直接",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "について、このコードでは直接",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "View",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "View",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "につけた変数名でページの遷移を行っているので使われませんが関数を使ってページ遷移を行う場合に重要になってきます。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "につけた変数名でページの遷移を行っているので使われませんが関数を使ってページ遷移を行う場合に重要になってきます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 39
   },
@@ -1261,141 +1437,155 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "について、「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "について、「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "page.add",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "page.add",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」は見た目の準備と実行を同時にしてくれますが、「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "」は見た目の準備と実行を同時にしてくれますが、「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "page.views.append(home_view)",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "page.views.append(home_view)",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」の場合は準備にとどまってしまうため「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "」の場合は準備にとどまってしまうため「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "page.update()",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "page.update()",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」が必要になります。\n※",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "」が必要になります。\n※",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "page.views.append",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "page.views.append",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "は",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "は",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "View",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "View",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を上に重ねていくものです。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を上に重ねていくものです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 40
   },
@@ -1405,7 +1595,9 @@
     "parentId": "267a501ef33780fd9f0efa54963de153",
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 41
   },
   {
@@ -1415,21 +1607,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "以上がルーティングの前知識となります。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "以上がルーティングの前知識となります。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 42
   },
@@ -1440,21 +1636,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "では本格的に、次の静的ルーティングのページでは実際にルーティングを実装してみましょう。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "では本格的に、次の静的ルーティングのページでは実際にルーティングを実装してみましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 43
   },
@@ -1465,8 +1665,11 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 44
   },
@@ -1476,7 +1679,9 @@
     "parentId": "267a501ef33780fd9f0efa54963de153",
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 45
   },
   {
@@ -1486,53 +1691,59 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "次→",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "静的ルーティング",
-          "href": "/posts/curriculums/267a501ef33780c2ac2ac9c0ac0b439e",
-          "mention": {
-            "content": {
-              "iconType": "external",
-              "iconUrl": "https://www.notion.so/icons/branch_green.svg",
-              "title": "静的ルーティング"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "次→",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "静的ルーティング",
+            "href": "/posts/curriculums/267a501ef33780c2ac2ac9c0ac0b439e",
+            "mention": {
+              "content": {
+                "iconType": "external",
+                "iconUrl": "https://www.notion.so/icons/branch_green.svg",
+                "title": "静的ルーティング"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": true
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 46
   },
@@ -1543,8 +1754,11 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "267a501ef33780fd9f0efa54963de153",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 47
   }

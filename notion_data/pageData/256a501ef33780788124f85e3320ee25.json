@@ -6,21 +6,25 @@
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "このページにまとめたカリキュラムは、必須ではありません。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "このページにまとめたカリキュラムは、必須ではありません。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -31,25 +35,29 @@
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
     "data": {
-      "color": "green_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "💡"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "もし時間があったら取り組んでみてください。プログラミングへの知見が深まったり、チーム開発での幅が広がるかもしれません！",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "green_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "もし時間があったら取り組んでみてください。プログラミングへの知見が深まったり、チーム開発での幅が広がるかもしれません！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
         }
-      ]
+      }
     },
     "order": 1
   },
@@ -60,22 +68,26 @@
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Python",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Python",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 2
   },
@@ -85,7 +97,9 @@
     "parentId": "256a501ef33780788124f85e3320ee25",
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 3
   },
   {
@@ -95,41 +109,46 @@
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "クラスの継承",
-          "href": "/posts/curriculums/26ea501ef337803a993af4e422180074",
-          "mention": {
-            "content": {
-              "iconType": "external",
-              "iconUrl": "https://www.notion.so/icons/skip-forward_pink.svg",
-              "title": "クラスの継承"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "クラスの継承",
+            "href": "/posts/curriculums/26ea501ef337803a993af4e422180074",
+            "mention": {
+              "content": {
+                "iconType": "external",
+                "iconUrl": "https://www.notion.so/icons/skip-forward_pink.svg",
+                "title": "クラスの継承"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 4
   },
@@ -140,41 +159,46 @@
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "lambda式",
-          "href": "/posts/curriculums/272a501ef33780b3b5fadbe1df070583",
-          "mention": {
-            "content": {
-              "iconType": "external",
-              "iconUrl": "https://www.notion.so/icons/battery_orange.svg",
-              "title": "lambda式"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "lambda式",
+            "href": "/posts/curriculums/272a501ef33780b3b5fadbe1df070583",
+            "mention": {
+              "content": {
+                "iconType": "external",
+                "iconUrl": "https://www.notion.so/icons/battery_orange.svg",
+                "title": "lambda式"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 5
   },
@@ -185,41 +209,46 @@
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "例外処理",
-          "href": "/posts/curriculums/272a501ef33780469e42d990642e19bf",
-          "mention": {
-            "content": {
-              "iconType": "external",
-              "iconUrl": "https://www.notion.so/icons/report_yellow.svg",
-              "title": "例外処理"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "例外処理",
+            "href": "/posts/curriculums/272a501ef33780469e42d990642e19bf",
+            "mention": {
+              "content": {
+                "iconType": "external",
+                "iconUrl": "https://www.notion.so/icons/report_yellow.svg",
+                "title": "例外処理"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 6
   },
@@ -230,41 +259,46 @@
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "タプル型",
-          "href": "/posts/curriculums/272a501ef3378026b170d8a3ae12483e",
-          "mention": {
-            "content": {
-              "iconType": "external",
-              "iconUrl": "https://www.notion.so/icons/grid-wide_lightgray.svg",
-              "title": "タプル型"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "タプル型",
+            "href": "/posts/curriculums/272a501ef3378026b170d8a3ae12483e",
+            "mention": {
+              "content": {
+                "iconType": "external",
+                "iconUrl": "https://www.notion.so/icons/grid-wide_lightgray.svg",
+                "title": "タプル型"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 7
   },
@@ -275,22 +309,26 @@
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Flet",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Flet",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 8
   },
@@ -300,7 +338,9 @@
     "parentId": "256a501ef33780788124f85e3320ee25",
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 9
   },
   {
@@ -310,41 +350,46 @@
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Imageコントロール",
-          "href": "/posts/curriculums/263a501ef3378041a746ebebfc015bcf",
-          "mention": {
-            "content": {
-              "iconType": "external",
-              "iconUrl": "https://www.notion.so/icons/photo-landscape_green.svg",
-              "title": "Imageコントロール"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "Imageコントロール",
+            "href": "/posts/curriculums/263a501ef3378041a746ebebfc015bcf",
+            "mention": {
+              "content": {
+                "iconType": "external",
+                "iconUrl": "https://www.notion.so/icons/photo-landscape_green.svg",
+                "title": "Imageコントロール"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 10
   },
@@ -355,41 +400,46 @@
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "カスタムコントロール",
-          "href": "/posts/curriculums/264a501ef337809b8603f6187c3ea3ec",
-          "mention": {
-            "content": {
-              "iconType": "external",
-              "iconUrl": "https://www.notion.so/icons/skip-forward_purple.svg",
-              "title": "カスタムコントロール"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "カスタムコントロール",
+            "href": "/posts/curriculums/264a501ef337809b8603f6187c3ea3ec",
+            "mention": {
+              "content": {
+                "iconType": "external",
+                "iconUrl": "https://www.notion.so/icons/skip-forward_purple.svg",
+                "title": "カスタムコントロール"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 11
   },
@@ -400,41 +450,46 @@
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "動的ルーティング",
-          "href": "/posts/curriculums/267a501ef337800380a5d685df0acc48",
-          "mention": {
-            "content": {
-              "iconType": "emoji",
-              "iconUrl": "🍭",
-              "title": "動的ルーティング"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "動的ルーティング",
+            "href": "/posts/curriculums/267a501ef337800380a5d685df0acc48",
+            "mention": {
+              "content": {
+                "iconType": "emoji",
+                "iconUrl": "🍭",
+                "title": "動的ルーティング"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 12
   },
@@ -445,22 +500,26 @@
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "発展",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "発展",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 13
   },
@@ -470,7 +529,9 @@
     "parentId": "256a501ef33780788124f85e3320ee25",
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 14
   },
   {
@@ -480,25 +541,29 @@
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
     "data": {
-      "color": "blue_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "💪"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "以下のページはより発展的な内容になりますが、PythonやFletといった枠にとらわれない実用的かつ便利な知識が身につきます。アプリのレベルも一段上がること間違いナシ！",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "blue_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "以下のページはより発展的な内容になりますが、PythonやFletといった枠にとらわれない実用的かつ便利な知識が身につきます。アプリのレベルも一段上がること間違いナシ！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💪"
         }
-      ]
+      }
     },
     "order": 15
   },
@@ -509,21 +574,25 @@
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "⇩永続的なデータ保存（セーブ）が可能に",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "⇩永続的なデータ保存（セーブ）が可能に",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 16
   },
@@ -534,41 +603,46 @@
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "データベース基礎",
-          "href": "/posts/curriculums/1ada501ef33781e8b251df0f38a0cb23",
-          "mention": {
-            "content": {
-              "iconType": "external",
-              "iconUrl": "https://www.notion.so/icons/database_blue.svg",
-              "title": "データベース基礎"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "データベース基礎",
+            "href": "/posts/curriculums/1ada501ef33781e8b251df0f38a0cb23",
+            "mention": {
+              "content": {
+                "iconType": "external",
+                "iconUrl": "https://www.notion.so/icons/database_blue.svg",
+                "title": "データベース基礎"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 17
   },
@@ -579,8 +653,11 @@
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 18
   },
@@ -591,21 +668,25 @@
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "⇩より「キレイ」なコードでアプリを作れるように",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "⇩より「キレイ」なコードでアプリを作れるように",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 19
   },
@@ -616,41 +697,46 @@
     "curriculumId": "256a501ef33780788124f85e3320ee25",
     "pageId": "256a501ef33780788124f85e3320ee25",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "アプリケーションアーキテクチャ基礎",
-          "href": "/posts/curriculums/272a501ef3378040af9bfae333f7427a",
-          "mention": {
-            "content": {
-              "iconType": "external",
-              "iconUrl": "https://www.notion.so/icons/hammer_pink.svg",
-              "title": "アプリケーションアーキテクチャ基礎"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "アプリケーションアーキテクチャ基礎",
+            "href": "/posts/curriculums/272a501ef3378040af9bfae333f7427a",
+            "mention": {
+              "content": {
+                "iconType": "external",
+                "iconUrl": "https://www.notion.so/icons/hammer_pink.svg",
+                "title": "アプリケーションアーキテクチャ基礎"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 20
   }

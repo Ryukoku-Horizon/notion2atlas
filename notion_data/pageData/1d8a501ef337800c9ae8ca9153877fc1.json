@@ -6,21 +6,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Horizonでプログラミングをしていくために必要な準備をしていきましょう！",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Horizonでプログラミングをしていくために必要な準備をしていきましょう！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -31,21 +35,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "この資料に沿って、順番にやっていきましょう！",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "この資料に沿って、順番にやっていきましょう！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -56,21 +64,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "まだ準備段階なので使い方などがわからなくても大丈夫ですよ。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "まだ準備段階なので使い方などがわからなくても大丈夫ですよ。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -81,25 +93,29 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
     "data": {
-      "color": "blue_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "☝"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "わからないことや詰まったことがあれば、気軽に先輩に聞いてください！",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "blue_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "わからないことや詰まったことがあれば、気軽に先輩に聞いてください！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "☝"
         }
-      ]
+      }
     },
     "order": 3
   },
@@ -110,22 +126,26 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "1. Pythonをインストール",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "1. Pythonをインストール",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 4
   },
@@ -135,7 +155,9 @@
     "parentId": "1d8a501ef337800c9ae8ca9153877fc1",
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 5
   },
   {
@@ -145,21 +167,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "まずは、あなたのパソコンでプログラミングができるように、Pythonをインストールしましょう。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "まずは、あなたのパソコンでプログラミングができるように、Pythonをインストールしましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 6
   },
@@ -170,10 +196,13 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
     "data": {
-      "coverUrl": "https://images.unsplash.com/photo-1491382825904-a4c6dca98e8c?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/save_blue.svg",
-      "parent": "Pythonのインストール"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Pythonのインストール",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/save_blue.svg",
+        "coverUrl": "https://images.unsplash.com/photo-1491382825904-a4c6dca98e8c?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb"
+      }
     },
     "order": 0
   },
@@ -184,8 +213,11 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 7
   },
@@ -196,22 +228,26 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "2. Visual Studio Codeをインストール",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "2. Visual Studio Codeをインストール",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 8
   },
@@ -221,7 +257,9 @@
     "parentId": "1d8a501ef337800c9ae8ca9153877fc1",
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 9
   },
   {
@@ -231,45 +269,51 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "あなたのパソコンでプログラミングを",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "あなたのパソコンでプログラミングを",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「書く」",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "「書く」",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ことができるように、Visual Studio Codeをインストールします。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ことができるように、Visual Studio Codeをインストールします。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 10
   },
@@ -280,10 +324,13 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
     "data": {
-      "coverUrl": "https://www.notion.so/images/page-cover/rijksmuseum_jansz_1636.jpg",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/move-document_orange.svg",
-      "parent": "Visual Studio Codeのチュートリアル"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Visual Studio Codeのチュートリアル",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/move-document_orange.svg",
+        "coverUrl": "https://www.notion.so/images/page-cover/rijksmuseum_jansz_1636.jpg"
+      }
     },
     "order": 0
   },
@@ -294,8 +341,11 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 11
   },
@@ -306,22 +356,26 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "3. Canvaにログイン",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "3. Canvaにログイン",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 12
   },
@@ -331,7 +385,9 @@
     "parentId": "1d8a501ef337800c9ae8ca9153877fc1",
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 13
   },
   {
@@ -341,21 +397,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "近いうちに使用する予定があるので、Canvaというスライド作成サービスに登録しておきましょう。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "近いうちに使用する予定があるので、Canvaというスライド作成サービスに登録しておきましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 14
   },
@@ -366,10 +426,13 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
     "data": {
-      "coverUrl": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
-      "iconType": "file",
-      "iconUrl": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1d8a501ef3378058b91cc0a04b396d44/icon.png?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Content-Sha256=UNSIGNED-PAYLOAD\u0026X-Amz-Credential=ASIAZI2LB466XGBNGPY5%2F20251221%2Fus-west-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20251221T125952Z\u0026X-Amz-Expires=3600\u0026X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLXdlc3QtMiJHMEUCIBTzt84Flw9f6mXO7oO4bec5C44TPscqglc%2F5VmDgFRpAiEAqpJI%2Fs8i7NjFpP7XUH0VdjHgwOEwz4V2MeHI3EcvXswqiAQI2v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDLKRmHLQzauqR92GTCrcA7DOcGH5HHnujA2EYIg2MjoUPt3NqKarsj3C4lCqL5qSsbZnEJ6nJjLBwDyQDEyHIyv1OibTAI%2BBmAnSomEnNHHL7NhZOs3oDqD6jpAxXnGbIdNlZbk1Fbh1h4XKPAmv4ULg2ii7%2FZZ3%2B0xsnYQxFkbeeBDODZJ6Zh4oDx5ZvK4wsh40bRtwkmnNi1JGdth8lYfideW8FRvu2LxVaEtDSP8LNPoQAc1CtMGHRL8lj%2FzRc69O148k4xaMih5hwU6bJt0wcQH8mZ%2Fb9Jg8KCccN10TsqMX9JpXzAP5MhOvQV7aQKRHP7VBdQDouyx6ywN3CrX4eXsSImLXT9qQhupnwnIZOM2GJRfsVvJ%2FphECx%2BHFcEgStuFeumW8EbSszUC2dj%2FHF2%2B0Emy1FTpoqXMWt9NZ4OVQF7l1v6guhNWr%2B32R66oomDgZzj8lXQ6r4XUB3C3No3q9qk1OBQmyHsn0m3bAqDWXIcAfVYQqvbG6KZJyf33Pr8ybWZpPnS6cDvHtwbVORZ020Q%2Bt4NLiOlMVPWDK6CNb0LFGVC0%2F5mXjejVXG2tlKzNNBSUsiArM8RZvlipDLnh30nL8kEY7vw7Hm7D7LCL8ziaWBaTKy0471e9J9ny4yU8EcJqK1fi5MM%2FynsoGOqUBYyLuA%2Bor7KlXuXoCyFBnybEyhFi2NNdUtB5yir2I2eDbLxCXF2pNfvPj3Z%2B%2B2bXAwPAwS6eFMzd1UZaH%2B9LKobZV5RoR9KFWRYdZQvqwdXWTu0wPoaWNpsgF%2F49d0BuCdwCw%2BWx4X8%2FprSwyArwCU%2B0%2B5pF14c1skXkpt%2FiMCFJGPEsvmz%2FRoAVjGb%2BhHw7OdtIl%2B0j%2FTPuIkaD%2ByPV1siDjvHpD\u0026X-Amz-Signature=d3370226206d4e62bb675312a341ecaa3820954d19000fd6c2017c11b9af8e48\u0026X-Amz-SignedHeaders=host\u0026x-amz-checksum-mode=ENABLED\u0026x-id=GetObject",
-      "parent": "Canvaについて"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Canvaについて",
+        "iconType": "file",
+        "iconUrl": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1d8a501ef3378058b91cc0a04b396d44/icon.png?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Content-Sha256=UNSIGNED-PAYLOAD\u0026X-Amz-Credential=ASIAZI2LB466426MEED7%2F20251223%2Fus-west-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20251223T033815Z\u0026X-Amz-Expires=3600\u0026X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDsaCXVzLXdlc3QtMiJGMEQCIDrhARUZA98Wen3nhIayIAd6zmE%2BLNk2L2EVsRX%2F09gIAiAUeiphkr7NsStmxMgxQxT6keCX5pq97eQeIQUWnYLlZyr%2FAwgEEAAaDDYzNzQyMzE4MzgwNSIMGDkxg9YAkhYvEndNKtwDk9ENDAvM59EhmSsFX72PXT3QOUgvsZJp6QYHswoKGDq6A4BK3OarKBHRUJQ7B4ItDj1%2BJvtKYBYLLUrv9eDEihOvwKeikZFIcDcTbnQRLqOVCLrbueUFLHfnZJauxcr7jhI3cM%2BToMO1bzQmKNwzHVCXuhyHBMkB3CS0HZKkoC3f5bPVNhoFKN%2F4QG5da27JArkJynRIhDntIdO%2BzXh8RAK19SCLplboot30Zs5wWkWK2slC6CoeK4srzBzKBNCYuqfjzVA9UCpaIbohksx%2Fonhkvcae9NJxccvJohDyfhb1GLH9Vv0srMN4MLjBpRRXNOiGm1Da%2BFLJON7jCxGiZFifiYrkNpNuVUGUXzRvxEZT1J6Exh%2BQorTYAR3C1PZiz623KILVOWmA61zl9RCledtTf%2FeZPWK5bSAs%2FEFoP265u3BoKaqLHPH1MXYho%2F6hbXc7oGSWWFsZ%2FxpUD1EFeCVqNsMrJcmY9uV27eJI6j4Z3GrRtWlVQglbKLL1diEeixcTQN%2FiI6a%2FEou0LLYNPTc520FuxZzlUxG0%2FE3UngnURxwPURwO5tufAYHfuTm0UYsmpzfh%2FmaXaDr7APngpq0eBC3NRoARYbWcqKKxa7Rm1eSBxpFoQ2uRwu4wo4aoygY6pgE99jQXxCganO5Qd3eIkV7RXVCFD2I9P%2B%2Fs2JJGlZtSnfFeJcdalASi7TQgTjpHLfkenp06nKh%2FW5sgTI3oogyM7H9UQozNbdxwdep5GScRiGLnzCQftyLWkhlGO4I88MRgn99PVuwM6OF6rc9%2BQ9XljDn%2FteDPJuMKM2%2FW%2FEE%2BHeNEE31sS8VhGfHh6GSbUVURpApF9DOavyviaR%2BxlNW78Jhpys8c\u0026X-Amz-Signature=53cea8ed5cec657c4fbc1a9becc3816a158d45d2bc99b8726ac4ad2bed985052\u0026X-Amz-SignedHeaders=host\u0026x-amz-checksum-mode=ENABLED\u0026x-id=GetObject",
+        "coverUrl": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb"
+      }
     },
     "order": 0
   },
@@ -380,8 +443,11 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 15
   },
@@ -392,22 +458,26 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "4. Discordの使い方を知ろう",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "4. Discordの使い方を知ろう",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 16
   },
@@ -417,7 +487,9 @@
     "parentId": "1d8a501ef337800c9ae8ca9153877fc1",
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 17
   },
   {
@@ -427,21 +499,25 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Horizonでは先ほど参加してもらったDiscordをたくさん使います。今のうちに基本的な使い方を抑えておきましょう！",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Horizonでは先ほど参加してもらったDiscordをたくさん使います。今のうちに基本的な使い方を抑えておきましょう！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 18
   },
@@ -452,10 +528,13 @@
     "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
     "pageId": "1d8a501ef337800c9ae8ca9153877fc1",
     "data": {
-      "coverUrl": "https://www.notion.so/images/page-cover/webb1.jpg",
-      "iconType": "file",
-      "iconUrl": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1d8a501ef33780fa90edeffb876c58ba/icon.png?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Content-Sha256=UNSIGNED-PAYLOAD\u0026X-Amz-Credential=ASIAZI2LB4665NBP367C%2F20251221%2Fus-west-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20251221T130034Z\u0026X-Amz-Expires=3600\u0026X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLXdlc3QtMiJIMEYCIQDGQyeahdfNt1R0wRQnSCDS8y4xxkbxWszb61dQhGefkwIhALPG%2BJrQ7Z%2B8qeDOiOVxFk7xYcdS84tpt8r9Eqg%2F1NPoKogECNr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igy%2FxqxG5tDDWVJf3gQq3APug4cFXrGZcXkV1G1IILSyiWLpNMkIJ3rB1zSWVw4N8Nb%2F2UXRwKsHCyjurOzS4ELAKIbCD9bWbQ%2F2GqgQv7DohekXOTYWM7b9tfm4BprJTFzSQa4kgkOjzafW%2FVcACJiLAMIqAGIIv%2Fzq5%2FzDe%2Bf%2F1ov3kOWw9Qvt8kaOJ2BomZnMvwlGgfZdr33Sfk6k46PObfCiYOrwOYak6rieyjJdlzvz2lZ0%2B4ATbSHasrlAXdPTuoue9pzds4H0Ztb65QPEGY9FaufcJEdrDl4ZaA9gGmySY4Lx9ixvHxjMmpAezSYSA7XbFlStKO0CKYkqUJ7Lu8%2FYQrwtjOoVdIh5D29SOBhfJH0xRcFMXmH0NMCju%2B0XVxRePRz9ednmLitLbpDAl5OCz0KiEelKL6jLnyya8r1h0cARLZa9qY8mAbqcr%2FwqeuJ45%2BWVoRD1Flbw0mB%2FsN2udwlq4%2BX2CItmiP0sSVZ2vdXBbE8zBHpmdJ2mF7BW9wwU3KwxY6XvRxxb1CLJOYahLoJ%2Bt3fDO0I1PEjheKf51GiplxTnFznkji6vA6jL%2BRKcFPQIBIXmDnEhc05EaRaY%2FPLPDK%2BUhxsxQC0tozdg%2FhwZ5GmkjTQ0g3yNaHs4C%2FgEteOjL03bGzDm8p7KBjqkAY76Tvr6603m%2B8WCVEK4PV%2BPg77rIjCmoqtLh41thWbUNN0WpZSrFq%2FaBN8omy4DFheKq3VoY%2B1C7Klh7fGpDugIC2mGhueaTOJmESWJFs1P8ELqaSH%2BLBfAwtgX58y6I2PX7ycNC4vwcirmXOoE6E7HH5ZnQO7OsB81qRW9HchbDXz8UI77qeKOKHYevHOY%2BOdWQZwblgB8V5dx2JIUxRuksuEF\u0026X-Amz-Signature=807fc641d6ed629f63422b04dde2b8184e18242c3b80460e07e7ad89d1e07acc\u0026X-Amz-SignedHeaders=host\u0026x-amz-checksum-mode=ENABLED\u0026x-id=GetObject",
-      "parent": "Discordの使い方"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Discordの使い方",
+        "iconType": "file",
+        "iconUrl": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1d8a501ef33780fa90edeffb876c58ba/icon.png?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Content-Sha256=UNSIGNED-PAYLOAD\u0026X-Amz-Credential=ASIAZI2LB466Y7YDIELH%2F20251223%2Fus-west-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20251223T033855Z\u0026X-Amz-Expires=3600\u0026X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDsaCXVzLXdlc3QtMiJGMEQCIAe0ifJInFr5XKqPu4yoH%2F8d4r8bcS4tUnbZ0tmiPvyUAiA2T%2FNAc4QZhFDgMO3QmxWBl0LcOyYeSywglJGbDyCEqyr%2FAwgEEAAaDDYzNzQyMzE4MzgwNSIMUAeJKMWHtVG%2BgvYyKtwDX5oH8SxKSBm%2FisjPmM4DsjretQ6BloiMG6IOZQ7%2FRFQdu6kYaN0jreuHlWYwvxX%2FTyeA36qnTLMfXexaUdFHcmtDmci67ypABoLoT8DzampBoMAKOpp8CP2TmSUDqcTT3jsZIXof3hBlyIXbUiM5xL9mOnHp0dM7Tm0tFFcwlF73au%2BKmT7OAScv%2BLwcSAyeynWxwyWHqjdICyaRwM1YPS%2F%2FH34ciYP%2FU6GTv8L1uj%2BtKddsS%2BhFF8x4cRnJpTWs8Vs38Djh8LCu612tklPkJWujMnzIM5zAOzU%2FC3Rvm5kx7ghjrqw1KJQ9R%2FWL11od0vEMCAfyi%2FPkqyROgMrqRrw7DqMXEZrsW7yhktKtTQ5aOL%2FIshpgKAGecGZS0wHCD1olzPYo956b2ZRpGaNFQ5%2ByHYg%2B1NEkFssWAGhMvVHwp%2F7mR229itF%2Fu5IYn5wBb37z2GQWJ8I2ym8zMLdF5o0gkWhQRjvg6EUThH4%2Bffk4Fg%2BRbZPxs7P8alFzyC3X%2B70kxwBM4DQEF7K23guD7FQDFU3ggV9z5%2FfqISxEFUcMH0WnH2Bf4ZzGMU0EOl0RLNo%2Fc3HCnd%2B1ZqVJBkUNhsKhxzxgSIHDg%2B%2F8A4Ud8we0ub0y6ChJWcwAGj8wh4WoygY6pgEWbI5gmG%2BjQsM3B5EhvHu8ZvHfJHDmejwXNwnhrGAJXdqyW2lPR7OUhMYaRiA5ygEqXHJAIbusZMuNX0%2FMo7DFOILhSDt8f8jiM7FI3PLdq2GLelELd3pBUcH6%2F7R9ig07NgrwuKsSqMFNNjyXZrHKEdvApGm%2B6ucctexzULr4hwTrnWTd0Pv3oGH5J2rmSEMP0b5j2pXIrBw76bMUEqa3NRORCyEQ\u0026X-Amz-Signature=9f223d8647b93c0d58aafd58a277680514eadddb4fb35e946501c0d9d5919081\u0026X-Amz-SignedHeaders=host\u0026x-amz-checksum-mode=ENABLED\u0026x-id=GetObject",
+        "coverUrl": "https://www.notion.so/images/page-cover/webb1.jpg"
+      }
     },
     "order": 0
   }

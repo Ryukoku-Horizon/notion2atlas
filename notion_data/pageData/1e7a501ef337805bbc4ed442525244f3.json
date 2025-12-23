@@ -6,21 +6,25 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1e7a501ef337805bbc4ed442525244f3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実際にゲームやアプリを作ることを通して、プログラミングを学ぶことができるページです。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実際にゲームやアプリを作ることを通して、プログラミングを学ぶことができるページです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -31,21 +35,25 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1e7a501ef337805bbc4ed442525244f3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "カリキュラムが早めに終わった人は、力試しもかねてチャレンジしてみてください！",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "カリキュラムが早めに終わった人は、力試しもかねてチャレンジしてみてください！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -55,7 +63,9 @@
     "parentId": "1e7a501ef337805bbc4ed442525244f3",
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1e7a501ef337805bbc4ed442525244f3",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 2
   },
   {
@@ -65,22 +75,26 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1e7a501ef337805bbc4ed442525244f3",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "数当てゲーム",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "数当てゲーム",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 3
   },
@@ -91,10 +105,13 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1e7a501ef337805bbc4ed442525244f3",
     "data": {
-      "coverUrl": "https://www.notion.so/images/page-cover/nasa_robert_stewart_spacewalk_2.jpg",
-      "iconType": "emoji",
-      "iconUrl": "☑️",
-      "parent": "数当てゲームをPythonで作ってみよう"
+      "type": "child_page",
+      "child_page": {
+        "parent": "数当てゲームをPythonで作ってみよう",
+        "iconType": "emoji",
+        "iconUrl": "☑️",
+        "coverUrl": "https://www.notion.so/images/page-cover/nasa_robert_stewart_spacewalk_2.jpg"
+      }
     },
     "order": 4
   }

@@ -6,22 +6,26 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "問題1",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "問題1",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 0
   },
@@ -32,45 +36,51 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "プログラミング部の部員情報を管理する以下のようなクラス",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "プログラミング部の部員情報を管理する以下のようなクラス",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ClubMember",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ClubMember",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を作ってください。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を作ってください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -81,45 +91,51 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "gray_background",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "この",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "この",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ClubMember",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ClubMember",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "クラスは以下のメンバー変数を持っています。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "クラスは以下のメンバー変数を持っています。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -130,33 +146,38 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "name",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "name",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": " : 部員の名前を格納",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " : 部員の名前を格納",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -167,33 +188,38 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "no",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "no",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": " : 部員の学生番号を格納",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " : 部員の学生番号を格納",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -204,57 +230,64 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "languages",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "languages",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " : その部員が扱うことができるプログラミング言語をリストで格納（使える言語がない場合は空のリスト（",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " : その部員が扱うことができるプログラミング言語をリストで格納（使える言語がない場合は空のリスト（",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "[]",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "[]",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "））",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "））",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -265,45 +298,51 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "また、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "また、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ClubMember",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ClubMember",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "クラスは以下のようなコンストラクタを持っています。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "クラスは以下のようなコンストラクタを持っています。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 3
   },
@@ -314,21 +353,25 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "名前、学生番号、プログラミング言語を引数として受け取り、それぞれをメンバー変数に格納する",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "名前、学生番号、プログラミング言語を引数として受け取り、それぞれをメンバー変数に格納する",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 4
   },
@@ -339,21 +382,25 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "「ようこそ、〇〇(名前)さん！」という文を出力する",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「ようこそ、〇〇(名前)さん！」という文を出力する",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 5
   },
@@ -364,21 +411,25 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "プログラミング言語は引数が指定されていなくても動作する",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "プログラミング言語は引数が指定されていなくても動作する",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 6
   },
@@ -389,45 +440,51 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "また、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "また、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ClubMember",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ClubMember",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を自由な名前、学生番号、言語で3人分インスタンス化してみてください。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を自由な名前、学生番号、言語で3人分インスタンス化してみてください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 3
   },
@@ -438,21 +495,25 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "※プログラムは「prac6-1.py」として保存",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "※プログラムは「prac6-1.py」として保存",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 4
   },
@@ -463,22 +524,26 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "期待する出力結果",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "期待する出力結果",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 5
   },
@@ -489,22 +554,26 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "caption": [],
-      "language": "plain text",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ようこそ、 田中太郎 さん！\nようこそ、 佐藤圭祐 さん！\nようこそ、 須賀雅彦 さん！",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "plain text",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ようこそ、 田中太郎 さん！\nようこそ、 佐藤圭祐 さん！\nようこそ、 須賀雅彦 さん！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 6
   },
@@ -515,8 +584,11 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 7
   },
@@ -526,7 +598,9 @@
     "parentId": "26ea501ef33780eda25cfa4915c1b4ab",
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 8
   },
   {
@@ -536,22 +610,26 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "問題2",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "問題2",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 9
   },
@@ -562,69 +640,77 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "前問のクラス",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "前問のクラス",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ClubMember",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ClubMember",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "に、その部員の情報すべてを表示するメソッド",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "に、その部員の情報すべてを表示するメソッド",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "displayData",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "displayData",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を追加してください。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を追加してください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 10
   },
@@ -635,45 +721,51 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "また、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "また、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ClubMember",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ClubMember",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を自由な名前、学生番号、言語で3人分インスタンス化し、その全てにdisplayDataメソッドを実行してみてください。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を自由な名前、学生番号、言語で3人分インスタンス化し、その全てにdisplayDataメソッドを実行してみてください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 11
   },
@@ -684,21 +776,25 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "※プログラムは「prac6-2.py」として保存",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "※プログラムは「prac6-2.py」として保存",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 12
   },
@@ -709,22 +805,26 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "期待する出力結果",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "期待する出力結果",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 13
   },
@@ -735,22 +835,26 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "caption": [],
-      "language": "plain text",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ようこそ、 田中太郎 さん！\nようこそ、 佐藤圭祐 さん！\nようこそ、 須賀雅彦 さん！\n名前: 田中太郎\n学生番号: 1234\n使える言語: ['Python', 'C言語', 'FORTRAN', 'Assembly']\n名前: 佐藤圭祐\n学生番号: 5678\n使える言語: []\n名前: 須賀雅彦\n学生番号: 90\n使える言語: []",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "plain text",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ようこそ、 田中太郎 さん！\nようこそ、 佐藤圭祐 さん！\nようこそ、 須賀雅彦 さん！\n名前: 田中太郎\n学生番号: 1234\n使える言語: ['Python', 'C言語', 'FORTRAN', 'Assembly']\n名前: 佐藤圭祐\n学生番号: 5678\n使える言語: []\n名前: 須賀雅彦\n学生番号: 90\n使える言語: []",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 14
   },
@@ -761,8 +865,11 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 15
   },
@@ -772,7 +879,9 @@
     "parentId": "26ea501ef33780eda25cfa4915c1b4ab",
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 16
   },
   {
@@ -782,22 +891,26 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "問題3",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "問題3",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 17
   },
@@ -808,69 +921,77 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "前問のクラス",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "前問のクラス",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ClubMember",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ClubMember",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "に、言語名を引数として受け取り、使える言語に追加する",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "に、言語名を引数として受け取り、使える言語に追加する",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "addLanguages",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "addLanguages",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "メソッドを追加してください。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "メソッドを追加してください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 18
   },
@@ -881,117 +1002,129 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "また、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "また、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ClubMember",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ClubMember",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を自由な名前、学生番号、言語でインスタンス化し、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "を自由な名前、学生番号、言語でインスタンス化し、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "displayData",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "displayData",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を実行したあと",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "を実行したあと",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "addLanguages",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "addLanguages",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を実行していくつか言語を追加してください。再度",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "を実行していくつか言語を追加してください。再度",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "displayData",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "displayData",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を実行し、使える言語が増えていることを確認してください。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を実行し、使える言語が増えていることを確認してください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 19
   },
@@ -1002,21 +1135,25 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "※プログラムは「prac6-3.py」として保存",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "※プログラムは「prac6-3.py」として保存",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 20
   },
@@ -1027,22 +1164,26 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "期待する出力結果",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "期待する出力結果",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 21
   },
@@ -1053,8 +1194,11 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 22
   },
@@ -1065,24 +1209,142 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "caption": [],
-      "language": "plain text",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ようこそ、 渡辺昂輝 さん！\n名前: 渡辺昂輝\n学生番号: 1964\n使える言語: ['Python', 'Rust', 'Ruby', 'JavaScript']\naddLanguageを実行\naddLanguageを実行\n名前: 渡辺昂輝\n学生番号: 1964\n使える言語: ['Python', 'Rust', 'Ruby', 'JavaScript', 'Go', 'Java']",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "plain text",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ようこそ、 渡辺昂輝 さん！\n名前: 渡辺昂輝\n学生番号: 1964\n使える言語: ['Python', 'Rust', 'Ruby', 'JavaScript']\naddLanguageを実行\naddLanguageを実行\n名前: 渡辺昂輝\n学生番号: 1964\n使える言語: ['Python', 'Rust', 'Ruby', 'JavaScript', 'Go', 'Java']",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 23
+  },
+  {
+    "id": "24ca501ef337809aab9ede726ab2da37",
+    "type": "heading_1",
+    "parentId": "273a501ef337803a8805fb7ede93b4d7",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
+    "data": {
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "進捗アンケート",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
+    },
+    "order": 0
+  },
+  {
+    "id": "24ca501ef3378038a3ccc5a4aa971b99",
+    "type": "paragraph",
+    "parentId": "273a501ef337803a8805fb7ede93b4d7",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "問題が終了した人は、以下のGoogleフォームに回答してください",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 1
+  },
+  {
+    "id": "24ca501ef33780c293fdfdf4aef7d61d",
+    "type": "divider",
+    "parentId": "273a501ef337803a8805fb7ede93b4d7",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
+    "data": {
+      "type": "none"
+    },
+    "order": 2
+  },
+  {
+    "id": "24ca501ef33780c1a076f06e16dbeb3c",
+    "type": "paragraph",
+    "parentId": "273a501ef337803a8805fb7ede93b4d7",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "gray",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "※大学のGoogleアカウントにログインして回答してください。個人アカウントでリクエストをいただいても回答できません。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 3
+  },
+  {
+    "id": "24ca501ef33780d39119f24c16297ff9",
+    "type": "quote",
+    "parentId": "273a501ef337803a8805fb7ede93b4d7",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
+    },
+    "order": 4
   },
   {
     "id": "273a501ef337803a8805fb7ede93b4d7",
@@ -1090,7 +1352,10 @@
     "parentId": "26ea501ef33780eda25cfa4915c1b4ab",
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
-    "data": "24ca501e-f337-806c-bdd7-dc4251317ba1",
+    "data": {
+      "type": "synced",
+      "synced": "24ca501ef337806cbdd7dc4251317ba1"
+    },
     "order": 24
   },
   {
@@ -1100,8 +1365,11 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 25
   },
@@ -1111,7 +1379,9 @@
     "parentId": "26ea501ef33780eda25cfa4915c1b4ab",
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 26
   },
   {
@@ -1121,53 +1391,59 @@
     "curriculumId": "256a501ef337802e8fcaf378c366fb03",
     "pageId": "26ea501ef33780eda25cfa4915c1b4ab",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "次→",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "import文",
-          "href": "/posts/curriculums/267a501ef33780ba90cbd7fbfbcdc324",
-          "mention": {
-            "content": {
-              "iconType": "external",
-              "iconUrl": "https://www.notion.so/icons/arrow-down-line_gray.svg",
-              "title": "import文"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "次→",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "import文",
+            "href": "/posts/curriculums/267a501ef33780ba90cbd7fbfbcdc324",
+            "mention": {
+              "content": {
+                "iconType": "external",
+                "iconUrl": "https://www.notion.so/icons/arrow-down-line_gray.svg",
+                "title": "import文"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": true
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 27
   }

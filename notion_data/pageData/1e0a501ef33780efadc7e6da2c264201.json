@@ -6,45 +6,51 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef33780efadc7e6da2c264201",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ゲーム、Web、アプリなど、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ゲーム、Web、アプリなど、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "用途別分類",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "用途別分類",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を見たいなら",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を見たいなら",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -55,10 +61,13 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef33780efadc7e6da2c264201",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "プログラミング言語用途による分類"
+      "type": "child_page",
+      "child_page": {
+        "parent": "プログラミング言語用途による分類",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 1
   },
@@ -69,8 +78,11 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef33780efadc7e6da2c264201",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 2
   },
@@ -80,7 +92,9 @@
     "parentId": "1e0a501ef33780efadc7e6da2c264201",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef33780efadc7e6da2c264201",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 3
   },
   {
@@ -90,33 +104,38 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef33780efadc7e6da2c264201",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コンパイル、インタプリタ別分類",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "コンパイル、インタプリタ別分類",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を見たいなら",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を見たいなら",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 4
   },
@@ -127,10 +146,13 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef33780efadc7e6da2c264201",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "実行方法による分類"
+      "type": "child_page",
+      "child_page": {
+        "parent": "実行方法による分類",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 5
   },
@@ -141,8 +163,11 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef33780efadc7e6da2c264201",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 6
   },
@@ -152,7 +177,9 @@
     "parentId": "1e0a501ef33780efadc7e6da2c264201",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef33780efadc7e6da2c264201",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 7
   },
   {
@@ -162,45 +189,51 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef33780efadc7e6da2c264201",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "言語の",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "言語の",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "難易度分類",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "難易度分類",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を見たいなら",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を見たいなら",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 8
   },
@@ -211,10 +244,13 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef33780efadc7e6da2c264201",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "難易度による分類"
+      "type": "child_page",
+      "child_page": {
+        "parent": "難易度による分類",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 9
   },
@@ -225,8 +261,11 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef33780efadc7e6da2c264201",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 10
   },
@@ -236,7 +275,9 @@
     "parentId": "1e0a501ef33780efadc7e6da2c264201",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef33780efadc7e6da2c264201",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 11
   },
   {
@@ -246,45 +287,51 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef33780efadc7e6da2c264201",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "プログラミング言語以外の",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "プログラミング言語以外の",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "開発ツール",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "開発ツール",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を知りたいなら",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を知りたいなら",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 12
   },
@@ -295,10 +342,13 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef33780efadc7e6da2c264201",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "開発ツール"
+      "type": "child_page",
+      "child_page": {
+        "parent": "開発ツール",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 13
   },
@@ -309,8 +359,11 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef33780efadc7e6da2c264201",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 14
   },
@@ -320,7 +373,9 @@
     "parentId": "1e0a501ef33780efadc7e6da2c264201",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef33780efadc7e6da2c264201",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 15
   },
   {
@@ -330,8 +385,11 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef33780efadc7e6da2c264201",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 16
   },
@@ -342,21 +400,25 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef33780efadc7e6da2c264201",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "リンクがない言語(ツール)は順序更新予定です。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "リンクがない言語(ツール)は順序更新予定です。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 17
   }

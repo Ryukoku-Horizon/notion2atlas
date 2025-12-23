@@ -6,8 +6,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781e2bb62d04269f9236f",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 0
   },
@@ -18,45 +21,51 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781e2bb62d04269f9236f",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ここでは、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ここでは、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": true
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": true
+            },
+            "plain_text": "正解するまでにかかった回数を表示できるようにするプログラムを作る",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "正解するまでにかかった回数を表示できるようにするプログラムを作る",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "問題になります。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "問題になります。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -67,8 +76,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781e2bb62d04269f9236f",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 2
   },
@@ -79,117 +91,129 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781e2bb62d04269f9236f",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "こういうゲームの場合、自分が正解するまでにかかった回数というのは非常に気になるものです。実際に、いろんなゲームでは",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "こういうゲームの場合、自分が正解するまでにかかった回数というのは非常に気になるものです。実際に、いろんなゲームでは",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "クリアするまでにかかった時間をエンディングで表示したり",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "クリアするまでにかかった時間をエンディングで表示したり",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "クリアするまでのタイムを世界中の人を相手に競い合う「RTA(Real Time Attack)」",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "クリアするまでのタイムを世界中の人を相手に競い合う「RTA(Real Time Attack)」",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "というものもあったりと、熟練者になればなるほど、そのゲームをクリアする速さというのに気にかけるものです。今回の",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "というものもあったりと、熟練者になればなるほど、そのゲームをクリアする速さというのに気にかけるものです。今回の",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "gray",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "gray",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Numer0n",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Numer0n",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "では、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "では、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "正解するまでにかかった回数を他の人と競い合えるようにするという要素を取り入れる",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "正解するまでにかかった回数を他の人と競い合えるようにするという要素を取り入れる",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "とかなり面白くなると考えられます。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "とかなり面白くなると考えられます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 3
   },
@@ -200,8 +224,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781e2bb62d04269f9236f",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 4
   },
@@ -212,45 +239,51 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781e2bb62d04269f9236f",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ちょっとした小話ですが、冒頭にフジテレビでこのゲームを使った番組が放送されたと言いましたが、そこでとある芸能人が",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ちょっとした小話ですが、冒頭にフジテレビでこのゲームを使った番組が放送されたと言いましたが、そこでとある芸能人が",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "相手の番号をヒントも無しで1発で当てる",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "相手の番号をヒントも無しで1発で当てる",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "というとんでもない大記録を達成した人がいます。その人のことは皆さんも知っていると思いますし、放送開始から約26年経って主人公が交代したあのアニメのOPテーマも担当したことがある人です。よかったらぜひ調べてみてください。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "というとんでもない大記録を達成した人がいます。その人のことは皆さんも知っていると思いますし、放送開始から約26年経って主人公が交代したあのアニメのOPテーマも担当したことがある人です。よかったらぜひ調べてみてください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 5
   },
@@ -261,8 +294,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781e2bb62d04269f9236f",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 6
   },
@@ -273,69 +309,77 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781e2bb62d04269f9236f",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "前回と同様ですが、ここで必要となる新たな知識はありません。少しヒントを添えると、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "前回と同様ですが、ここで必要となる新たな知識はありません。少しヒントを添えると、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": true
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": true
+            },
+            "plain_text": "どこからどこまでを1回と数えるか",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "どこからどこまでを1回と数えるか",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": true
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": true
+            },
+            "plain_text": "そしてその回数をどこにおいておけばいいのか",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "そしてその回数をどこにおいておけばいいのか",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ということを考えてみてみましょう。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ということを考えてみてみましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 7
   },
@@ -346,8 +390,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781e2bb62d04269f9236f",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 8
   },
@@ -357,7 +404,9 @@
     "parentId": "1eca501ef33781e2bb62d04269f9236f",
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781e2bb62d04269f9236f",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 9
   },
   {
@@ -367,33 +416,38 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781e2bb62d04269f9236f",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "前：",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "前：",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "4-2 3桁モードと4桁モードを選択できるようにしよう",
-          "href": "/posts/curriculums/1eca501ef33781369cadcf4ef1c20633"
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "4-2 3桁モードと4桁モードを選択できるようにしよう",
+            "href": "/posts/curriculums/1eca501ef33781369cadcf4ef1c20633",
+            "is_same_bp": true
+          }
+        ]
+      }
     },
     "order": 10
   },
@@ -404,33 +458,38 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781e2bb62d04269f9236f",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "次：",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "次：",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "4-4 百の位に0が使えるようにしよう",
-          "href": "/posts/curriculums/1eca501ef33781198c88d6b2b00d184d"
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "4-4 百の位に0が使えるようにしよう",
+            "href": "/posts/curriculums/1eca501ef33781198c88d6b2b00d184d",
+            "is_same_bp": true
+          }
+        ]
+      }
     },
     "order": 11
   },
@@ -441,8 +500,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781e2bb62d04269f9236f",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 12
   },
@@ -453,33 +515,38 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef33781e2bb62d04269f9236f",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "目次：",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "目次：",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "数当てゲームをPythonで作ってみよう",
-          "href": "/posts/curriculums/1eca501ef33780fca5bdf2a1ea7ef2ca"
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "数当てゲームをPythonで作ってみよう",
+            "href": "/posts/curriculums/1eca501ef33780fca5bdf2a1ea7ef2ca",
+            "is_same_bp": true
+          }
+        ]
+      }
     },
     "order": 13
   }

@@ -6,8 +6,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 0
   },
@@ -18,69 +21,77 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "まずはじめに、実装する7つの機能の内の1つ、「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "まずはじめに、実装する7つの機能の内の1つ、「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": true
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": true
+            },
+            "plain_text": "正解となる3桁および4桁の数字をランダムに設定する。",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "正解となる3桁および4桁の数字をランダムに設定する。",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」を作れるようになりましょう。ここでキーワードとなるのは、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "」を作れるようになりましょう。ここでキーワードとなるのは、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "モジュール",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "モジュール",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "です。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "です。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -91,45 +102,51 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ということで、ここでは",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ということで、ここでは",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": true
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": true
+            },
+            "plain_text": "モジュールについての簡単な説明と使い方について",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "モジュールについての簡単な説明と使い方について",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "記述します。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "記述します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -140,8 +157,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 3
   },
@@ -152,93 +172,103 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Pythonには、Pythonをインストールするだけで使用することができる",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Pythonには、Pythonをインストールするだけで使用することができる",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "標準ライブラリ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "標準ライブラリ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "と新たにインストールすることで使用することができる",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "と新たにインストールすることで使用することができる",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "外部ライブラリ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "外部ライブラリ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を総じて「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "を総じて「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": true
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": true
+            },
+            "plain_text": "モジュール",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "モジュール",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "」と言われるものがあります。モジュールを取り入れることによって、普通のPythonでは実装することができにくいものが、簡単に実装することができるようになるメリットがあります。身近なもので例えると、モジュールはゲームの無料ダウンロードコンテンツだと考えてもらえれば大丈夫です。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」と言われるものがあります。モジュールを取り入れることによって、普通のPythonでは実装することができにくいものが、簡単に実装することができるようになるメリットがあります。身近なもので例えると、モジュールはゲームの無料ダウンロードコンテンツだと考えてもらえれば大丈夫です。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 4
   },
@@ -249,69 +279,77 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "しかし、モジュールを取り扱うには",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "しかし、モジュールを取り扱うには",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": true
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": true
+            },
+            "plain_text": "自分でどんなモジュールを使用するか、最初に宣言する必要があります",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "自分でどんなモジュールを使用するか、最初に宣言する必要があります",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "。その時に使われる文法が「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "。その時に使われる文法が「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": true
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": true
+            },
+            "plain_text": "import文",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "import文",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "」というものになります。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」というものになります。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 5
   },
@@ -322,21 +360,25 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実際に使用例を見てみましょう。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実際に使用例を見てみましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 6
   },
@@ -347,22 +389,26 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "caption": [],
-      "language": "python",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "import math\n\na = math.sqrt(2)\n\nprint(\"√2=\",a)",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "python",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "import math\n\na = math.sqrt(2)\n\nprint(\"√2=\",a)",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 7
   },
@@ -373,21 +419,25 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実行結果",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実行結果",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 8
   },
@@ -398,8 +448,13 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1eca501ef3378195ac72cd402b5d391b/1eca501ef3378156a17ccb9d327ffba6.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/1eca501ef3378195ac72cd402b5d391b/1eca501ef3378156a17ccb9d327ffba6.png",
+        "width": 524,
+        "height": 18
+      }
     },
     "order": 9
   },
@@ -410,69 +465,77 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "このコードは、実行すると√2の値を出力してくれるプログラムになっています。ここで使われている「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "このコードは、実行すると√2の値を出力してくれるプログラムになっています。ここで使われている「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "mathモジュール",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "mathモジュール",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」というのは、平方根の値を出してくれるのはもちろん、三角関数の値、自然対数eの値などを出してくれるようになるモジュールになります。まぁ、ここでわかることになるのですが、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "」というのは、平方根の値を出してくれるのはもちろん、三角関数の値、自然対数eの値などを出してくれるようになるモジュールになります。まぁ、ここでわかることになるのですが、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "mathモジュールを導入しないと高度な計算ができないのです",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "mathモジュールを導入しないと高度な計算ができないのです",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "。不便ですねぇ。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "。不便ですねぇ。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 10
   },
@@ -483,45 +546,51 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "さて、import文の使い方ですが非常に簡単で、「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "さて、import文の使い方ですが非常に簡単で、「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "import モジュール名",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "import モジュール名",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "」と書くだけです。これだけで様々な機能を追加することができます。便利ですねぇ。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」と書くだけです。これだけで様々な機能を追加することができます。便利ですねぇ。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 11
   },
@@ -532,45 +601,51 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "そして、そのモジュールの使い方ですが、「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "そして、そのモジュールの使い方ですが、「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "モジュール名.モジュール内にある関数名()",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "モジュール名.モジュール内にある関数名()",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "」と書くだけです。リストの時に書いていたものと大体同じです。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」と書くだけです。リストの時に書いていたものと大体同じです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 12
   },
@@ -581,22 +656,26 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "caption": [],
-      "language": "python",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "alist = [1 , 2 , 3]\n\nprint(alist)        #追加前：[1,2,3]\n\nalist.append(4)     #リストにカッコ内の要素を追加するappend関数(リスト名.append()で使える)\n\nprint(alist)        #追加後：[1,2,3,4]",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "python",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "alist = [1 , 2 , 3]\n\nprint(alist)        #追加前：[1,2,3]\n\nalist.append(4)     #リストにカッコ内の要素を追加するappend関数(リスト名.append()で使える)\n\nprint(alist)        #追加後：[1,2,3,4]",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 13
   },
@@ -607,45 +686,51 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "なぜ、こう書かないといけないのかという話は、今回は解説しません。とりあえず今は、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "なぜ、こう書かないといけないのかという話は、今回は解説しません。とりあえず今は、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "こう書くとモジュールを扱うことができる",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "こう書くとモジュールを扱うことができる",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "と覚えといてください。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "と覚えといてください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 14
   },
@@ -656,45 +741,51 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "今回使用したmathモジュールの",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "今回使用したmathモジュールの",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "sqrt関数",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "sqrt関数",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "はカッコ内にある数字を平方根の値に変える関数になっているため、変数aには1.414…のような値が入っています。普通は少し考え方を変えて書かなければいけないコードも、モジュールを使えば簡単に求める機能を実装することができます。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "はカッコ内にある数字を平方根の値に変える関数になっているため、変数aには1.414…のような値が入っています。普通は少し考え方を変えて書かなければいけないコードも、モジュールを使えば簡単に求める機能を実装することができます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 15
   },
@@ -705,8 +796,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 16
   },
@@ -717,21 +811,25 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": true,
-            "underline": false
-          },
-          "plain_text": "まぁ、そんなモジュールなんて使わずに自分で関数作ってそれを使え！って言ってくる先生の授業があるのはここだけの秘密。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": true,
+              "underline": false
+            },
+            "plain_text": "まぁ、そんなモジュールなんて使わずに自分で関数作ってそれを使え！って言ってくる先生の授業があるのはここだけの秘密。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 17
   },
@@ -742,8 +840,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 18
   },
@@ -753,7 +854,9 @@
     "parentId": "1eca501ef3378195ac72cd402b5d391b",
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 19
   },
   {
@@ -763,33 +866,38 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "次：",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "次：",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "1-2 乱数を扱ってみよう",
-          "href": "/posts/curriculums/1eca501ef33781d08bdbed9a375a9245"
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "1-2 乱数を扱ってみよう",
+            "href": "/posts/curriculums/1eca501ef33781d08bdbed9a375a9245",
+            "is_same_bp": true
+          }
+        ]
+      }
     },
     "order": 20
   },
@@ -800,8 +908,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 21
   },
@@ -812,33 +923,38 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378195ac72cd402b5d391b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "目次：",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "目次：",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "数当てゲームをPythonで作ってみよう",
-          "href": "/posts/curriculums/1eca501ef33780fca5bdf2a1ea7ef2ca"
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "数当てゲームをPythonで作ってみよう",
+            "href": "/posts/curriculums/1eca501ef33780fca5bdf2a1ea7ef2ca",
+            "is_same_bp": true
+          }
+        ]
+      }
     },
     "order": 22
   }

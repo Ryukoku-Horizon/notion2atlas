@@ -6,21 +6,25 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "戻る",
-          "href": "/posts/curriculums/1e0a501ef33780efadc7e6da2c264201"
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "戻る",
+            "href": "/posts/curriculums/1e0a501ef33780efadc7e6da2c264201",
+            "is_same_bp": true
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -31,8 +35,11 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 1
   },
@@ -43,9 +50,12 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
     "data": {
-      "has_column_header": false,
-      "has_row_header": true,
-      "table_width": 2
+      "type": "table",
+      "table": {
+        "has_column_header": false,
+        "has_row_header": true,
+        "table_width": 2
+      }
     },
     "order": 2
   },
@@ -55,132 +65,145 @@
     "parentId": "1e0a501ef3378117b7a1c54c8e91ea00",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コンパイル言語",
+            "href": "/posts/curriculums/1e0a501ef337806da2c4e60e9eef0e14",
+            "is_same_bp": true
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "yellow",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C",
+            "href": "/posts/curriculums/1e0a501ef337807d8d51ffdbd5aa590b",
+            "is_same_bp": false
           },
-          "plain_text": "コンパイル言語",
-          "href": "/posts/curriculums/1e0a501ef337806da2c4e60e9eef0e14"
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "yellow",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "C",
-          "href": "/posts/curriculums/1e0a501ef337807d8d51ffdbd5aa590b"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "blue",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C++",
+            "href": "/posts/curriculums/1e0a501ef33780afba2ce028d73d0c32",
+            "is_same_bp": false
           },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "blue",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "C++",
-          "href": "/posts/curriculums/1e0a501ef33780afba2ce028d73d0c32"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "purple",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C#",
+            "href": "/posts/curriculums/1e0a501ef33780c2bdb7e83ebc6675f6",
+            "is_same_bp": false
           },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "purple",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "C#",
-          "href": "/posts/curriculums/1e0a501ef33780c2bdb7e83ebc6675f6"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "blue",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "GO",
+            "href": "/posts/curriculums/1e0a501ef33780efbfced4e500670fcb",
+            "is_same_bp": false
           },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "blue",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", Rust, Swift, Objective-C, ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "GO",
-          "href": "/posts/curriculums/1e0a501ef33780efbfced4e500670fcb"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": ", Rust, Swift, Objective-C, ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "red",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Java",
-          "href": "/posts/curriculums/1e0a501ef3378039b5ffe8ff7a3b160c"
-        }
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "red",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Java",
+            "href": "/posts/curriculums/1e0a501ef3378039b5ffe8ff7a3b160c",
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 0
   },
   {
@@ -189,72 +212,80 @@
     "parentId": "1e0a501ef3378117b7a1c54c8e91ea00",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "インタプリタ言語",
+            "href": "/posts/curriculums/1e0a501ef337806da2c4e60e9eef0e14",
+            "is_same_bp": true
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "green",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "JavaScript",
+            "href": "/posts/curriculums/1e0a501ef33780ca9e4dd6ed64bb9789",
+            "is_same_bp": false
           },
-          "plain_text": "インタプリタ言語",
-          "href": "/posts/curriculums/1e0a501ef337806da2c4e60e9eef0e14"
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "green",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "JavaScript",
-          "href": "/posts/curriculums/1e0a501ef33780ca9e4dd6ed64bb9789"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "blue",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Python",
+            "href": "/posts/curriculums/1e0a501ef3378083b011d3e519821520",
+            "is_same_bp": false
           },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "blue",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Python",
-          "href": "/posts/curriculums/1e0a501ef3378083b011d3e519821520"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": ", PHP, Ruby, Lua",
-          "href": null
-        }
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", PHP, Ruby, Lua",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 1
   },
   {
@@ -263,36 +294,41 @@
     "parentId": "1e0a501ef3378117b7a1c54c8e91ea00",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ハイブリッド",
-          "href": null
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Dart, TypeScript",
-          "href": null
-        }
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ハイブリッド",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Dart, TypeScript",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 2
   },
   {
@@ -302,22 +338,26 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コンパイル言語：",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コンパイル言語：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 3
   },
@@ -328,25 +368,29 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "💡"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実行前に必ず書き込んだコードを機械言語化(コンパイル)、デバッグ(エラーがないか確認)を行い、駆動に最適化を行う言語。",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実行前に必ず書き込んだコードを機械言語化(コンパイル)、デバッグ(エラーがないか確認)を行い、駆動に最適化を行う言語。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
         }
-      ]
+      }
     },
     "order": 4
   },
@@ -357,21 +401,25 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "\n\n\n\n",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "\n\n\n\n",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 5
   },
@@ -382,8 +430,11 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 6
   },
@@ -394,22 +445,26 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "インタプリタ言語：",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "インタプリタ言語：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 7
   },
@@ -420,25 +475,29 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "💡"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "すべてのコードを読み込まず、その時に行ごとで変換し実行する言語。",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "すべてのコードを読み込まず、その時に行ごとで変換し実行する言語。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
         }
-      ]
+      }
     },
     "order": 8
   },
@@ -449,21 +508,25 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "\n\n\n\n\n",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "\n\n\n\n\n",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 9
   },
@@ -474,22 +537,26 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
     "data": {
-      "color": "default",
-      "is_toggleable": true,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コンパイル言語とインタプリタ言語の比較",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コンパイル言語とインタプリタ言語の比較",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 10
   },
@@ -500,9 +567,12 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
     "data": {
-      "has_column_header": true,
-      "has_row_header": false,
-      "table_width": 2
+      "type": "table",
+      "table": {
+        "has_column_header": true,
+        "has_row_header": false,
+        "table_width": 2
+      }
     },
     "order": 0
   },
@@ -512,36 +582,41 @@
     "parentId": "1e0a501ef3378173979de9ea43417a13",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コンパイル言語",
-          "href": null
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "インタプリタ言語",
-          "href": null
-        }
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コンパイル言語",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "インタプリタ言語",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 0
   },
   {
@@ -550,36 +625,41 @@
     "parentId": "1e0a501ef3378173979de9ea43417a13",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コード実行前、コンパイルでコード全体を一度\n機械語に変換して実行する。",
-          "href": null
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コードが実行時にコード1行ずつのバイトコードを変換して実行する。",
-          "href": null
-        }
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コード実行前、コンパイルでコード全体を一度\n機械語に変換して実行する。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コードが実行時にコード1行ずつのバイトコードを変換して実行する。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 1
   },
   {
@@ -588,36 +668,41 @@
     "parentId": "1e0a501ef3378173979de9ea43417a13",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コンパイル後、実行ファイル作成O　(exe, jarなど)",
-          "href": null
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実行ファイル作成X　(exportの必要がある。)",
-          "href": null
-        }
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コンパイル後、実行ファイル作成O　(exe, jarなど)",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実行ファイル作成X　(exportの必要がある。)",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 2
   },
   {
@@ -626,36 +711,41 @@
     "parentId": "1e0a501ef3378173979de9ea43417a13",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コンパイル段階と実行段階が分離されている。",
-          "href": null
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "インタープリト段階と実行段階の分離されなく同時に実行される。",
-          "href": null
-        }
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コンパイル段階と実行段階が分離されている。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "インタープリト段階と実行段階の分離されなく同時に実行される。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 3
   },
   {
@@ -664,36 +754,41 @@
     "parentId": "1e0a501ef3378173979de9ea43417a13",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コンパイルには時間がかかるが、コンパイルはコード変化がないなら一度だけすればいい。",
-          "href": null
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コードを実行する度にインタープリート過程を繰り返し実行され、コンパイルする時間がかからなくするその場で実行できる。",
-          "href": null
-        }
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コンパイルには時間がかかるが、コンパイルはコード変化がないなら一度だけすればいい。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コードを実行する度にインタープリート過程を繰り返し実行され、コンパイルする時間がかからなくするその場で実行できる。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 4
   },
   {
@@ -702,36 +797,41 @@
     "parentId": "1e0a501ef3378173979de9ea43417a13",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実行時は実行するだけなのでコード実行速度が速い。",
-          "href": null
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "インタープリート段階と実行段階が分離されていないため、繰り返し実行するため実行速度が遅い。",
-          "href": null
-        }
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実行時は実行するだけなのでコード実行速度が速い。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "インタープリート段階と実行段階が分離されていないため、繰り返し実行するため実行速度が遅い。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 5
   },
   {
@@ -741,8 +841,11 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 11
   },
@@ -753,8 +856,11 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337806da2c4e60e9eef0e14",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 12
   }

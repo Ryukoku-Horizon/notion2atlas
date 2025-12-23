@@ -6,21 +6,25 @@
     "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
     "pageId": "1f5a501ef3378055b23cf8b1b79b780a",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "グループワークで使用する資料を公開します。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "グループワークで使用する資料を公開します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -30,7 +34,9 @@
     "parentId": "1f5a501ef3378055b23cf8b1b79b780a",
     "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
     "pageId": "1f5a501ef3378055b23cf8b1b79b780a",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 1
   },
   {
@@ -40,8 +46,11 @@
     "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
     "pageId": "1f5a501ef3378055b23cf8b1b79b780a",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 2
   },
@@ -52,10 +61,13 @@
     "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
     "pageId": "1f5a501ef3378055b23cf8b1b79b780a",
     "data": {
-      "coverUrl": "https://www.notion.so/images/page-cover/nasa_great_sandy_desert_australia.jpg",
-      "iconType": "emoji",
-      "iconUrl": "🐾",
-      "parent": "エラー解決クエスト - 5/16(金)"
+      "type": "child_page",
+      "child_page": {
+        "parent": "エラー解決クエスト - 5/16(金)",
+        "iconType": "emoji",
+        "iconUrl": "🐾",
+        "coverUrl": "https://www.notion.so/images/page-cover/nasa_great_sandy_desert_australia.jpg"
+      }
     },
     "order": 3
   },
@@ -66,10 +78,13 @@
     "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
     "pageId": "1f5a501ef3378055b23cf8b1b79b780a",
     "data": {
-      "coverUrl": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
-      "iconType": "emoji",
-      "iconUrl": "🖋️",
-      "parent": "意見交換 de 復習 - 6/3, 4 (火, 水)"
+      "type": "child_page",
+      "child_page": {
+        "parent": "意見交換 de 復習 - 6/3, 4 (火, 水)",
+        "iconType": "emoji",
+        "iconUrl": "🖋️",
+        "coverUrl": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb"
+      }
     },
     "order": 4
   },
@@ -80,10 +95,13 @@
     "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
     "pageId": "1f5a501ef3378055b23cf8b1b79b780a",
     "data": {
-      "coverUrl": "https://www.notion.so/images/page-cover/woodcuts_1.jpg",
-      "iconType": "emoji",
-      "iconUrl": "🐾",
-      "parent": "エラー解決クエスト２ - 6/17, 18 (火, 水)"
+      "type": "child_page",
+      "child_page": {
+        "parent": "エラー解決クエスト２ - 6/17, 18 (火, 水)",
+        "iconType": "emoji",
+        "iconUrl": "🐾",
+        "coverUrl": "https://www.notion.so/images/page-cover/woodcuts_1.jpg"
+      }
     },
     "order": 5
   },
@@ -94,10 +112,13 @@
     "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
     "pageId": "1f5a501ef3378055b23cf8b1b79b780a",
     "data": {
-      "coverUrl": "https://images.unsplash.com/photo-1459257831348-f0cdd359235f?ixlib=rb-4.1.0\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
-      "iconType": "emoji",
-      "iconUrl": "🐾",
-      "parent": "エラー解決クエスト３ - 7/8, 9 (火, 水)"
+      "type": "child_page",
+      "child_page": {
+        "parent": "エラー解決クエスト３ - 7/8, 9 (火, 水)",
+        "iconType": "emoji",
+        "iconUrl": "🐾",
+        "coverUrl": "https://images.unsplash.com/photo-1459257831348-f0cdd359235f?ixlib=rb-4.1.0\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb"
+      }
     },
     "order": 6
   }

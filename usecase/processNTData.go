@@ -9,24 +9,24 @@ import (
 )
 
 type NDE struct {
-	New  []domain.Entity
-	Edit []domain.Entity
+	New  []domain.BasePage
+	Edit []domain.BasePage
 	Del  []string
 }
 
-func ProcessNTData[T domain.DBQueryEntity, U domain.BasePage](oldData []T, newData []T, resourceType domain.ResourceType) error {
+func ProcessNTData[T domain.DBQueryEntity, U domain.BasePage](oldData []T, newData []T, resourceType domain.ResourceType) (*NDE, error) {
 	nde, err := GetNDE(oldData, newData)
 	if err != nil {
-		return err
+		return nil, err
 	}
 	fmt.Println("ℹ️ new", len(nde.New))
 	fmt.Println("ℹ️ edited", len(nde.Edit))
 	fmt.Println("ℹ️ delete", len(nde.Del))
 	err = processNDEData[U](*nde, resourceType)
 	if err != nil {
-		return err
+		return nil, err
 	}
-	return nil
+	return nde, nil
 }
 
 func GetNDE[T domain.DBQueryEntity](oldData []T, newData []T) (*NDE, error) {
@@ -66,8 +66,8 @@ func GetNDE[T domain.DBQueryEntity](oldData []T, newData []T) (*NDE, error) {
 	}, nil
 }
 
-func toModelIfSlice[T domain.Entity](src []T) []domain.Entity {
-	result := make([]domain.Entity, len(src))
+func toModelIfSlice[T domain.BasePage](src []T) []domain.BasePage {
+	result := make([]domain.BasePage, len(src))
 	for i, v := range src {
 		result[i] = v
 	}
@@ -119,7 +119,7 @@ func processDelNTData[T domain.BasePage](delItems []string, resourceType domain.
 	return nil
 }
 
-func processEditNTData[T domain.BasePage](editItems []domain.Entity, resourceType domain.ResourceType) error {
+func processEditNTData[T domain.BasePage](editItems []domain.BasePage, resourceType domain.ResourceType) error {
 	for _, item := range editItems {
 		err := InitCurriculumRelatedDir(item.GetId())
 		if err != nil {
@@ -135,7 +135,7 @@ func processEditNTData[T domain.BasePage](editItems []domain.Entity, resourceTyp
 	return nil
 }
 
-func processNewNTData[T domain.BasePage](newItems []domain.Entity, resourceType domain.ResourceType) error {
+func processNewNTData[T domain.BasePage](newItems []domain.BasePage, resourceType domain.ResourceType) error {
 	for _, item := range newItems {
 		err := SaveNotionData[T](item, resourceType)
 		if err != nil {

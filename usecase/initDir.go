@@ -7,7 +7,7 @@ import (
 )
 
 func InitDir() error {
-	require_dirs := [8]string{constants.ASSETS_DIR, constants.PAGE_DATA_DIR, constants.CURRICULUM_DIR, constants.PAGE_DIR, constants.CATEGORY_DIR, constants.INFO_DIR, constants.ANSWER_DIR, constants.SYNCED_DIR}
+	require_dirs := [9]string{constants.ASSETS_DIR, constants.PAGE_DATA_DIR, constants.CURRICULUM_DIR, constants.PAGE_DIR, constants.CATEGORY_DIR, constants.INFO_DIR, constants.ANSWER_DIR, constants.TMP_DIR, constants.SYNCED_DIR}
 	for _, path := range require_dirs {
 		_, err := filemanager.CreateDirIfNotExist(path)
 		if err != nil {

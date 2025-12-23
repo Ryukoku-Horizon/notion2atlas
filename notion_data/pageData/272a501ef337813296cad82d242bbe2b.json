@@ -6,27 +6,31 @@
     "curriculumId": "272a501ef3378040af9bfae333f7427a",
     "pageId": "272a501ef337813296cad82d242bbe2b",
     "data": {
-      "color": "default_background",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/code_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "default_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "main.py",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/code_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "main.py",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 0
   },
@@ -37,22 +41,26 @@
     "curriculumId": "272a501ef3378040af9bfae333f7427a",
     "pageId": "272a501ef337813296cad82d242bbe2b",
     "data": {
-      "caption": [],
-      "language": "python",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "import flet as ft\n\ndef main(page: ft.Page):\n    appbar = ft.AppBar(\n        center_title=True,\n        title=ft.Text(value=\"TODOアプリ\"),\n        bgcolor=ft.Colors.BLACK12\n    )\n\n    def route_change(e):\n        template_route = ft.TemplateRoute(page.route)\n\n        if template_route.match(\"/create\"):\n            createTextField = ft.TextField(hint_text=\"TODO\")\n            appbar.leading = ft.IconButton(icon=ft.Icons.ARROW_BACK, on_click=lambda _:page.go(\"/\"))\n            page.views.append(\n                ft.View(\n                    \"/create\",\n                    appbar=appbar,\n                    controls=[\n                        ft.Text(\"TODO作成\"),\n                        createTextField,\n                        ft.ElevatedButton(text=\"作成\")\n                    ]\n                )\n            )\n        elif template_route.match(\"/\"):\n            appbar.leading = ft.Text(\"\")\n            floating_button = ft.FloatingActionButton(\n                icon=ft.Icons.ADD,\n                bgcolor=ft.Colors.BLUE_200,\n                on_click=lambda _: page.go(\"/create\")\n            )\n            todo_list_control = ft.Column([])\n            page.views.append(\n                ft.View(\n                    \"/\",\n                    appbar=appbar,\n                    controls=[todo_list_control],\n                    floating_action_button=floating_button\n                )\n            )\n        page.update()\n\n    page.on_route_change = route_change\n    page.go(page.route)\n\nft.app(main)\n",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "python",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "import flet as ft\n\ndef main(page: ft.Page):\n    appbar = ft.AppBar(\n        center_title=True,\n        title=ft.Text(value=\"TODOアプリ\"),\n        bgcolor=ft.Colors.BLACK12\n    )\n\n    def route_change(e):\n        template_route = ft.TemplateRoute(page.route)\n\n        if template_route.match(\"/create\"):\n            createTextField = ft.TextField(hint_text=\"TODO\")\n            appbar.leading = ft.IconButton(icon=ft.Icons.ARROW_BACK, on_click=lambda _:page.go(\"/\"))\n            page.views.append(\n                ft.View(\n                    \"/create\",\n                    appbar=appbar,\n                    controls=[\n                        ft.Text(\"TODO作成\"),\n                        createTextField,\n                        ft.ElevatedButton(text=\"作成\")\n                    ]\n                )\n            )\n        elif template_route.match(\"/\"):\n            appbar.leading = ft.Text(\"\")\n            floating_button = ft.FloatingActionButton(\n                icon=ft.Icons.ADD,\n                bgcolor=ft.Colors.BLUE_200,\n                on_click=lambda _: page.go(\"/create\")\n            )\n            todo_list_control = ft.Column([])\n            page.views.append(\n                ft.View(\n                    \"/\",\n                    appbar=appbar,\n                    controls=[todo_list_control],\n                    floating_action_button=floating_button\n                )\n            )\n        page.update()\n\n    page.on_route_change = route_change\n    page.go(page.route)\n\nft.app(main)\n",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   }

@@ -6,21 +6,25 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337804ebed1f93373407682",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "戻る",
-          "href": "/posts/curriculums/1e0a501ef33780efadc7e6da2c264201"
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "戻る",
+            "href": "/posts/curriculums/1e0a501ef33780efadc7e6da2c264201",
+            "is_same_bp": true
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -31,9 +35,12 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337804ebed1f93373407682",
     "data": {
-      "has_column_header": false,
-      "has_row_header": false,
-      "table_width": 2
+      "type": "table",
+      "table": {
+        "has_column_header": false,
+        "has_row_header": false,
+        "table_width": 2
+      }
     },
     "order": 1
   },
@@ -43,84 +50,93 @@
     "parentId": "1e0a501ef33780a6a89bce945b688759",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337804ebed1f93373407682",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "システム(低レイヤー)",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "yellow",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C",
+            "href": "/posts/curriculums/1e0a501ef337807d8d51ffdbd5aa590b",
+            "is_same_bp": false
           },
-          "plain_text": "システム(低レイヤー)",
-          "href": null
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "yellow",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "C",
-          "href": "/posts/curriculums/1e0a501ef337807d8d51ffdbd5aa590b"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "blue",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C++",
+            "href": "/posts/curriculums/1e0a501ef33780afba2ce028d73d0c32",
+            "is_same_bp": false
           },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "blue",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "C++",
-          "href": "/posts/curriculums/1e0a501ef33780afba2ce028d73d0c32"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "gray",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Rust",
-          "href": null
-        }
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "gray",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Rust",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 0
   },
   {
@@ -129,216 +145,236 @@
     "parentId": "1e0a501ef33780a6a89bce945b688759",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337804ebed1f93373407682",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Webアプリケーション",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "orange",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "HTML",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Webアプリケーション",
-          "href": null
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "orange",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "HTML",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "blue",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "CSS",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "blue",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "CSS",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "green",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "JavaScript",
+            "href": "/posts/curriculums/1e0a501ef33780ca9e4dd6ed64bb9789",
+            "is_same_bp": false
           },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "green",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "green",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "(Node.js)",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "JavaScript",
-          "href": "/posts/curriculums/1e0a501ef33780ca9e4dd6ed64bb9789"
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "green",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "(Node.js)",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "blue",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "TypeScript",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "blue",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "TypeScript",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "purple",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "PHP",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "purple",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "PHP",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "blue",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "GO",
+            "href": "/posts/curriculums/1e0a501ef33780efbfced4e500670fcb",
+            "is_same_bp": false
           },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "blue",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "GO",
-          "href": "/posts/curriculums/1e0a501ef33780efbfced4e500670fcb"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "red",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Java",
+            "href": "/posts/curriculums/1e0a501ef3378039b5ffe8ff7a3b160c",
+            "is_same_bp": false
           },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "red",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Java",
-          "href": "/posts/curriculums/1e0a501ef3378039b5ffe8ff7a3b160c"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "pink",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Ruby",
-          "href": null
-        }
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "pink",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Ruby",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 1
   },
   {
@@ -347,156 +383,171 @@
     "parentId": "1e0a501ef33780a6a89bce945b688759",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337804ebed1f93373407682",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "GUIアプリケーション",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "red",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Java",
+            "href": "/posts/curriculums/1e0a501ef3378039b5ffe8ff7a3b160c",
+            "is_same_bp": false
           },
-          "plain_text": "GUIアプリケーション",
-          "href": null
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "red",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Java",
-          "href": "/posts/curriculums/1e0a501ef3378039b5ffe8ff7a3b160c"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "purple",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C#",
+            "href": "/posts/curriculums/1e0a501ef33780c2bdb7e83ebc6675f6",
+            "is_same_bp": false
           },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "purple",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "C#",
-          "href": "/posts/curriculums/1e0a501ef33780c2bdb7e83ebc6675f6"
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "blue",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Python",
+            "href": "/posts/curriculums/1e0a501ef3378083b011d3e519821520",
+            "is_same_bp": false
           },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "blue",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Python",
-          "href": "/posts/curriculums/1e0a501ef3378083b011d3e519821520"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "red",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Swift",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "red",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Swift",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "green",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Node.js",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "green",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Node.js",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "orange",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Dart",
-          "href": null
-        }
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "orange",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Dart",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 2
   },
   {
@@ -505,120 +556,132 @@
     "parentId": "1e0a501ef33780a6a89bce945b688759",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337804ebed1f93373407682",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ゲーム",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "yellow",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C",
+            "href": "/posts/curriculums/1e0a501ef337807d8d51ffdbd5aa590b",
+            "is_same_bp": false
           },
-          "plain_text": "ゲーム",
-          "href": null
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "yellow",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ",",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "C",
-          "href": "/posts/curriculums/1e0a501ef337807d8d51ffdbd5aa590b"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "blue",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": ",",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "blue",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "blue",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C++",
+            "href": "/posts/curriculums/1e0a501ef33780afba2ce028d73d0c32",
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "blue",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "C++",
-          "href": "/posts/curriculums/1e0a501ef33780afba2ce028d73d0c32"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "purple",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C#",
+            "href": "/posts/curriculums/1e0a501ef33780c2bdb7e83ebc6675f6",
+            "is_same_bp": false
           },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "purple",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "C#",
-          "href": "/posts/curriculums/1e0a501ef33780c2bdb7e83ebc6675f6"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "red",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Java",
-          "href": "/posts/curriculums/1e0a501ef3378039b5ffe8ff7a3b160c"
-        }
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "red",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Java",
+            "href": "/posts/curriculums/1e0a501ef3378039b5ffe8ff7a3b160c",
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 3
   },
   {
@@ -627,84 +690,93 @@
     "parentId": "1e0a501ef33780a6a89bce945b688759",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337804ebed1f93373407682",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "3Dゲームエンジン",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Unity(",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "3Dゲームエンジン",
-          "href": null
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "purple",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C#",
+            "href": "/posts/curriculums/1e0a501ef33780c2bdb7e83ebc6675f6",
+            "is_same_bp": false
           },
-          "plain_text": "Unity(",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "purple",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "), Unreal Engine(",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "C#",
-          "href": "/posts/curriculums/1e0a501ef33780c2bdb7e83ebc6675f6"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "blue",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C++",
+            "href": "/posts/curriculums/1e0a501ef33780afba2ce028d73d0c32",
+            "is_same_bp": false
           },
-          "plain_text": "), Unreal Engine(",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "blue",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "C++",
-          "href": "/posts/curriculums/1e0a501ef33780afba2ce028d73d0c32"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": ")",
-          "href": null
-        }
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ")",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 4
   },
   {
@@ -713,48 +785,54 @@
     "parentId": "1e0a501ef33780a6a89bce945b688759",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337804ebed1f93373407682",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "データベース",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "blue",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "SQL",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "データベース",
-          "href": null
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "blue",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "SQL",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "(MySQL, SQLite, PostgresSQL)",
-          "href": null
-        }
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "(MySQL, SQLite, PostgresSQL)",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 5
   },
   {
@@ -763,108 +841,119 @@
     "parentId": "1e0a501ef33780a6a89bce945b688759",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337804ebed1f93373407682",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "モバイル",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "red",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Swift",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "モバイル",
-          "href": null
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "red",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Swift",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "purple",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Kotlin",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "purple",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Kotlin",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "orange",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Dart",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "orange",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ", ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Dart",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": ", ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "green",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Node.js",
-          "href": null
-        }
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "green",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Node.js",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 6
   },
   {
@@ -873,36 +962,41 @@
     "parentId": "1e0a501ef33780a6a89bce945b688759",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337804ebed1f93373407682",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "統計、データ分析、AI",
-          "href": null
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "blue",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Python",
-          "href": "/posts/curriculums/1e0a501ef3378083b011d3e519821520"
-        }
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "統計、データ分析、AI",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "blue",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Python",
+            "href": "/posts/curriculums/1e0a501ef3378083b011d3e519821520",
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 7
   },
   {
@@ -912,8 +1006,11 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337804ebed1f93373407682",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 2
   }

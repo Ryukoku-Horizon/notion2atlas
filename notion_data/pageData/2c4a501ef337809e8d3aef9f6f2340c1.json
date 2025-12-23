@@ -6,21 +6,25 @@
     "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "pageId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Webアプリを作成しようとすると前提知識が多いです。このページでは、Webアプリを作るにあたって前提となる知識や用語を中心に説明しています。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Webアプリを作成しようとすると前提知識が多いです。このページでは、Webアプリを作るにあたって前提となる知識や用語を中心に説明しています。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -31,8 +35,11 @@
     "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "pageId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 1
   },
@@ -43,10 +50,13 @@
     "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "pageId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/question-mark_blue.svg",
-      "parent": "Webアプリとは"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Webアプリとは",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/question-mark_blue.svg",
+        "coverUrl": ""
+      }
     },
     "order": 2
   },
@@ -57,10 +67,13 @@
     "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "pageId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/server_blue.svg",
-      "parent": "Webサーバーについて"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Webサーバーについて",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/server_blue.svg",
+        "coverUrl": ""
+      }
     },
     "order": 3
   },
@@ -71,10 +84,13 @@
     "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "pageId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/username_blue.svg",
-      "parent": "URLについて"
+      "type": "child_page",
+      "child_page": {
+        "parent": "URLについて",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/username_blue.svg",
+        "coverUrl": ""
+      }
     },
     "order": 4
   },
@@ -85,10 +101,13 @@
     "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "pageId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/cellular_blue.svg",
-      "parent": "HTTPについて"
+      "type": "child_page",
+      "child_page": {
+        "parent": "HTTPについて",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/cellular_blue.svg",
+        "coverUrl": ""
+      }
     },
     "order": 5
   },
@@ -99,10 +118,13 @@
     "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "pageId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/document_blue.svg",
-      "parent": "Webサイトについて"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Webサイトについて",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/document_blue.svg",
+        "coverUrl": ""
+      }
     },
     "order": 6
   },
@@ -113,10 +135,13 @@
     "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "pageId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/code_blue.svg",
-      "parent": "HTMLについて"
+      "type": "child_page",
+      "child_page": {
+        "parent": "HTMLについて",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/code_blue.svg",
+        "coverUrl": ""
+      }
     },
     "order": 7
   },
@@ -127,10 +152,13 @@
     "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "pageId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/computer-chip_blue.svg",
-      "parent": "バックエンドについて"
+      "type": "child_page",
+      "child_page": {
+        "parent": "バックエンドについて",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/computer-chip_blue.svg",
+        "coverUrl": ""
+      }
     },
     "order": 8
   },
@@ -141,10 +169,13 @@
     "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "pageId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/archive_blue.svg",
-      "parent": "ミドルウェアについて"
+      "type": "child_page",
+      "child_page": {
+        "parent": "ミドルウェアについて",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/archive_blue.svg",
+        "coverUrl": ""
+      }
     },
     "order": 9
   },
@@ -155,10 +186,13 @@
     "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "pageId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/art_blue.svg",
-      "parent": "フレームワークについて"
+      "type": "child_page",
+      "child_page": {
+        "parent": "フレームワークについて",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/art_blue.svg",
+        "coverUrl": ""
+      }
     },
     "order": 10
   },
@@ -169,10 +203,13 @@
     "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "pageId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/hammer_blue.svg",
-      "parent": "Webアプリを開発するには？"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Webアプリを開発するには？",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/hammer_blue.svg",
+        "coverUrl": ""
+      }
     },
     "order": 11
   },
@@ -183,8 +220,11 @@
     "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "pageId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 12
   }

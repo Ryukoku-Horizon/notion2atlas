@@ -6,21 +6,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ここでは「ステージ」と「コミット」について補足します。Gitは実際には３つの領域で管理されており、これを理解すると「ステージ」や「コミット」について理解が深まります。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ここでは「ステージ」と「コミット」について補足します。Gitは実際には３つの領域で管理されており、これを理解すると「ステージ」や「コミット」について理解が深まります。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -31,22 +35,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "３つの領域とは",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "３つの領域とは",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 1
   },
@@ -56,7 +64,9 @@
     "parentId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 2
   },
   {
@@ -66,21 +76,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Git は次の 3 つの領域で管理されています：",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Git は次の 3 つの領域で管理されています：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 3
   },
@@ -91,21 +105,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "作業ディレクトリ（Working Directory）",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "作業ディレクトリ（Working Directory）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 4
   },
@@ -116,21 +134,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "→ 実際のファイルがある場所",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "→ 実際のファイルがある場所",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -141,21 +163,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ステージ（Staging Area）",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ステージ（Staging Area）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 5
   },
@@ -166,33 +192,38 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "→ ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "→ ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "\"次のコミットに含めるファイル\" を登録する場所",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "\"次のコミットに含めるファイル\" を登録する場所",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -203,21 +234,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "リポジトリ（Repository）",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "リポジトリ（Repository）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 6
   },
@@ -228,21 +263,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "→ データ永続的に保存される場所（.git）",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "→ データ永続的に保存される場所（.git）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -253,21 +292,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "以下でそれぞれについて説明します。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "以下でそれぞれについて説明します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 7
   },
@@ -278,22 +321,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "作業ディレクトリ",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "作業ディレクトリ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 8
   },
@@ -303,7 +350,9 @@
     "parentId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 9
   },
   {
@@ -313,21 +362,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "作業ディレクトリ（ディレクトリはフォルダと同義です）は、私たちが実際に開発を進めるファイルやフォルダがある領域です。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "作業ディレクトリ（ディレクトリはフォルダと同義です）は、私たちが実際に開発を進めるファイルやフォルダがある領域です。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 10
   },
@@ -338,21 +391,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "私たちはここで開発作業を進めます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "私たちはここで開発作業を進めます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 11
   },
@@ -363,22 +420,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ステージ",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ステージ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 12
   },
@@ -388,7 +449,9 @@
     "parentId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 13
   },
   {
@@ -398,45 +461,51 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ステージは次のコミットに含めるファイルを一時的に保存しておく領域です。",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ステージは次のコミットに含めるファイルを一時的に保存しておく領域です。",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git add",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git add",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コマンドでこの領域にファイルを追加することができます。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンドでこの領域にファイルを追加することができます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 14
   },
@@ -447,21 +516,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ステージに追加されたファイルがコミットされます。つまり、ステージしていないファイルはコミットされません。（コミットとは、リポジトリにファイルを追加すること）",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ステージに追加されたファイルがコミットされます。つまり、ステージしていないファイルはコミットされません。（コミットとは、リポジトリにファイルを追加すること）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 15
   },
@@ -472,22 +545,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "リポジトリ",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "リポジトリ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 16
   },
@@ -497,7 +574,9 @@
     "parentId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 17
   },
   {
@@ -507,69 +586,77 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "リポジトリは今までの変更履歴が永続的に保存される領域です。",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "リポジトリは今までの変更履歴が永続的に保存される領域です。",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git commit",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git commit",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンドでこの領域に履歴を追加できます。リポジトリは",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "コマンドでこの領域に履歴を追加できます。リポジトリは",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ".git",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": ".git",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "という隠しフォルダ内に保存されます。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "という隠しフォルダ内に保存されます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 18
   },
@@ -580,45 +667,51 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "リポジトリに変更履歴を追加することを「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "リポジトリに変更履歴を追加することを「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コミット",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "コミット",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "」と言います。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」と言います。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 19
   },
@@ -629,21 +722,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ここに保存された変更履歴を後から見返したり、履歴の一部を取得することができます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ここに保存された変更履歴を後から見返したり、履歴の一部を取得することができます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 20
   },
@@ -654,22 +751,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Gitのデータの流れ",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Gitのデータの流れ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 21
   },
@@ -679,7 +780,9 @@
     "parentId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 22
   },
   {
@@ -689,21 +792,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "今までの内容を踏まえてデータの流れを図にすると以下のようになります",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "今までの内容を踏まえてデータの流れを図にすると以下のようになります",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 23
   },
@@ -714,8 +821,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/2c3a501ef33780bd9acaf29783b9d4f8/2c3a501ef3378046b0d9f8762229df00.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/2c3a501ef33780bd9acaf29783b9d4f8/2c3a501ef3378046b0d9f8762229df00.png",
+        "width": 1330,
+        "height": 488
+      }
     },
     "order": 24
   },
@@ -726,22 +838,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "まとめ",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "まとめ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 25
   },
@@ -751,7 +867,9 @@
     "parentId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 26
   },
   {
@@ -761,21 +879,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ステージとは、コミットするファイルを一時的に置いておく領域です。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ステージとは、コミットするファイルを一時的に置いておく領域です。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 27
   },
@@ -786,21 +908,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コミットとは、変更履歴をリポジトリに保存することです。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コミットとは、変更履歴をリポジトリに保存することです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 28
   },
@@ -811,41 +937,46 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "2c3a501ef33780bd9acaf29783b9d4f8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "リポジトリについて",
-          "href": "/posts/curriculums/2c4a501ef3378035bc9ecd0f750c8309",
-          "mention": {
-            "content": {
-              "iconType": "external",
-              "iconUrl": "https://www.notion.so/icons/database_orange.svg",
-              "title": "リポジトリについて"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "リポジトリについて",
+            "href": "/posts/curriculums/2c4a501ef3378035bc9ecd0f750c8309",
+            "mention": {
+              "content": {
+                "iconType": "external",
+                "iconUrl": "https://www.notion.so/icons/database_orange.svg",
+                "title": "リポジトリについて"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": true
           },
-          "plain_text": " ",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 29
   }

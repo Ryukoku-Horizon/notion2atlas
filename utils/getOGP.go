@@ -3,20 +3,14 @@ package utils
 import (
 	"encoding/json"
 	"fmt"
+	"notion2atlas/domain"
 
 	"github.com/go-rod/rod"
 	"github.com/go-rod/rod/lib/launcher"
 	"github.com/go-rod/rod/lib/proto"
 )
 
-type OGPResult struct {
-	Title       string `json:"title"`
-	Description string `json:"description"`
-	Image       string `json:"image"`
-	Icon        string `json:"icon"`
-}
-
-func GetOGP(urlStr string) (*OGPResult, error) {
+func GetOGP(urlStr string) (*domain.OGPResult, error) {
 	// Chrome を sandbox 無しで起動（GitHub Actions 対応）
 	u := launcher.New().
 		Headless(true).
@@ -72,13 +66,13 @@ func GetOGP(urlStr string) (*OGPResult, error) {
 		return nil, err
 	}
 
-	var ogp OGPResult
+	var ogp domain.OGPResult
 	if err := json.Unmarshal([]byte(res.Value.Str()), &ogp); err != nil {
 		fmt.Println("error in utils/GetOGP/json.Unmarshal url:" + urlStr)
 		return nil, err
 	}
 
-	return &OGPResult{
+	return &domain.OGPResult{
 		Title:       title,
 		Icon:        ogp.Icon,
 		Image:       ogp.Image,

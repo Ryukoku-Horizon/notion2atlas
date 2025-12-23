@@ -6,22 +6,26 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Flet の使い方",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Flet の使い方",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 0
   },
@@ -31,7 +35,9 @@
     "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 1
   },
   {
@@ -41,10 +47,13 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "❔",
-      "parent": "0. GUIとFletについて"
+      "type": "child_page",
+      "child_page": {
+        "parent": "0. GUIとFletについて",
+        "iconType": "emoji",
+        "iconUrl": "❔",
+        "coverUrl": ""
+      }
     },
     "order": 2
   },
@@ -55,10 +64,13 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/playback-play_blue.svg",
-      "parent": "1. Fletのインストール"
+      "type": "child_page",
+      "child_page": {
+        "parent": "1. Fletのインストール",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/playback-play_blue.svg",
+        "coverUrl": ""
+      }
     },
     "order": 3
   },
@@ -69,10 +81,13 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "➕",
-      "parent": "2. カウンターを作ってみよう"
+      "type": "child_page",
+      "child_page": {
+        "parent": "2. カウンターを作ってみよう",
+        "iconType": "emoji",
+        "iconUrl": "➕",
+        "coverUrl": ""
+      }
     },
     "order": 4
   },
@@ -83,10 +98,13 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "🆕",
-      "parent": "3. ページの生成"
+      "type": "child_page",
+      "child_page": {
+        "parent": "3. ページの生成",
+        "iconType": "emoji",
+        "iconUrl": "🆕",
+        "coverUrl": ""
+      }
     },
     "order": 5
   },
@@ -97,10 +115,13 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/square-three-fourths_green.svg",
-      "parent": "4. コントロール"
+      "type": "child_page",
+      "child_page": {
+        "parent": "4. コントロール",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/square-three-fourths_green.svg",
+        "coverUrl": ""
+      }
     },
     "order": 6
   },
@@ -111,10 +132,13 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "📝",
-      "parent": "Fletの練習問題1"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Fletの練習問題1",
+        "iconType": "emoji",
+        "iconUrl": "📝",
+        "coverUrl": ""
+      }
     },
     "order": 7
   },
@@ -125,10 +149,13 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/cursor-button_blue.svg",
-      "parent": "5. 主要なコントロール①（ボタン系）"
+      "type": "child_page",
+      "child_page": {
+        "parent": "5. 主要なコントロール①（ボタン系）",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/cursor-button_blue.svg",
+        "coverUrl": ""
+      }
     },
     "order": 8
   },
@@ -139,10 +166,13 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/rename_gray.svg",
-      "parent": "6. 主要なコントロール②（テキスト系）"
+      "type": "child_page",
+      "child_page": {
+        "parent": "6. 主要なコントロール②（テキスト系）",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/rename_gray.svg",
+        "coverUrl": ""
+      }
     },
     "order": 9
   },
@@ -153,10 +183,13 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "📝",
-      "parent": "Fletの練習問題2"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Fletの練習問題2",
+        "iconType": "emoji",
+        "iconUrl": "📝",
+        "coverUrl": ""
+      }
     },
     "order": 10
   },
@@ -167,10 +200,13 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/list-indent_red.svg",
-      "parent": "7. コントロールのレイアウト"
+      "type": "child_page",
+      "child_page": {
+        "parent": "7. コントロールのレイアウト",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/list-indent_red.svg",
+        "coverUrl": ""
+      }
     },
     "order": 11
   },
@@ -181,10 +217,13 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "📝",
-      "parent": "Fletの練習問題3"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Fletの練習問題3",
+        "iconType": "emoji",
+        "iconUrl": "📝",
+        "coverUrl": ""
+      }
     },
     "order": 12
   },
@@ -195,10 +234,13 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/arrow-down_green.svg",
-      "parent": "8. プロパティへのアクセス"
+      "type": "child_page",
+      "child_page": {
+        "parent": "8. プロパティへのアクセス",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/arrow-down_green.svg",
+        "coverUrl": ""
+      }
     },
     "order": 13
   },
@@ -209,10 +251,13 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "📝",
-      "parent": "Fletの練習問題4"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Fletの練習問題4",
+        "iconType": "emoji",
+        "iconUrl": "📝",
+        "coverUrl": ""
+      }
     },
     "order": 14
   },
@@ -223,10 +268,13 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/gear_yellow.svg",
-      "parent": "9. イベントハンドラとイベントオブジェクト"
+      "type": "child_page",
+      "child_page": {
+        "parent": "9. イベントハンドラとイベントオブジェクト",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/gear_yellow.svg",
+        "coverUrl": ""
+      }
     },
     "order": 15
   },
@@ -237,10 +285,13 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "📝",
-      "parent": "Fletの練習問題5"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Fletの練習問題5",
+        "iconType": "emoji",
+        "iconUrl": "📝",
+        "coverUrl": ""
+      }
     },
     "order": 16
   },
@@ -251,22 +302,26 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "電卓の作成",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "電卓の作成",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 17
   },
@@ -276,7 +331,9 @@
     "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 18
   },
   {
@@ -286,21 +343,25 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "練習問題がすべて終了したら、Fletの使用方法を覚えるために、電卓を作成してください。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "練習問題がすべて終了したら、Fletの使用方法を覚えるために、電卓を作成してください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 19
   },
@@ -311,21 +372,25 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "詳細は以下のページから⇩",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "詳細は以下のページから⇩",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 20
   },
@@ -336,10 +401,13 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/calculator_blue.svg",
-      "parent": "電卓について"
+      "type": "child_page",
+      "child_page": {
+        "parent": "電卓について",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/calculator_blue.svg",
+        "coverUrl": ""
+      }
     },
     "order": 21
   },
@@ -350,22 +418,26 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "電卓が完成したら",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "電卓が完成したら",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 22
   },
@@ -375,7 +447,9 @@
     "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 23
   },
   {
@@ -385,21 +459,25 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "電卓が完成した人は以下のページを参考に、電卓を自分なりにアレンジしてみてください。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "電卓が完成した人は以下のページを参考に、電卓を自分なりにアレンジしてみてください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 24
   },
@@ -410,10 +488,13 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/calculator_orange.svg",
-      "parent": "電卓アレンジ例"
+      "type": "child_page",
+      "child_page": {
+        "parent": "電卓アレンジ例",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/calculator_orange.svg",
+        "coverUrl": ""
+      }
     },
     "order": 25
   },
@@ -424,21 +505,25 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "さらに時間が余った人は以下のページを参考に「ToDoアプリ」の作成に挑戦してみてください。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "さらに時間が余った人は以下のページを参考に「ToDoアプリ」の作成に挑戦してみてください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 26
   },
@@ -449,10 +534,13 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "📑",
-      "parent": "ToDoアプリ"
+      "type": "child_page",
+      "child_page": {
+        "parent": "ToDoアプリ",
+        "iconType": "emoji",
+        "iconUrl": "📑",
+        "coverUrl": ""
+      }
     },
     "order": 27
   },
@@ -463,22 +551,26 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "各種コントロール",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "各種コントロール",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 28
   },
@@ -488,7 +580,9 @@
     "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 29
   },
   {
@@ -498,10 +592,13 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "🚧",
-      "parent": "【工事中】コントロール紹介"
+      "type": "child_page",
+      "child_page": {
+        "parent": "【工事中】コントロール紹介",
+        "iconType": "emoji",
+        "iconUrl": "🚧",
+        "coverUrl": ""
+      }
     },
     "order": 30
   }

@@ -9,7 +9,7 @@ import (
 )
 
 func FlushBlockBuffer(blocks []domain.BlockEntity, pageId string) error {
-	path := fmt.Sprintf("%s/%s.json", constants.PAGE_DATA_DIR, pageId)
+	path := fmt.Sprintf("%s/%s.json", constants.TMP_DIR, pageId)
 	_, err := filemanager.CreateFileIfNotExist(path)
 	if err != nil {
 		fmt.Println("error in usecase/FlushBlockBuffer/filemanager.CreateFileIfNotExist")

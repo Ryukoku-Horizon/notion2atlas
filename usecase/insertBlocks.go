@@ -47,18 +47,6 @@ func InsertNotionBlocks(bp domain.BasePage, pageBuffer []domain.PageEntity, reso
 
 func insertChildren(currId string, pageId string, blocks []domain.NTBlockEntity, blockBuffer []domain.BlockEntity, pageBuffer []domain.PageEntity, resourceType string) ([]domain.BlockEntity, []domain.PageEntity, error) {
 	var err error = nil
-	// var wg sync.WaitGroup
-	// for i, block := range blocks {
-	// 	block := block
-	// 	wg.Add(1)
-	// 	go func() {
-	// 		defer wg.Done()
-	// 		blockBuffer, pageBuffer, err = insertBlock(block, currId, pageId, i, fmt.Sprintf("%d/%d", i+1, len(blocks)), blockBuffer, pageBuffer)
-	// 		if err != nil {
-	// 			fmt.Println("error in usecase/insertChildren/insertBlock " + block.Id)
-	// 		}
-	// 	}()
-	// }
 	for i, block := range blocks {
 		blockBuffer, pageBuffer, err = insertBlock(block, currId, pageId, i, fmt.Sprintf("%d/%d", i+1, len(blocks)), blockBuffer, pageBuffer, resourceType)
 		if err != nil {
@@ -66,8 +54,6 @@ func insertChildren(currId string, pageId string, blocks []domain.NTBlockEntity,
 			return blockBuffer, pageBuffer, err
 		}
 	}
-
-	// wg.Wait()
 	return blockBuffer, pageBuffer, nil
 }
 

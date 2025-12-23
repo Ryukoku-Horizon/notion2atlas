@@ -6,21 +6,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ここではGit,GitHubでよく起こる競合状態と、その解決法であるマージの方法について説明します。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ここではGit,GitHubでよく起こる競合状態と、その解決法であるマージの方法について説明します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -31,22 +35,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "競合とは",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "競合とは",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 1
   },
@@ -56,7 +64,9 @@
     "parentId": "272a501ef33780c7a5e6fb2c06746bc3",
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 2
   },
   {
@@ -66,21 +76,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "まず振り返り：",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "まず振り返り：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 3
   },
@@ -91,21 +105,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "「Push」は、ローカルからリポジトリにデータの変更を送信する操作",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「Push」は、ローカルからリポジトリにデータの変更を送信する操作",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -116,21 +134,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "「Pull」はデータの変更を受け取る操作",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「Pull」はデータの変更を受け取る操作",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -141,22 +163,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "競合とは",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "競合とは",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 4
   },
@@ -167,45 +193,51 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "自分が他の人と同じファイルを変更したために、pushすることを拒否される状態が",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "自分が他の人と同じファイルを変更したために、pushすることを拒否される状態が",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "競合状態",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "競合状態",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "です。複数人が同じファイルを同時に変更すると、ファイルが破損してしまうため、gitがpushするのを拒否するようになっているのです。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "です。複数人が同じファイルを同時に変更すると、ファイルが破損してしまうため、gitがpushするのを拒否するようになっているのです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 5
   },
@@ -216,27 +248,31 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/photo-landscape_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "図にするとこんな感じ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/photo-landscape_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "図にするとこんな感じ",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 6
   },
@@ -247,8 +283,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef33780b288d8de08a8ca0412.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef33780b288d8de08a8ca0412.png",
+        "width": 1036,
+        "height": 948
+      }
     },
     "order": 0
   },
@@ -259,21 +300,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "競合状態になると、以下のようなエラーが出ます",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "競合状態になると、以下のようなエラーが出ます",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 7
   },
@@ -284,8 +329,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef33780c8b083d52e631556ce.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef33780c8b083d52e631556ce.png",
+        "width": 1302,
+        "height": 288
+      }
     },
     "order": 8
   },
@@ -296,21 +346,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "エラー文は「何らかの理由でリポジトリにpushできません」みたいな意味です。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "エラー文は「何らかの理由でリポジトリにpushできません」みたいな意味です。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 9
   },
@@ -321,22 +375,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "解決法",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "解決法",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 10
   },
@@ -347,21 +405,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "競合した時に基本となる解決法は、「マージ」することです",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "競合した時に基本となる解決法は、「マージ」することです",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 11
   },
@@ -372,25 +434,29 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "💡"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "マージというのは、自分の変更と、他の人の変更を混ぜたものを作り、それをpushすることです。",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "マージというのは、自分の変更と、他の人の変更を混ぜたものを作り、それをpushすることです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
         }
-      ]
+      }
     },
     "order": 12
   },
@@ -401,22 +467,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "競合状態になってみよう",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "競合状態になってみよう",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 13
   },
@@ -426,7 +496,9 @@
     "parentId": "272a501ef33780c7a5e6fb2c06746bc3",
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 14
   },
   {
@@ -436,21 +508,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "そのまま説明してもわかりにくいと思うので、実際に今から競合状態にわざとしてみましょう。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "そのまま説明してもわかりにくいと思うので、実際に今から競合状態にわざとしてみましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 15
   },
@@ -461,53 +537,59 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "まず、リポジトリを用意し、クローンしてください。（",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Git,GitHubのはじめ方",
-          "href": "/posts/curriculums/266a501ef337808e8078e09ab83d6de8",
-          "mention": {
-            "content": {
-              "iconType": "emoji",
-              "iconUrl": "🔰",
-              "title": "Git,GitHubのはじめ方"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "まず、リポジトリを用意し、クローンしてください。（",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " で作ったものでいいです）",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Git,GitHubのはじめ方",
+            "href": "/posts/curriculums/266a501ef337808e8078e09ab83d6de8",
+            "mention": {
+              "content": {
+                "iconType": "emoji",
+                "iconUrl": "🔰",
+                "title": "Git,GitHubのはじめ方"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": true
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " で作ったものでいいです）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 16
   },
@@ -518,21 +600,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "そしたら、リポジトリのページにアクセスしましょう",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "そしたら、リポジトリのページにアクセスしましょう",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 17
   },
@@ -543,27 +629,31 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/calendar_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "リポジトリのページ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/calendar_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "リポジトリのページ",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 18
   },
@@ -574,8 +664,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef337802a8150e280b1432beb.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef337802a8150e280b1432beb.png",
+        "width": 1704,
+        "height": 1228
+      }
     },
     "order": 0
   },
@@ -586,21 +681,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "README.mdというファイルがあるので、それを編集します。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "README.mdというファイルがあるので、それを編集します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 19
   },
@@ -611,21 +710,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "鉛筆マークをクリックします",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "鉛筆マークをクリックします",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 20
   },
@@ -636,8 +739,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef33780abbbafd275d466dc33.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef33780abbbafd275d466dc33.png",
+        "width": 1238,
+        "height": 482
+      }
     },
     "order": 21
   },
@@ -648,21 +756,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "編集できる画面があらわれるので、何かテキトウに書き込んでください",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "編集できる画面があらわれるので、何かテキトウに書き込んでください",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 22
   },
@@ -673,8 +785,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef33780a38d39edea48b79d4e.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef33780a38d39edea48b79d4e.png",
+        "width": 972,
+        "height": 388
+      }
     },
     "order": 23
   },
@@ -685,21 +802,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "書き込んだら、「commit changes…」というボタンを押してください",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "書き込んだら、「commit changes…」というボタンを押してください",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 24
   },
@@ -710,8 +831,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef3378029b7b3ce648dd12691.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef3378029b7b3ce648dd12691.png",
+        "width": 970,
+        "height": 498
+      }
     },
     "order": 25
   },
@@ -722,21 +848,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "確認が出てくるので続けて「commit changes」をクリックします",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "確認が出てくるので続けて「commit changes」をクリックします",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 26
   },
@@ -747,8 +877,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef33780a1bbaef80bcc9fd43f.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef33780a1bbaef80bcc9fd43f.png",
+        "width": 532,
+        "height": 548
+      }
     },
     "order": 27
   },
@@ -759,21 +894,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "これで内容を変更できました",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "これで内容を変更できました",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 28
   },
@@ -784,21 +923,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "次に、クローンしたフォルダをVSCodeで開きます",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "次に、クローンしたフォルダをVSCodeで開きます",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 29
   },
@@ -809,21 +952,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "こちらのREADME.mdにも何かテキトウに書き込みます",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "こちらのREADME.mdにも何かテキトウに書き込みます",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 30
   },
@@ -834,8 +981,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef337807fa9a3dc9a1b57e087.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef337807fa9a3dc9a1b57e087.png",
+        "width": 966,
+        "height": 374
+      }
     },
     "order": 31
   },
@@ -846,21 +998,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ファイルを保存し、ターミナルでpushのコマンドを実行します",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ファイルを保存し、ターミナルでpushのコマンドを実行します",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 32
   },
@@ -871,27 +1027,31 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/command-line_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "pushのコマンド",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/command-line_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "pushのコマンド",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 33
   },
@@ -902,21 +1062,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "git add .",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git add .",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -927,21 +1091,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "git commit -m “メッセージ”",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git commit -m “メッセージ”",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -952,21 +1120,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "git push",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git push",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -977,21 +1149,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "すると、競合状態となり、エラーが出ます",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "すると、競合状態となり、エラーが出ます",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 34
   },
@@ -1002,8 +1178,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef33780b98a72d9f0299342ce.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef33780b98a72d9f0299342ce.png",
+        "width": 1206,
+        "height": 608
+      }
     },
     "order": 35
   },
@@ -1014,21 +1195,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ここから本題で、エラーを解決していきましょう",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ここから本題で、エラーを解決していきましょう",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 36
   },
@@ -1039,45 +1224,51 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "まず、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "まず、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git pull",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git pull",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を実行します（変更を受け取るコマンド）",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を実行します（変更を受け取るコマンド）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 37
   },
@@ -1088,45 +1279,51 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "次に、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "次に、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git merge",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git merge",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を実行します（マージするコマンド）",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を実行します（マージするコマンド）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 38
   },
@@ -1137,21 +1334,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "すると、VSCodeに以下のように表示されます",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "すると、VSCodeに以下のように表示されます",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 39
   },
@@ -1162,8 +1363,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef337800e9664e8f82b6e74e6.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef337800e9664e8f82b6e74e6.png",
+        "width": 1436,
+        "height": 796
+      }
     },
     "order": 40
   },
@@ -1174,21 +1380,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "上がPushした自分の変更で、下がPullで受け取った変更です",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "上がPushした自分の変更で、下がPullで受け取った変更です",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 41
   },
@@ -1199,8 +1409,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef33780bdbfbef3b31401cd94.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef33780bdbfbef3b31401cd94.png",
+        "width": 968,
+        "height": 530
+      }
     },
     "order": 42
   },
@@ -1211,22 +1426,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "マージの方法１",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "マージの方法１",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 43
   },
@@ -1237,21 +1456,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "マージには色々方法がありますが、一つは単純に自分の変更に相手の変更を繋げる方法です",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "マージには色々方法がありますが、一つは単純に自分の変更に相手の変更を繋げる方法です",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 44
   },
@@ -1262,21 +1485,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "「Accept Both change」をクリックするとできます",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「Accept Both change」をクリックするとできます",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 45
   },
@@ -1287,8 +1514,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef33780e98d3cdf8e60ea71b2.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef33780e98d3cdf8e60ea71b2.png",
+        "width": 968,
+        "height": 432
+      }
     },
     "order": 46
   },
@@ -1299,21 +1531,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "以下のように自分の変更と受け取った変更が合体します",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "以下のように自分の変更と受け取った変更が合体します",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 47
   },
@@ -1324,8 +1560,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef3378034b6faed900d8f8b37.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef3378034b6faed900d8f8b37.png",
+        "width": 568,
+        "height": 286
+      }
     },
     "order": 48
   },
@@ -1336,21 +1577,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "この状態になったらREADME.mdファイルを保存し、Pushするコマンドを実行すると競合状態が解決します",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "この状態になったらREADME.mdファイルを保存し、Pushするコマンドを実行すると競合状態が解決します",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 49
   },
@@ -1361,27 +1606,31 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/command-line_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Pushするコマンド",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/command-line_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Pushするコマンド",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 50
   },
@@ -1392,21 +1641,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "git add .",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git add .",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -1417,21 +1670,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "git commit -m “メッセージ”",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git commit -m “メッセージ”",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -1442,21 +1699,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "git push",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git push",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -1467,21 +1728,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "この方法が一番無難だと思います。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "この方法が一番無難だと思います。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 51
   },
@@ -1492,22 +1757,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "マージの方法２",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "マージの方法２",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 52
   },
@@ -1518,21 +1787,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "二つ目の方法はいったんpullで受け取った変更を全て受け入れてから、自分の変更をpushする方法です",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "二つ目の方法はいったんpullで受け取った変更を全て受け入れてから、自分の変更をpushする方法です",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 53
   },
@@ -1543,21 +1816,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "「Accept Incoming change」をクリックすると、自分の変更は全て消えて受け取った変更のみ残ります。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「Accept Incoming change」をクリックすると、自分の変更は全て消えて受け取った変更のみ残ります。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 54
   },
@@ -1568,8 +1845,13 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef337808d9bc6e1bfbc5bc406.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/272a501ef33780c7a5e6fb2c06746bc3/273a501ef337808d9bc6e1bfbc5bc406.png",
+        "width": 1120,
+        "height": 308
+      }
     },
     "order": 55
   },
@@ -1580,21 +1862,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "これで競合は解決します。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "これで競合は解決します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 56
   },
@@ -1605,25 +1891,29 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "💡"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "おすすめの方法は、変更を受け入れる前に、自分の変更をコピーして、どこかに保存してから、この方法で受け取った変更を受けれることです。そうすることで、自分の変更を後から追加するのが楽になります。",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "おすすめの方法は、変更を受け入れる前に、自分の変更をコピーして、どこかに保存してから、この方法で受け取った変更を受けれることです。そうすることで、自分の変更を後から追加するのが楽になります。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
         }
-      ]
+      }
     },
     "order": 57
   },
@@ -1634,45 +1924,51 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "（コマンドで相手の変更を受け入れる場合は",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "（コマンドで相手の変更を受け入れる場合は",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git checkout --theirs .",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "git checkout --theirs .",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を実行）",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を実行）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 58
   },
@@ -1683,22 +1979,26 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "他の解決方法",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "他の解決方法",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 59
   },
@@ -1709,21 +2009,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "おすすめしませんが、自分の変更を強制pushすると競合は解決できます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "おすすめしませんが、自分の変更を強制pushすると競合は解決できます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 60
   },
@@ -1734,45 +2038,51 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "方法はpushコマンドに",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "方法はpushコマンドに",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "-f",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "-f",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "オプションをつけるだけです。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "オプションをつけるだけです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 61
   },
@@ -1783,27 +2093,31 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/command-line_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "強制Pushするコマンド",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/command-line_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "強制Pushするコマンド",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 62
   },
@@ -1814,21 +2128,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "git add .",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git add .",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -1839,21 +2157,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "git commit -m “メッセージ”",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git commit -m “メッセージ”",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -1864,21 +2186,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "git push -f",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "git push -f",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -1889,21 +2215,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "これで、自分の変更で全て上書きできます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "これで、自分の変更で全て上書きできます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 63
   },
@@ -1914,21 +2244,25 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "これは相手の変更を無に帰すのでやるなら話し合ってやむを得ない場合にやりましょう（場合によっては喧嘩になるかも😅）",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "これは相手の変更を無に帰すのでやるなら話し合ってやむを得ない場合にやりましょう（場合によっては喧嘩になるかも😅）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 64
   },
@@ -1939,8 +2273,11 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 65
   },
@@ -1950,7 +2287,9 @@
     "parentId": "272a501ef33780c7a5e6fb2c06746bc3",
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 66
   },
   {
@@ -1960,41 +2299,46 @@
     "curriculumId": "256a501ef33780a9a46fc17219f411da",
     "pageId": "272a501ef33780c7a5e6fb2c06746bc3",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ブランチを分ける",
-          "href": "/posts/curriculums/273a501ef337803d879cc2d7157f3fe6",
-          "mention": {
-            "content": {
-              "iconType": "external",
-              "iconUrl": "https://www.notion.so/icons/branch-merge_orange.svg",
-              "title": "ブランチを分ける"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "ブランチを分ける",
+            "href": "/posts/curriculums/273a501ef337803d879cc2d7157f3fe6",
+            "mention": {
+              "content": {
+                "iconType": "external",
+                "iconUrl": "https://www.notion.so/icons/branch-merge_orange.svg",
+                "title": "ブランチを分ける"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": true
           },
-          "plain_text": " ",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 67
   }

@@ -6,34 +6,39 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "✅ ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "✅ ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "概要",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "概要",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 0
   },
@@ -44,45 +49,51 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "このガイドは、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "このガイドは、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C#",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "C#",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "がどんな言語かを紹介し、「Hello, World!」を出力するプログラムまでをわかりやすく説明します。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "がどんな言語かを紹介し、「Hello, World!」を出力するプログラムまでをわかりやすく説明します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -92,7 +103,9 @@
     "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 2
   },
   {
@@ -102,22 +115,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "1. C#とは？",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "1. C#とは？",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 3
   },
@@ -128,45 +145,51 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "✔️ C#は、Microsoftが開発したプログラミング言語で、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "✔️ C#は、Microsoftが開発したプログラミング言語で、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "アプリケーション開発",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "アプリケーション開発",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "に広く使われています。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "に広く使われています。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 4
   },
@@ -177,21 +200,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "✔️ Windowsアプリ、ゲーム（Unity）、Webシステムなど、様々な場所で活躍します。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "✔️ Windowsアプリ、ゲーム（Unity）、Webシステムなど、様々な場所で活躍します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 5
   },
@@ -202,45 +229,51 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "✔️ ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "✔️ ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "JavaやC++に似た構文",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "JavaやC++に似た構文",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を持ちながらも、よりモダンで扱いやすくなっています。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を持ちながらも、よりモダンで扱いやすくなっています。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 6
   },
@@ -251,33 +284,38 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "💡 ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "💡 ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "C#の特徴",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C#の特徴",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 7
   },
@@ -288,33 +326,38 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "オブジェクト指向で書きやすい：",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "オブジェクト指向で書きやすい：",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "「部品を組み合わせる」ようにプログラムが作れる。複雑なものも整理しやすい。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「部品を組み合わせる」ようにプログラムが作れる。複雑なものも整理しやすい。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 8
   },
@@ -325,33 +368,38 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "開発環境がとても充実：",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "開発環境がとても充実：",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Visual Studioなど、便利なツールで効率よく開発できます。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Visual Studioなど、便利なツールで効率よく開発できます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 9
   },
@@ -362,33 +410,38 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Unityと相性バツグン：",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Unityと相性バツグン：",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ゲーム開発で人気のUnityはC#で作るので、ゲームを作りたい人にもおすすめ！",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ゲーム開発で人気のUnityはC#で作るので、ゲームを作りたい人にもおすすめ！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 10
   },
@@ -399,33 +452,38 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "安全で強力な型システム：",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "安全で強力な型システム：",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "プログラムの間違いを事前にチェックしやすく、安心して開発できます。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "プログラムの間違いを事前にチェックしやすく、安心して開発できます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 11
   },
@@ -435,7 +493,9 @@
     "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 12
   },
   {
@@ -445,22 +505,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "1-2. 開発環境の構築",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "1-2. 開発環境の構築",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 13
   },
@@ -471,22 +535,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "✅ (1) Windowsユーザー向け（おすすめ）",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "✅ (1) Windowsユーザー向け（おすすめ）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 14
   },
@@ -497,21 +565,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Visual Studioのインストール",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Visual Studioのインストール",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 15
   },
@@ -522,45 +594,51 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "→ ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "→ ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "https://visualstudio.microsoft.com/ja/",
+            "href": "https://visualstudio.microsoft.com/ja/",
+            "is_same_bp": false
           },
-          "plain_text": "https://visualstudio.microsoft.com/ja/",
-          "href": "https://visualstudio.microsoft.com/ja/"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": " にアクセス",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " にアクセス",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -571,21 +649,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "→ 「Visual Studio Community」を選んでインストール",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "→ 「Visual Studio Community」を選んでインストール",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -596,21 +678,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "→ インストール時に「.NETデスクトップ開発」を選択しておくと便利！",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "→ インストール時に「.NETデスクトップ開発」を選択しておくと便利！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -621,22 +707,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "✅ (2) MacやLinuxの場合",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "✅ (2) MacやLinuxの場合",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 16
   },
@@ -647,21 +737,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": ".NET SDKのインストール",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": ".NET SDKのインストール",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 17
   },
@@ -672,45 +766,51 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "→ ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "→ ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "https://dotnet.microsoft.com/ja-jp/download",
+            "href": "https://dotnet.microsoft.com/ja-jp/download",
+            "is_same_bp": false
           },
-          "plain_text": "https://dotnet.microsoft.com/ja-jp/download",
-          "href": "https://dotnet.microsoft.com/ja-jp/download"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": " からお使いのOSに合わせてダウンロード",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " からお使いのOSに合わせてダウンロード",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -721,21 +821,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "→ ターミナルで確認：",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "→ ターミナルで確認：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -746,22 +850,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "caption": [],
-      "language": "bash",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "dotnet --version",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "bash",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "dotnet --version",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 18
   },
@@ -772,21 +880,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "VS Codeの使用も可能！",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "VS Codeの使用も可能！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 19
   },
@@ -797,21 +909,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "→ VS CodeとC#拡張機能を組み合わせて使うことで、軽量かつ快適に開発できます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "→ VS CodeとC#拡張機能を組み合わせて使うことで、軽量かつ快適に開発できます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -821,7 +937,9 @@
     "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 20
   },
   {
@@ -831,22 +949,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "1-3. はじめてのプログラム - \"Hello, World!\"",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "1-3. はじめてのプログラム - \"Hello, World!\"",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 21
   },
@@ -857,21 +979,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "C#の基本的な動作を理解するために、「Hello, World!」を表示するプログラムを書いてみましょう！",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C#の基本的な動作を理解するために、「Hello, World!」を表示するプログラムを書いてみましょう！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 22
   },
@@ -882,22 +1008,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Hello World を表示するコード",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Hello World を表示するコード",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 23
   },
@@ -908,22 +1038,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "caption": [],
-      "language": "c#",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "using System;\n\nclass Program\n{\n    static void Main()\n    {\n        Console.WriteLine(\"Hello, World!\");\n    }\n}",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "c#",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "using System;\n\nclass Program\n{\n    static void Main()\n    {\n        Console.WriteLine(\"Hello, World!\");\n    }\n}",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 24
   },
@@ -933,7 +1067,9 @@
     "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 25
   },
   {
@@ -943,22 +1079,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実行方法（コマンドラインで実行する場合）",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実行方法（コマンドラインで実行する場合）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 26
   },
@@ -969,21 +1109,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "フォルダを作成し、初期化：",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "フォルダを作成し、初期化：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 27
   },
@@ -994,22 +1138,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "caption": [],
-      "language": "bash",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "dotnet new console -o HelloWorldApp\ncd HelloWorldApp",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "bash",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "dotnet new console -o HelloWorldApp\ncd HelloWorldApp",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 28
   },
@@ -1020,21 +1168,25 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "プログラムを実行：",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "プログラムを実行：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 29
   },
@@ -1045,22 +1197,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "caption": [],
-      "language": "bash",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "dotnet run",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "bash",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "dotnet run",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 30
   },
@@ -1070,7 +1226,9 @@
     "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 31
   },
   {
@@ -1080,22 +1238,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実行結果：",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実行結果：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 32
   },
@@ -1106,22 +1268,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "caption": [],
-      "language": "plain text",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Hello, World!",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "plain text",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Hello, World!",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 33
   },
@@ -1131,7 +1297,9 @@
     "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 34
   },
   {
@@ -1141,22 +1309,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コードの解説（初心者向け）",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コードの解説（初心者向け）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 35
   },
@@ -1167,22 +1339,26 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "caption": [],
-      "language": "c#",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "using System;              // 入出力に使うSystem名前空間を使用\n\nclass Program              // クラス（プログラムの基本単位）を定義\n{\n    static void Main()     // プログラムの開始地点\n    {\n        Console.WriteLine(\"Hello, World!\"); // コンソールに文字を出力\n    }\n}",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "c#",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "using System;              // 入出力に使うSystem名前空間を使用\n\nclass Program              // クラス（プログラムの基本単位）を定義\n{\n    static void Main()     // プログラムの開始地点\n    {\n        Console.WriteLine(\"Hello, World!\"); // コンソールに文字を出力\n    }\n}",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 36
   },
@@ -1193,8 +1369,11 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 37
   },
@@ -1205,25 +1384,29 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "💡"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "C#では、すべてのプログラムがクラスの中で動作します。",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "C#では、すべてのプログラムがクラスの中で動作します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
         }
-      ]
+      }
     },
     "order": 38
   },
@@ -1234,33 +1417,38 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Main()",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Main()",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "メソッドが最初に実行される場所です。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "メソッドが最初に実行される場所です。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -1271,8 +1459,11 @@
     "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
     "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 39
   }

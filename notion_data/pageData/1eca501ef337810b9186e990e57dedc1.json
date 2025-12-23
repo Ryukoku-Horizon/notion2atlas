@@ -6,22 +6,26 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "問題1",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "問題1",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 0
   },
@@ -32,21 +36,25 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "次の変数の値を1文字ずつ分解して、リスト化させなさい。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "次の変数の値を1文字ずつ分解して、リスト化させなさい。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -57,22 +65,26 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
     "data": {
-      "caption": [],
-      "language": "python",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "value1 = \"洞井損\"\nvalue2 = \"Horizon\"\nvalue3 = 1041048",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "python",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "value1 = \"洞井損\"\nvalue2 = \"Horizon\"\nvalue3 = 1041048",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -83,8 +95,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 3
   },
@@ -94,7 +109,9 @@
     "parentId": "1eca501ef337810b9186e990e57dedc1",
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 4
   },
   {
@@ -104,22 +121,26 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "問題2",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "問題2",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 5
   },
@@ -130,21 +151,25 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "0～20までの21個の数字をリスト化し、0～20までをリスト化したものと「0」と「20」だけ出力するプログラムを作成しなさい。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "0～20までの21個の数字をリスト化し、0～20までをリスト化したものと「0」と「20」だけ出力するプログラムを作成しなさい。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 6
   },
@@ -155,8 +180,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 7
   },
@@ -166,7 +194,9 @@
     "parentId": "1eca501ef337810b9186e990e57dedc1",
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 8
   },
   {
@@ -176,22 +206,26 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "問題3",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "問題3",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 9
   },
@@ -202,45 +236,51 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "次のリストで、「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "次のリストで、「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": true
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": true
+            },
+            "plain_text": "”h”",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "”h”",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "」が何個あるかcount関数を使って出力させなさい。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」が何個あるかcount関数を使って出力させなさい。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 10
   },
@@ -251,22 +291,26 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
     "data": {
-      "caption": [],
-      "language": "python",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "hlist=[\"H\",\"e\",\"y\",\"!\",\"H\",\"i\",\"n\",\"t\",\"d\",\"a\",\"h\",\"a\",\"h\",\"a\",\"h\",\"a\",\"!\"]",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "python",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "hlist=[\"H\",\"e\",\"y\",\"!\",\"H\",\"i\",\"n\",\"t\",\"d\",\"a\",\"h\",\"a\",\"h\",\"a\",\"h\",\"a\",\"!\"]",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 11
   },
@@ -277,8 +321,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 12
   },
@@ -288,7 +335,9 @@
     "parentId": "1eca501ef337810b9186e990e57dedc1",
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 13
   },
   {
@@ -298,21 +347,25 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "第2章まとめ",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "第2章まとめ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 14
   },
@@ -323,21 +376,25 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "2-1 正解の数字をリスト化しよう",
-          "href": "/posts/curriculums/1eca501ef337818c9c6dddca1f8feb10"
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "2-1 正解の数字をリスト化しよう",
+            "href": "/posts/curriculums/1eca501ef337818c9c6dddca1f8feb10",
+            "is_same_bp": true
+          }
+        ]
+      }
     },
     "order": 15
   },
@@ -348,21 +405,25 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "2-2 正解の数字を全て異なる数字にしよう",
-          "href": "/posts/curriculums/1eca501ef337814e95ebc4445ff31b47"
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "2-2 正解の数字を全て異なる数字にしよう",
+            "href": "/posts/curriculums/1eca501ef337814e95ebc4445ff31b47",
+            "is_same_bp": true
+          }
+        ]
+      }
     },
     "order": 16
   },
@@ -373,8 +434,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 17
   },
@@ -385,33 +449,38 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "次：",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "次：",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "3-1 入力される数字の桁数を制限しよう",
-          "href": "/posts/curriculums/1eca501ef337817a9e5bc6190535af2e"
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "3-1 入力される数字の桁数を制限しよう",
+            "href": "/posts/curriculums/1eca501ef337817a9e5bc6190535af2e",
+            "is_same_bp": true
+          }
+        ]
+      }
     },
     "order": 18
   },
@@ -422,8 +491,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 19
   },
@@ -434,33 +506,38 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "目次：",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "目次：",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "数当てゲームをPythonで作ってみよう",
-          "href": "/posts/curriculums/1eca501ef33780fca5bdf2a1ea7ef2ca"
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "数当てゲームをPythonで作ってみよう",
+            "href": "/posts/curriculums/1eca501ef33780fca5bdf2a1ea7ef2ca",
+            "is_same_bp": true
+          }
+        ]
+      }
     },
     "order": 20
   },
@@ -471,8 +548,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef337810b9186e990e57dedc1",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 21
   }

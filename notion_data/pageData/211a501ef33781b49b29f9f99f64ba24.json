@@ -6,22 +6,26 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef33781b49b29f9f99f64ba24",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "インストール方法",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "インストール方法",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 0
   },
@@ -31,7 +35,9 @@
     "parentId": "211a501ef33781b49b29f9f99f64ba24",
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef33781b49b29f9f99f64ba24",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 1
   },
   {
@@ -41,21 +47,25 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef33781b49b29f9f99f64ba24",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "windowsかmacの場合は以下のサイトを見てDocker Desktopをインストールしてください",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "windowsかmacの場合は以下のサイトを見てDocker Desktopをインストールしてください",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -66,21 +76,25 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef33781b49b29f9f99f64ba24",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "windowsの場合",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "windowsの場合",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 3
   },
@@ -91,14 +105,17 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef33781b49b29f9f99f64ba24",
     "data": {
-      "ogp": {
-        "title": "Windows への Docker Desktop のインストール | Docker ドキュメント",
-        "description": "How to install Docker Desktop for Windows",
-        "image": "https://matsuand.github.io/docs.docker.jp.onthefly/favicons/docs@2x.ico",
-        "icon": "https://matsuand.github.io/docs.docker.jp.onthefly/favicons/docs@2x.ico"
-      },
-      "parent": [],
-      "url": "https://matsuand.github.io/docs.docker.jp.onthefly/desktop/windows/install/"
+      "type": "bookmark",
+      "bookmark": {
+        "parent": [],
+        "url": "https://matsuand.github.io/docs.docker.jp.onthefly/desktop/windows/install/",
+        "ogp": {
+          "title": "Windows への Docker Desktop のインストール | Docker ドキュメント",
+          "description": "How to install Docker Desktop for Windows",
+          "image": "https://matsuand.github.io/docs.docker.jp.onthefly/favicons/docs@2x.ico",
+          "icon": "https://matsuand.github.io/docs.docker.jp.onthefly/favicons/docs@2x.ico"
+        }
+      }
     },
     "order": 4
   },
@@ -109,8 +126,11 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef33781b49b29f9f99f64ba24",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 5
   },
@@ -121,21 +141,25 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef33781b49b29f9f99f64ba24",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "macの場合",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "macの場合",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 6
   },
@@ -146,14 +170,17 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef33781b49b29f9f99f64ba24",
     "data": {
-      "ogp": {
-        "title": "Docker Desktop の Mac へのインストール | Docker ドキュメント",
-        "description": "Docker Desktop の Mac へのインストール方法を説明します。",
-        "image": "https://matsuand.github.io/docs.docker.jp.onthefly/favicons/docs@2x.ico",
-        "icon": "https://matsuand.github.io/docs.docker.jp.onthefly/favicons/docs@2x.ico"
-      },
-      "parent": [],
-      "url": "https://matsuand.github.io/docs.docker.jp.onthefly/desktop/mac/install/"
+      "type": "bookmark",
+      "bookmark": {
+        "parent": [],
+        "url": "https://matsuand.github.io/docs.docker.jp.onthefly/desktop/mac/install/",
+        "ogp": {
+          "title": "Docker Desktop の Mac へのインストール | Docker ドキュメント",
+          "description": "Docker Desktop の Mac へのインストール方法を説明します。",
+          "image": "https://matsuand.github.io/docs.docker.jp.onthefly/favicons/docs@2x.ico",
+          "icon": "https://matsuand.github.io/docs.docker.jp.onthefly/favicons/docs@2x.ico"
+        }
+      }
     },
     "order": 7
   },
@@ -164,8 +191,11 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef33781b49b29f9f99f64ba24",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 8
   },
@@ -176,21 +206,25 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef33781b49b29f9f99f64ba24",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Linux（Ubuntu）の場合はDocker Engine（cli）をインストールします",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Linux（Ubuntu）の場合はDocker Engine（cli）をインストールします",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 9
   },
@@ -201,21 +235,25 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef33781b49b29f9f99f64ba24",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "一つずつ実行してください",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "一つずつ実行してください",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -226,22 +264,26 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef33781b49b29f9f99f64ba24",
     "data": {
-      "caption": [],
-      "language": "shell",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "# 1. 既存のDockerがあれば削除\nsudo apt remove docker docker-engine docker.io containerd runc\n\n# 2. 必要なパッケージをインストール\nsudo apt update\nsudo apt install -y ca-certificates curl gnupg\n\n# 3. Dockerの公式GPGキー追加\nsudo install -m 0755 -d /etc/apt/keyrings\ncurl -fsSL https://download.docker.com/linux/ubuntu/gpg | \\\n  sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg\n\n# 4. リポジトリ追加\necho \\\n  \"deb [arch=$(dpkg --print-architecture) \\\n  signed-by=/etc/apt/keyrings/docker.gpg] \\\n  https://download.docker.com/linux/ubuntu \\\n  $(lsb_release -cs) stable\" | \\\n  sudo tee /etc/apt/sources.list.d/docker.list \u003e /dev/null\n\n# 5. Docker本体のインストール\nsudo apt update\nsudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin\n\n# 6. dockerコマンドが動くか確認\nsudo docker run hello-world\n",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "shell",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "# 1. 既存のDockerがあれば削除\nsudo apt remove docker docker-engine docker.io containerd runc\n\n# 2. 必要なパッケージをインストール\nsudo apt update\nsudo apt install -y ca-certificates curl gnupg\n\n# 3. Dockerの公式GPGキー追加\nsudo install -m 0755 -d /etc/apt/keyrings\ncurl -fsSL https://download.docker.com/linux/ubuntu/gpg | \\\n  sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg\n\n# 4. リポジトリ追加\necho \\\n  \"deb [arch=$(dpkg --print-architecture) \\\n  signed-by=/etc/apt/keyrings/docker.gpg] \\\n  https://download.docker.com/linux/ubuntu \\\n  $(lsb_release -cs) stable\" | \\\n  sudo tee /etc/apt/sources.list.d/docker.list \u003e /dev/null\n\n# 5. Docker本体のインストール\nsudo apt update\nsudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin\n\n# 6. dockerコマンドが動くか確認\nsudo docker run hello-world\n",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -252,21 +294,25 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef33781b49b29f9f99f64ba24",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "sudoなしで使いたい場合：",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "sudoなしで使いたい場合：",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -277,22 +323,26 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef33781b49b29f9f99f64ba24",
     "data": {
-      "caption": [],
-      "language": "shell",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "sudo usermod -aG docker $USER\nnewgrp docker",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "shell",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "sudo usermod -aG docker $USER\nnewgrp docker",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 3
   },
@@ -303,22 +353,26 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef33781b49b29f9f99f64ba24",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "インストールが完了したら",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "インストールが完了したら",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 10
   },
@@ -328,7 +382,9 @@
     "parentId": "211a501ef33781b49b29f9f99f64ba24",
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef33781b49b29f9f99f64ba24",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 11
   },
   {
@@ -338,21 +394,25 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef33781b49b29f9f99f64ba24",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "インストールが完了したら以下のコマンドを実行できるか確認してください",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "インストールが完了したら以下のコマンドを実行できるか確認してください",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 12
   },
@@ -363,22 +423,26 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef33781b49b29f9f99f64ba24",
     "data": {
-      "caption": [],
-      "language": "shell",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "docker --version\ndocker run hello-world",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "shell",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "docker --version\ndocker run hello-world",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 13
   },
@@ -389,33 +453,38 @@
     "curriculumId": "211a501ef3378033aba3e2b9e036eacf",
     "pageId": "211a501ef33781b49b29f9f99f64ba24",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "次→",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "次→",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Dockerとは？",
-          "href": "/posts/curriculums/211a501ef337819581b6ebbc6999f155"
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Dockerとは？",
+            "href": "/posts/curriculums/211a501ef337819581b6ebbc6999f155",
+            "is_same_bp": true
+          }
+        ]
+      }
     },
     "order": 14
   }

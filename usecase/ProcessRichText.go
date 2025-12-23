@@ -7,21 +7,8 @@ import (
 	"notion2atlas/utils"
 )
 
-type RichTextModel struct {
-	Annotations domain.AnnotationsProperty `json:"annotations"`
-	PlainText   string                     `json:"plain_text"`
-	Href        *string                    `json:"href"`
-	Scroll      *string                    `json:"scroll,omitempty"`
-	Mention     *MentionModel              `json:"mention,omitempty"`
-}
-
-type MentionModel = struct {
-	Content map[string]any `json:"content"`
-	Type    string         `json:"type"`
-}
-
-func ProcessRichText(richTexts []domain.RichTextProperty, type_ string) ([]RichTextModel, error) {
-	richTextModels := make([]RichTextModel, 0, len(richTexts))
+func ProcessRichText(richTexts []domain.RichTextProperty, type_ string) ([]domain.RichTextEntity, error) {
+	richTextModels := make([]domain.RichTextEntity, 0, len(richTexts))
 	for _, it := range richTexts {
 		model, err := richTextRes2Model(it, type_)
 		if err != nil {
@@ -35,7 +22,7 @@ func ProcessRichText(richTexts []domain.RichTextProperty, type_ string) ([]RichT
 	return richTextModels, nil
 }
 
-func richTextRes2Model(rich_text domain.RichTextProperty, type_ string) (*RichTextModel, error) {
+func richTextRes2Model(rich_text domain.RichTextProperty, type_ string) (*domain.RichTextEntity, error) {
 	var href *string = nil
 	var scroll *string = nil
 	if rich_text.Href != nil {
@@ -52,7 +39,7 @@ func richTextRes2Model(rich_text domain.RichTextProperty, type_ string) (*RichTe
 			fmt.Println("error in usecase/richTextRes2Model/getMentionModel")
 			return nil, err
 		}
-		return &RichTextModel{
+		return &domain.RichTextEntity{
 			Annotations: rich_text.Annotations,
 			PlainText:   rich_text.PlainText,
 			Href:        href,
@@ -60,7 +47,7 @@ func richTextRes2Model(rich_text domain.RichTextProperty, type_ string) (*RichTe
 			Mention:     mentionModel,
 		}, nil
 	}
-	return &RichTextModel{
+	return &domain.RichTextEntity{
 		Annotations: rich_text.Annotations,
 		PlainText:   rich_text.PlainText,
 		Href:        href,
@@ -69,7 +56,7 @@ func richTextRes2Model(rich_text domain.RichTextProperty, type_ string) (*RichTe
 	}, nil
 }
 
-func getMentionModel(mention *domain.MentionProperty, type_ string) (*MentionModel, error) {
+func getMentionModel(mention *domain.MentionProperty, type_ string) (*domain.MentionEntity, error) {
 	mentionType := mention.Type
 	switch mentionType {
 	case "page":
@@ -83,7 +70,7 @@ func getMentionModel(mention *domain.MentionProperty, type_ string) (*MentionMod
 				fmt.Println("error in usecase/getMentionModel/GetPageItem")
 				return nil, err
 			}
-			return &MentionModel{
+			return &domain.MentionEntity{
 				Content: map[string]any{
 					"iconUrl":  pageData.IconUrl,
 					"iconType": pageData.IconType,
@@ -98,7 +85,7 @@ func getMentionModel(mention *domain.MentionProperty, type_ string) (*MentionMod
 			fmt.Println("error in usecase/getMentionModel/domain.Struct2Map")
 			return nil, err
 		}
-		return &MentionModel{
+		return &domain.MentionEntity{
 			Content: mentionContent,
 			Type:    mentionType,
 		}, nil

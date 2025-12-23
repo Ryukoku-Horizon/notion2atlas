@@ -6,45 +6,51 @@
     "curriculumId": "278a501ef33780cd8630d283f74801aa",
     "pageId": "278a501ef33780cd8630d283f74801aa",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "部室の本を管理するために、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "部室の本を管理するために、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "貸し出しと返却用のフォーム",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "貸し出しと返却用のフォーム",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を作成しました！",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を作成しました！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -55,21 +61,25 @@
     "curriculumId": "278a501ef33780cd8630d283f74801aa",
     "pageId": "278a501ef33780cd8630d283f74801aa",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "借りる・返すときは、以下のフォームから入力してください。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "借りる・返すときは、以下のフォームから入力してください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -80,27 +90,31 @@
     "curriculumId": "278a501ef33780cd8630d283f74801aa",
     "pageId": "278a501ef33780cd8630d283f74801aa",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/formula_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "貸出フォーム",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/formula_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "貸出フォーム",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 2
   },
@@ -111,14 +125,17 @@
     "curriculumId": "278a501ef33780cd8630d283f74801aa",
     "pageId": "278a501ef33780cd8630d283f74801aa",
     "data": {
-      "ogp": {
-        "title": "Google フォーム: ログイン",
-        "description": "Google フォームには、個人の Google アカウントまたは Google Workspace アカウント（ビジネス ユーザー向け）でアクセスできます。",
-        "image": "",
-        "icon": ""
-      },
-      "parent": [],
-      "url": "https://forms.gle/5PRXcWbXvLG8SGyg7"
+      "type": "bookmark",
+      "bookmark": {
+        "parent": [],
+        "url": "https://forms.gle/5PRXcWbXvLG8SGyg7",
+        "ogp": {
+          "title": "Google フォーム: ログイン",
+          "description": "Google フォームには、個人の Google アカウントまたは Google Workspace アカウント（ビジネス ユーザー向け）でアクセスできます。",
+          "image": "",
+          "icon": ""
+        }
+      }
     },
     "order": 0
   },
@@ -129,27 +146,31 @@
     "curriculumId": "278a501ef33780cd8630d283f74801aa",
     "pageId": "278a501ef33780cd8630d283f74801aa",
     "data": {
-      "color": "gray_background",
-      "icon": {
-        "type": "external",
-        "external": {
-          "url": "https://www.notion.so/icons/formula_gray.svg"
+      "type": "callout",
+      "callout": {
+        "color": "gray_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "返却フォーム",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "external",
+          "external": {
+            "url": "https://www.notion.so/icons/formula_gray.svg"
+          }
         }
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "返却フォーム",
-          "href": null
-        }
-      ]
+      }
     },
     "order": 3
   },
@@ -160,14 +181,17 @@
     "curriculumId": "278a501ef33780cd8630d283f74801aa",
     "pageId": "278a501ef33780cd8630d283f74801aa",
     "data": {
-      "ogp": {
-        "title": "Google フォーム: ログイン",
-        "description": "Google フォームには、個人の Google アカウントまたは Google Workspace アカウント（ビジネス ユーザー向け）でアクセスできます。",
-        "image": "",
-        "icon": ""
-      },
-      "parent": [],
-      "url": "https://forms.gle/Dv3Ndtjik9Z8Cnem6"
+      "type": "bookmark",
+      "bookmark": {
+        "parent": [],
+        "url": "https://forms.gle/Dv3Ndtjik9Z8Cnem6",
+        "ogp": {
+          "title": "Google フォーム: ログイン",
+          "description": "Google フォームには、個人の Google アカウントまたは Google Workspace アカウント（ビジネス ユーザー向け）でアクセスできます。",
+          "image": "",
+          "icon": ""
+        }
+      }
     },
     "order": 0
   },
@@ -178,34 +202,39 @@
     "curriculumId": "278a501ef33780cd8630d283f74801aa",
     "pageId": "278a501ef33780cd8630d283f74801aa",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "📌 ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "📌 ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "使い方ルール",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "使い方ルール",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 4
   },
@@ -216,69 +245,77 @@
     "curriculumId": "278a501ef33780cd8630d283f74801aa",
     "pageId": "278a501ef33780cd8630d283f74801aa",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "借りるときは ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "借りるときは ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "書籍番号",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "書籍番号",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " と ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " と ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "日付",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "日付",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": " を入力してください,",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " を入力してください,",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 5
   },
@@ -289,21 +326,25 @@
     "curriculumId": "278a501ef33780cd8630d283f74801aa",
     "pageId": "278a501ef33780cd8630d283f74801aa",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "返すときも同様にフォームから報告をお願いします",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "返すときも同様にフォームから報告をお願いします",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 6
   },
@@ -314,22 +355,26 @@
     "curriculumId": "278a501ef33780cd8630d283f74801aa",
     "pageId": "278a501ef33780cd8630d283f74801aa",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "本のリスト",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "本のリスト",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 7
   },
@@ -340,41 +385,46 @@
     "curriculumId": "278a501ef33780cd8630d283f74801aa",
     "pageId": "278a501ef33780cd8630d283f74801aa",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "本のリスト",
-          "href": "/posts/curriculums/278a501ef337803ab4f6ea002a586eb2",
-          "mention": {
-            "content": {
-              "iconType": "emoji",
-              "iconUrl": "📖",
-              "title": "本のリスト"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "本のリスト",
+            "href": "/posts/curriculums/278a501ef337803ab4f6ea002a586eb2",
+            "mention": {
+              "content": {
+                "iconType": "emoji",
+                "iconUrl": "📖",
+                "title": "本のリスト"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 8
   }

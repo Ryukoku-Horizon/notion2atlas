@@ -8,8 +8,8 @@ type Entity interface {
 	GetId() string
 }
 
-func EntityIfArr2CategoryArr(ifArr []Entity) ([]CategoryEntity, error) {
-	categories, err := ConvertArr2Arr(ifArr, func(i Entity) (CategoryEntity, error) {
+func EntityIfArr2CategoryArr(ifArr []BasePage) ([]CategoryEntity, error) {
+	categories, err := ConvertArr2Arr(ifArr, func(i BasePage) (CategoryEntity, error) {
 		c, ok := i.(CategoryEntity)
 		if !ok {
 			return CategoryEntity{}, fmt.Errorf("fiailed convert: i.(entity.CategoryEntity)")

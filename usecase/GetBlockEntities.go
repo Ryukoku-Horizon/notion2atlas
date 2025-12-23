@@ -74,7 +74,7 @@ func appendBlock(
 	pageBuffer []domain.PageEntity,
 	type_ string,
 ) ([]domain.BlockEntity, []domain.PageEntity, error) {
-	var data any
+	var data *domain.BlockEntityData
 	var err error = nil
 	parentId, err := res.GetParentId()
 	if err != nil {
@@ -92,6 +92,7 @@ func appendBlock(
 			fmt.Println("error in usecase/appendBlock/makeParagraphData")
 			return buffer, pageBuffer, err
 		}
+
 	case "to_do":
 		obj, ok := block.(*domain.ToDoProperty)
 		if !ok {
@@ -191,14 +192,18 @@ func appendBlock(
 			return buffer, pageBuffer, fmt.Errorf("type convert failed: block.(*domain.SyncedBlock)")
 		}
 		data = makeSyncedBlockData(*obj)
-		if data == "original" {
+		if *data.Synced == "original" {
+			var data_ = domain.BlockEntityData{
+				Type:   "synced",
+				Synced: data.Synced,
+			}
 			err := UpsertSyncedFile(domain.BlockEntity{
 				Id:           res.Id,
 				Type:         res.Type,
 				ParentId:     parentId,
 				CurriculumId: curriculumId,
 				PageId:       pageId,
-				Data:         data,
+				Data:         data_,
 				Order:        i,
 			})
 			if err != nil {
@@ -246,7 +251,9 @@ func appendBlock(
 		}
 		pageBuffer = append(pageBuffer, *pageEntity)
 	default:
-		data = "_"
+		data = &domain.BlockEntityData{
+			Type: "none",
+		}
 	}
 	domain := domain.BlockEntity{
 		Id:           res.Id,
@@ -254,7 +261,7 @@ func appendBlock(
 		ParentId:     parentId,
 		CurriculumId: curriculumId,
 		PageId:       pageId,
-		Data:         data,
+		Data:         *data,
 		Order:        i,
 	}
 	return append(buffer, domain), pageBuffer, nil

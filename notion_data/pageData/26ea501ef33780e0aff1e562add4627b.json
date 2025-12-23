@@ -6,22 +6,26 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "アプリは複数のファイル・フォルダで作る。",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "アプリは複数のファイル・フォルダで作る。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 0
   },
@@ -31,7 +35,9 @@
     "parentId": "26ea501ef33780e0aff1e562add4627b",
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 1
   },
   {
@@ -41,45 +47,51 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "これまでは",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "これまでは",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ひとつのファイルだけ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ひとつのファイルだけ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "でFletアプリを作成してきました。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "でFletアプリを作成してきました。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -90,21 +102,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "しかし、チーム開発などでこれまでより規模の大きなアプリを作ることが増えてくると、アプリに関わるファイルやフォルダも増えてきます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "しかし、チーム開発などでこれまでより規模の大きなアプリを作ることが増えてくると、アプリに関わるファイルやフォルダも増えてきます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 3
   },
@@ -115,69 +131,77 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "たとえば、アプリ内で使用する",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "たとえば、アプリ内で使用する",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "画像ファイル",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "画像ファイル",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "や関数を記述した",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "や関数を記述した",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "プログラムファイル",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "プログラムファイル",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "などなど…です。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "などなど…です。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 4
   },
@@ -188,69 +212,77 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "また、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "また、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "デプロイ",
+            "href": "https://flet.dev/docs/publish/web/",
+            "is_same_bp": false
           },
-          "plain_text": "デプロイ",
-          "href": "https://flet.dev/docs/publish/web/"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "や",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "や",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ビルド",
+            "href": "https://flet.dev/docs/reference/cli/build/",
+            "is_same_bp": false
           },
-          "plain_text": "ビルド",
-          "href": "https://flet.dev/docs/reference/cli/build/"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "を実施しようと思えばそれに沿った設定ファイルも必要になります。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を実施しようと思えばそれに沿った設定ファイルも必要になります。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 5
   },
@@ -261,8 +293,13 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/26ea501ef33780e0aff1e562add4627b/26ea501ef337805d9cfcfce809f0460a.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/26ea501ef33780e0aff1e562add4627b/26ea501ef337805d9cfcfce809f0460a.png",
+        "width": 524,
+        "height": 480
+      }
     },
     "order": 6
   },
@@ -273,61 +310,68 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "blue_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "👌"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "callout",
+      "callout": {
+        "color": "blue_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "デプロイ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "デプロイ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "や",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "や",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ビルド",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ビルド",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "は発展的な内容なので、わからなくても大丈夫！",
-          "href": null
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "は発展的な内容なので、わからなくても大丈夫！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "👌"
         }
-      ]
+      }
     },
     "order": 7
   },
@@ -338,34 +382,39 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "flet create",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "flet create",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コマンド",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンド",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 8
   },
@@ -375,7 +424,9 @@
     "parentId": "26ea501ef33780e0aff1e562add4627b",
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 9
   },
   {
@@ -385,45 +436,51 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "上記のようなフォルダ構成を",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "上記のようなフォルダ構成を",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "自分で考えて作るのは大変",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "自分で考えて作るのは大変",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "です。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "です。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 10
   },
@@ -434,21 +491,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "そこで、Fletにはこのフォルダを自動で作成する機能を活用しましょう。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "そこで、Fletにはこのフォルダを自動で作成する機能を活用しましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 11
   },
@@ -459,21 +520,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コマンドラインでアプリを作成したいフォルダまで移動したあと、以下のコマンドを打ちましょう。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンドラインでアプリを作成したいフォルダまで移動したあと、以下のコマンドを打ちましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 12
   },
@@ -484,34 +549,39 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "caption": [],
-      "language": "bash",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "code",
+      "code": {
+        "language": "bash",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "flet create ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "flet create ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "orange",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "app-name",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "orange",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "app-name",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 13
   },
@@ -522,25 +592,29 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "blue_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "☝"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コマンドラインでのフォルダ操作があまりわからない人はこのサイトを参照してください！",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "blue_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンドラインでのフォルダ操作があまりわからない人はこのサイトを参照してください！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "☝"
         }
-      ]
+      }
     },
     "order": 14
   },
@@ -551,31 +625,35 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": true
-          },
-          "plain_text": "https://news.mynavi.jp/techplus/article/liunx_win-6/",
-          "href": "https://news.mynavi.jp/techplus/article/liunx_win-6/",
-          "mention": {
-            "content": {
-              "href": "https://news.mynavi.jp/techplus/article/liunx_win-6/",
-              "icon_url": "https://news.mynavi.jp/images/techplus/favicon_techplus.ico",
-              "link_provider": "マイナビニュース",
-              "thumbnail_url": "https://news.mynavi.jp/techplus/article/liunx_win-6/index_images/index.jpg",
-              "title": "Windowsユーザーに贈るLinux超入門(6) Windows Explorerで行う操作をcd、ls、pwdコマンドで実行してみる"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": true
             },
-            "type": "link_mention"
+            "plain_text": "https://news.mynavi.jp/techplus/article/liunx_win-6/",
+            "href": "https://news.mynavi.jp/techplus/article/liunx_win-6/",
+            "mention": {
+              "content": {
+                "href": "https://news.mynavi.jp/techplus/article/liunx_win-6/",
+                "icon_url": "https://news.mynavi.jp/images/techplus/favicon_techplus.ico",
+                "link_provider": "マイナビニュース",
+                "thumbnail_url": "https://news.mynavi.jp/techplus/article/liunx_win-6/index_images/index.jpg",
+                "title": "Windowsユーザーに贈るLinux超入門(6) Windows Explorerで行う操作をcd、ls、pwdコマンドで実行してみる"
+              },
+              "type": "link_mention"
+            },
+            "is_same_bp": false
           }
-        }
-      ]
+        ]
+      }
     },
     "order": 0
   },
@@ -586,33 +664,38 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "orange",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "orange",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "app-name",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "app-name",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "の部分は、作成するアプリを示す簡単な名前にしておきましょう。（日本語は使わないのが吉）",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "の部分は、作成するアプリを示す簡単な名前にしておきましょう。（日本語は使わないのが吉）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 15
   },
@@ -623,8 +706,13 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/26ea501ef33780e0aff1e562add4627b/26ea501ef337805297e6fd1885a9d7c0.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/26ea501ef33780e0aff1e562add4627b/26ea501ef337805297e6fd1885a9d7c0.png",
+        "width": 662,
+        "height": 251
+      }
     },
     "order": 16
   },
@@ -635,21 +723,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "すると、以下のようなフォルダが生成されます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "すると、以下のようなフォルダが生成されます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 17
   },
@@ -660,8 +752,13 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/26ea501ef33780e0aff1e562add4627b/26ea501ef337803d95e4f9207ada35e5.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/26ea501ef33780e0aff1e562add4627b/26ea501ef337803d95e4f9207ada35e5.png",
+        "width": 361,
+        "height": 265
+      }
     },
     "order": 18
   },
@@ -672,21 +769,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "このフォルダの中に、追加のプログラムファイルや設定ファイルなどを保存します。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "このフォルダの中に、追加のプログラムファイルや設定ファイルなどを保存します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 19
   },
@@ -697,25 +798,29 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "green_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "✅"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "１アプリ : １フォルダ！",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "green_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "１アプリ : １フォルダ！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "✅"
         }
-      ]
+      }
     },
     "order": 20
   },
@@ -726,21 +831,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Fletに限らず、基本的に一つのアプリは一つのフォルダで構成します。\nフォルダの中に複数のアプリを混在させたり、そのアプリに関するファイルを別のフォルダ内に入れるのはご法度です。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Fletに限らず、基本的に一つのアプリは一つのフォルダで構成します。\nフォルダの中に複数のアプリを混在させたり、そのアプリに関するファイルを別のフォルダ内に入れるのはご法度です。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -751,45 +860,51 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "また、このフォルダは",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "また、このフォルダは",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "プロジェクトフォルダ",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "プロジェクトフォルダ",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "と呼んだりします。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "と呼んだりします。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -800,22 +915,26 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "アプリの実行方法",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "アプリの実行方法",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 21
   },
@@ -825,7 +944,9 @@
     "parentId": "26ea501ef33780e0aff1e562add4627b",
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 22
   },
   {
@@ -835,69 +956,77 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "これまではFletのプログラムもVSCodeの実行ボタンで実行している人もいたと思いますが、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "これまではFletのプログラムもVSCodeの実行ボタンで実行している人もいたと思いますが、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "flet create",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "flet create",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "でアプリを作るときには必ず",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "でアプリを作るときには必ず",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "flet run",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "flet run",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コマンドでプログラムを実行しましょう。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンドでプログラムを実行しましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 23
   },
@@ -908,21 +1037,25 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "実行方法はカンタン。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "実行方法はカンタン。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 24
   },
@@ -933,69 +1066,77 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンドライン上でプロジェクトフォルダ（",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "コマンドライン上でプロジェクトフォルダ（",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "main.py",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "main.py",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "があるフォルダ）まで移動し、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "があるフォルダ）まで移動し、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "flet run",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "flet run",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "コマンドを実行するだけです。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "コマンドを実行するだけです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 25
   },
@@ -1006,8 +1147,13 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "parent": [],
-      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/26ea501ef33780e0aff1e562add4627b/26ea501ef33780e797aae9d5ef493512.png"
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/26ea501ef33780e0aff1e562add4627b/26ea501ef33780e797aae9d5ef493512.png",
+        "width": 627,
+        "height": 168
+      }
     },
     "order": 26
   },
@@ -1018,69 +1164,77 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "これにより、プロジェクトフォルダ内の",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "これにより、プロジェクトフォルダ内の",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "main.py",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "main.py",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "が実行されます。そのため、この",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "が実行されます。そのため、この",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "main.py",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "main.py",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "にそのアプリの中核となるプログラムを書き込んでおきましょう。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "にそのアプリの中核となるプログラムを書き込んでおきましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 27
   },
@@ -1091,37 +1245,42 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "yellow_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "⚠️"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": true,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "callout",
+      "callout": {
+        "color": "yellow_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": true,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "main.py",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "main.py",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "のファイル名は変えないようにしましょう！",
-          "href": null
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "のファイル名は変えないようにしましょう！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "⚠️"
         }
-      ]
+      }
     },
     "order": 28
   },
@@ -1132,8 +1291,11 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 29
   },
@@ -1143,7 +1305,9 @@
     "parentId": "26ea501ef33780e0aff1e562add4627b",
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 30
   },
   {
@@ -1153,53 +1317,59 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "26ea501ef33780e0aff1e562add4627b",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "次→",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ルーティング",
-          "href": "/posts/curriculums/267a501ef33780fd9f0efa54963de153",
-          "mention": {
-            "content": {
-              "iconType": "external",
-              "iconUrl": "https://www.notion.so/icons/branch_orange.svg",
-              "title": "ルーティング"
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
             },
-            "type": "prossedPage"
-          }
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+            "plain_text": "次→",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": " ",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ルーティング",
+            "href": "/posts/curriculums/267a501ef33780fd9f0efa54963de153",
+            "mention": {
+              "content": {
+                "iconType": "external",
+                "iconUrl": "https://www.notion.so/icons/branch_orange.svg",
+                "title": "ルーティング"
+              },
+              "type": "prossedPage"
+            },
+            "is_same_bp": true
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 31
   }

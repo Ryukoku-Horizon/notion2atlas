@@ -26,7 +26,6 @@ func (c CategoryEntity) GetId() string {
 func (c CategoryEntity) GetLastEditedTime() string {
 	return c.LastEditedTime
 }
-
 func (c CategoryEntity) GetTime() (*time.Time, error) {
 	lastEditedTime, err := time.Parse(time.RFC3339, c.LastEditedTime)
 	if err != nil {

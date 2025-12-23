@@ -6,8 +6,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378151b8d2da01eb4c2a83",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 0
   },
@@ -18,21 +21,25 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378151b8d2da01eb4c2a83",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "さぁ、いよいよ大詰めです。最後まで頑張っていきましょう。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "さぁ、いよいよ大詰めです。最後まで頑張っていきましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -43,21 +50,25 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378151b8d2da01eb4c2a83",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "最後は数字と桁が一致している数が桁数と一致しているかどうかを判定するプログラムを作ります。次のコードを見てください。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "最後は数字と桁が一致している数が桁数と一致しているかどうかを判定するプログラムを作ります。次のコードを見てください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -68,22 +79,26 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378151b8d2da01eb4c2a83",
     "data": {
-      "caption": [],
-      "language": "python",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "answer = [\"1\", \"2\", \"3\"]\nplayer_number = 123\nplayer = [\"1\", \"2\", \"3\"]\nEAT = 3\n\nif EAT == 3:\n    print(\"おめでとう!\\n正解は\",player_number,\"でした!\")\n    break\nelse:\n    print(\"残念、正解の数字とは違うよ\")",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "python",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "answer = [\"1\", \"2\", \"3\"]\nplayer_number = 123\nplayer = [\"1\", \"2\", \"3\"]\nEAT = 3\n\nif EAT == 3:\n    print(\"おめでとう!\\n正解は\",player_number,\"でした!\")\n    break\nelse:\n    print(\"残念、正解の数字とは違うよ\")",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 3
   },
@@ -94,93 +109,103 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378151b8d2da01eb4c2a83",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "このコードは、正解の数字が「123」で入力された数字も「123」だった時のものです。当然3EATなので変数EATには3を代入しています。",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "このコードは、正解の数字が「123」で入力された数字も「123」だった時のものです。当然3EATなので変数EATには3を代入しています。",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": true
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": true
+            },
+            "plain_text": "このゲームのクリア条件は3EATになること",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "このゲームのクリア条件は3EATになること",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "なので、if文内の処理を実行させる条件は「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "なので、if文内の処理を実行させる条件は「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": true
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": true
+            },
+            "plain_text": "変数EATの値が3だった場合",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "変数EATの値が3だった場合",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」にしなければいけません。それ以外はelse文内の処理に移り、ループさせます。また、EATの値が3だった場合、if文内の処理が行われるとき、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "」にしなければいけません。それ以外はelse文内の処理に移り、ループさせます。また、EATの値が3だった場合、if文内の処理が行われるとき、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "この処理が行われている時点で正解の数字と入力された数字が完全に一致している",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "この処理が行われている時点で正解の数字と入力された数字が完全に一致している",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ので、正解の番号を出力する場面では入力された数字の変数名が書かれています。その出力が終わったのち、break文を実行し、while文を抜けてプログラムを終了させます。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ので、正解の番号を出力する場面では入力された数字の変数名が書かれています。その出力が終わったのち、break文を実行し、while文を抜けてプログラムを終了させます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 4
   },
@@ -191,8 +216,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378151b8d2da01eb4c2a83",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 5
   },
@@ -203,129 +231,142 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378151b8d2da01eb4c2a83",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "これにて当初の予定の7つの機能を実装することができ、",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "これにて当初の予定の7つの機能を実装することができ、",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "数当てゲーム「",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "数当てゲーム「",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "gray",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "gray",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Numer0n",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Numer0n",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」が完成しました！",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "」が完成しました！",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ただ、申し訳ありませんが",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ただ、申し訳ありませんが",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "完成したプログラムはここでは見せることはできません",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "完成したプログラムはここでは見せることはできません",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "。見せてしまうとここのページを見るだけで",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "。見せてしまうとここのページを見るだけで",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "gray",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "gray",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Numer0n",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Numer0n",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ができてしまうので。",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ができてしまうので。",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "今まで学んだプログラムを組み合わせて自分で完成させてください！",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "今まで学んだプログラムを組み合わせて自分で完成させてください！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 6
   },
@@ -336,8 +377,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378151b8d2da01eb4c2a83",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 7
   },
@@ -347,7 +391,9 @@
     "parentId": "1eca501ef3378151b8d2da01eb4c2a83",
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378151b8d2da01eb4c2a83",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 8
   },
   {
@@ -357,33 +403,38 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378151b8d2da01eb4c2a83",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "前：",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "前：",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "3-2 数字や桁の一致判定システムを作成しよう",
-          "href": "/posts/curriculums/1eca501ef3378166a58be172fea0ca95"
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "3-2 数字や桁の一致判定システムを作成しよう",
+            "href": "/posts/curriculums/1eca501ef3378166a58be172fea0ca95",
+            "is_same_bp": true
+          }
+        ]
+      }
     },
     "order": 9
   },
@@ -394,33 +445,38 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378151b8d2da01eb4c2a83",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "次：",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "次：",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "3-4 練習問題",
-          "href": "/posts/curriculums/1eca501ef33781e4a7a8c9a25f22dcb5"
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "3-4 練習問題",
+            "href": "/posts/curriculums/1eca501ef33781e4a7a8c9a25f22dcb5",
+            "is_same_bp": true
+          }
+        ]
+      }
     },
     "order": 10
   },
@@ -431,8 +487,11 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378151b8d2da01eb4c2a83",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 11
   },
@@ -443,33 +502,38 @@
     "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
     "pageId": "1eca501ef3378151b8d2da01eb4c2a83",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "目次：",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "目次：",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "数当てゲームをPythonで作ってみよう",
-          "href": "/posts/curriculums/1eca501ef33780fca5bdf2a1ea7ef2ca"
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "数当てゲームをPythonで作ってみよう",
+            "href": "/posts/curriculums/1eca501ef33780fca5bdf2a1ea7ef2ca",
+            "is_same_bp": true
+          }
+        ]
+      }
     },
     "order": 12
   }

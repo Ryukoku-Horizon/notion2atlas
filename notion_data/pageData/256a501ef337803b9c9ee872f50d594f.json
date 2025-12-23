@@ -6,22 +6,26 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "256a501ef337803b9c9ee872f50d594f",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "必須ページ",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "必須ページ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 0
   },
@@ -31,7 +35,9 @@
     "parentId": "256a501ef337803b9c9ee872f50d594f",
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "256a501ef337803b9c9ee872f50d594f",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 1
   },
   {
@@ -41,10 +47,13 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "256a501ef337803b9c9ee872f50d594f",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "🆕",
-      "parent": "新しいFletアプリの作り方"
+      "type": "child_page",
+      "child_page": {
+        "parent": "新しいFletアプリの作り方",
+        "iconType": "emoji",
+        "iconUrl": "🆕",
+        "coverUrl": ""
+      }
     },
     "order": 2
   },
@@ -55,10 +64,13 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "256a501ef337803b9c9ee872f50d594f",
     "data": {
-      "coverUrl": "https://images.unsplash.com/photo-1521675333836-36e707ac1d20?ixlib=rb-4.1.0\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/branch_orange.svg",
-      "parent": "ルーティング"
+      "type": "child_page",
+      "child_page": {
+        "parent": "ルーティング",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/branch_orange.svg",
+        "coverUrl": "https://images.unsplash.com/photo-1521675333836-36e707ac1d20?ixlib=rb-4.1.0\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb"
+      }
     },
     "order": 3
   },
@@ -69,10 +81,13 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "256a501ef337803b9c9ee872f50d594f",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/branch_green.svg",
-      "parent": "静的ルーティング"
+      "type": "child_page",
+      "child_page": {
+        "parent": "静的ルーティング",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/branch_green.svg",
+        "coverUrl": ""
+      }
     },
     "order": 4
   },
@@ -83,10 +98,13 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "256a501ef337803b9c9ee872f50d594f",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/cut_blue.svg",
-      "parent": "View毎のファイル分割"
+      "type": "child_page",
+      "child_page": {
+        "parent": "View毎のファイル分割",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/cut_blue.svg",
+        "coverUrl": ""
+      }
     },
     "order": 5
   },
@@ -97,10 +115,13 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "256a501ef337803b9c9ee872f50d594f",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "📝",
-      "parent": "ルーティングの練習問題"
+      "type": "child_page",
+      "child_page": {
+        "parent": "ルーティングの練習問題",
+        "iconType": "emoji",
+        "iconUrl": "📝",
+        "coverUrl": ""
+      }
     },
     "order": 6
   },
@@ -111,22 +132,26 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "256a501ef337803b9c9ee872f50d594f",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "任意ページ",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "任意ページ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 7
   },
@@ -136,7 +161,9 @@
     "parentId": "256a501ef337803b9c9ee872f50d594f",
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "256a501ef337803b9c9ee872f50d594f",
-    "data": "_",
+    "data": {
+      "type": "none"
+    },
     "order": 8
   },
   {
@@ -146,10 +173,13 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "256a501ef337803b9c9ee872f50d594f",
     "data": {
-      "coverUrl": "https://images.unsplash.com/photo-1523461811963-7f1023caeddd?ixlib=rb-4.1.0\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/photo-landscape_green.svg",
-      "parent": "Imageコントロール"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Imageコントロール",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/photo-landscape_green.svg",
+        "coverUrl": "https://images.unsplash.com/photo-1523461811963-7f1023caeddd?ixlib=rb-4.1.0\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb"
+      }
     },
     "order": 9
   },
@@ -160,10 +190,13 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "256a501ef337803b9c9ee872f50d594f",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "🍭",
-      "parent": "動的ルーティング"
+      "type": "child_page",
+      "child_page": {
+        "parent": "動的ルーティング",
+        "iconType": "emoji",
+        "iconUrl": "🍭",
+        "coverUrl": ""
+      }
     },
     "order": 10
   },
@@ -174,10 +207,13 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "256a501ef337803b9c9ee872f50d594f",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/arrow-left-basic_blue.svg",
-      "parent": "AppBar"
+      "type": "child_page",
+      "child_page": {
+        "parent": "AppBar",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/arrow-left-basic_blue.svg",
+        "coverUrl": ""
+      }
     },
     "order": 11
   },
@@ -188,10 +224,13 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "256a501ef337803b9c9ee872f50d594f",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/skip-forward_purple.svg",
-      "parent": "カスタムコントロール"
+      "type": "child_page",
+      "child_page": {
+        "parent": "カスタムコントロール",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/skip-forward_purple.svg",
+        "coverUrl": ""
+      }
     },
     "order": 12
   },
@@ -202,10 +241,13 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "256a501ef337803b9c9ee872f50d594f",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "🎨",
-      "parent": "カラーテーマ"
+      "type": "child_page",
+      "child_page": {
+        "parent": "カラーテーマ",
+        "iconType": "emoji",
+        "iconUrl": "🎨",
+        "coverUrl": ""
+      }
     },
     "order": 13
   },
@@ -216,8 +258,11 @@
     "curriculumId": "256a501ef337803b9c9ee872f50d594f",
     "pageId": "256a501ef337803b9c9ee872f50d594f",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 14
   }

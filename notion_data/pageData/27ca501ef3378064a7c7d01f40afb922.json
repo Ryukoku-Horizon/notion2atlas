@@ -6,21 +6,25 @@
     "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
     "pageId": "27ca501ef3378064a7c7d01f40afb922",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Horizonでudemyのアカウントを所有しています",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Horizonでudemyのアカウントを所有しています",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -31,25 +35,29 @@
     "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
     "pageId": "27ca501ef3378064a7c7d01f40afb922",
     "data": {
-      "color": "orange_background",
-      "icon": {
-        "type": "emoji",
-        "emoji": "💡"
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "udemyとは",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "orange_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "udemyとは",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
         }
-      ]
+      }
     },
     "order": 1
   },
@@ -60,21 +68,25 @@
     "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
     "pageId": "27ca501ef3378064a7c7d01f40afb922",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "プログラミングなどを学べる動画を購入できるサービス",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "プログラミングなどを学べる動画を購入できるサービス",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -85,21 +97,25 @@
     "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
     "pageId": "27ca501ef3378064a7c7d01f40afb922",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "動画で気軽に学べるからめちゃ便利だぞ",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "動画で気軽に学べるからめちゃ便利だぞ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -110,21 +126,25 @@
     "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
     "pageId": "27ca501ef3378064a7c7d01f40afb922",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "部のアカウントで動画を色々購入してあるよ↓",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "部のアカウントで動画を色々購入してあるよ↓",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 2
   },
@@ -135,10 +155,13 @@
     "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
     "pageId": "27ca501ef3378064a7c7d01f40afb922",
     "data": {
-      "coverUrl": "",
-      "iconType": "external",
-      "iconUrl": "https://www.notion.so/icons/photo-landscape_purple.svg",
-      "parent": "購入済みの動画一覧"
+      "type": "child_page",
+      "child_page": {
+        "parent": "購入済みの動画一覧",
+        "iconType": "external",
+        "iconUrl": "https://www.notion.so/icons/photo-landscape_purple.svg",
+        "coverUrl": ""
+      }
     },
     "order": 0
   },
@@ -149,22 +172,26 @@
     "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
     "pageId": "27ca501ef3378064a7c7d01f40afb922",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ログイン方法",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ログイン方法",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 3
   },
@@ -175,21 +202,25 @@
     "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
     "pageId": "27ca501ef3378064a7c7d01f40afb922",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ここにあるメールアドレスとパスワードでログインできるよ",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ここにあるメールアドレスとパスワードでログインできるよ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 4
   },
@@ -200,14 +231,17 @@
     "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
     "pageId": "27ca501ef3378064a7c7d01f40afb922",
     "data": {
-      "ogp": {
-        "title": "Discord",
-        "description": "",
-        "image": "https://cdn.discordapp.com/assets/og_img_discord_home.png",
-        "icon": "https://discord.com/assets/favicon.ico"
-      },
-      "parent": [],
-      "url": "https://discord.com/channels/1022421169770594315/1181154831516323933"
+      "type": "bookmark",
+      "bookmark": {
+        "parent": [],
+        "url": "https://discord.com/channels/1022421169770594315/1181154831516323933",
+        "ogp": {
+          "title": "Discord",
+          "description": "",
+          "image": "https://cdn.discordapp.com/assets/og_img_discord_home.png",
+          "icon": "https://discord.com/assets/favicon.ico"
+        }
+      }
     },
     "order": 5
   },
@@ -218,21 +252,25 @@
     "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
     "pageId": "27ca501ef3378064a7c7d01f40afb922",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ログイン後に６桁の数字を求められたらこの↓チャンネルに６桁の番号が出るので確認して入力してね",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ログイン後に６桁の数字を求められたらこの↓チャンネルに６桁の番号が出るので確認して入力してね",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 6
   },
@@ -243,14 +281,17 @@
     "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
     "pageId": "27ca501ef3378064a7c7d01f40afb922",
     "data": {
-      "ogp": {
-        "title": "Discord",
-        "description": "",
-        "image": "https://cdn.discordapp.com/assets/og_img_discord_home.png",
-        "icon": "https://discord.com/assets/favicon.ico"
-      },
-      "parent": [],
-      "url": "https://discord.com/channels/1022421169770594315/1252604885573304412"
+      "type": "bookmark",
+      "bookmark": {
+        "parent": [],
+        "url": "https://discord.com/channels/1022421169770594315/1252604885573304412",
+        "ogp": {
+          "title": "Discord",
+          "description": "",
+          "image": "https://cdn.discordapp.com/assets/og_img_discord_home.png",
+          "icon": "https://discord.com/assets/favicon.ico"
+        }
+      }
     },
     "order": 7
   }

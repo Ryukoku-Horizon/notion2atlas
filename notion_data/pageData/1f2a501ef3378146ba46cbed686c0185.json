@@ -6,21 +6,25 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378146ba46cbed686c0185",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "アイコンを指定できます。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "アイコンを指定できます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -31,14 +35,17 @@
     "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
     "pageId": "1f2a501ef3378146ba46cbed686c0185",
     "data": {
-      "ogp": {
-        "title": "Flet Icons Browser",
-        "description": "Quickly search through icons collection to use in your app.",
-        "image": "",
-        "icon": "https://gallery.flet.dev/icons-browser/favicon.png"
-      },
-      "parent": [],
-      "url": "https://gallery.flet.dev/icons-browser/"
+      "type": "bookmark",
+      "bookmark": {
+        "parent": [],
+        "url": "https://gallery.flet.dev/icons-browser/",
+        "ogp": {
+          "title": "Flet Icons Browser",
+          "description": "Quickly search through icons collection to use in your app.",
+          "image": "",
+          "icon": "https://gallery.flet.dev/icons-browser/favicon.png"
+        }
+      }
     },
     "order": 1
   }

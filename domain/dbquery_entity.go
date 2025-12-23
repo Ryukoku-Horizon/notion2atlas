@@ -10,4 +10,6 @@ type DBQueryEntity interface {
 	GetTime() (*time.Time, error)
 	GetUpdate() bool
 	CompareQueryEntityTime(q DBQueryEntity) (bool, error)
+	GetTitle() string
+	ToPageEntity() (*PageEntity, error)
 }

@@ -6,21 +6,25 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337802f9270d323affa25d8",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "戻る",
-          "href": "/posts/curriculums/1e0a501ef33780efadc7e6da2c264201"
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "戻る",
+            "href": "/posts/curriculums/1e0a501ef33780efadc7e6da2c264201",
+            "is_same_bp": true
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -31,8 +35,11 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337802f9270d323affa25d8",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 1
   },
@@ -43,9 +50,12 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337802f9270d323affa25d8",
     "data": {
-      "has_column_header": false,
-      "has_row_header": false,
-      "table_width": 2
+      "type": "table",
+      "table": {
+        "has_column_header": false,
+        "has_row_header": false,
+        "table_width": 2
+      }
     },
     "order": 2
   },
@@ -55,36 +65,41 @@
     "parentId": "1e0a501ef33780e5be0fe4a8d20a2cbf",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337802f9270d323affa25d8",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "3Dグラフィック(Mesh)",
-          "href": null
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Substance 3D, Maya, Blender",
-          "href": null
-        }
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "3Dグラフィック(Mesh)",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Substance 3D, Maya, Blender",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 0
   },
   {
@@ -93,36 +108,41 @@
     "parentId": "1e0a501ef33780e5be0fe4a8d20a2cbf",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337802f9270d323affa25d8",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "3Dグラフィック(Render)",
-          "href": null
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Unreal Engine",
-          "href": null
-        }
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "3Dグラフィック(Render)",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Unreal Engine",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 1
   },
   {
@@ -131,36 +151,41 @@
     "parentId": "1e0a501ef33780e5be0fe4a8d20a2cbf",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337802f9270d323affa25d8",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "UI/UXデザイン",
-          "href": null
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "Figma",
-          "href": null
-        }
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "UI/UXデザイン",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Figma",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 2
   },
   {
@@ -169,36 +194,41 @@
     "parentId": "1e0a501ef33780e5be0fe4a8d20a2cbf",
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337802f9270d323affa25d8",
-    "data": [
-      [
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "仮想マシン(VM)",
-          "href": null
-        }
-      ],
-      [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "AWS, Azure",
-          "href": null
-        }
+    "data": {
+      "type": "table_row",
+      "table_row": [
+        [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "仮想マシン(VM)",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "AWS, Azure",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
       ]
-    ],
+    },
     "order": 3
   },
   {
@@ -208,8 +238,11 @@
     "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
     "pageId": "1e0a501ef337802f9270d323affa25d8",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 3
   }

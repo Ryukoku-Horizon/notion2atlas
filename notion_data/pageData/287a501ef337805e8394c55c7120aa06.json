@@ -6,21 +6,25 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "練習問題4おつかれまさでした！",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "練習問題4おつかれまさでした！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -31,21 +35,25 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "以下に練習問題4の回答例が記載されています。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "以下に練習問題4の回答例が記載されています。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -56,22 +64,26 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "問題1",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "問題1",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 2
   },
@@ -82,21 +94,25 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "次の文字列を結合して新しい文字列を作成し、画面に出力してください",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "次の文字列を結合して新しい文字列を作成し、画面に出力してください",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 3
   },
@@ -107,21 +123,25 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "※プログラムは「prac4-1.py」として保存",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "※プログラムは「prac4-1.py」として保存",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 4
   },
@@ -132,22 +152,26 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "caption": [],
-      "language": "python",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "str1 = '私は'\nstr2 = 'バスケットが'\nstr3 = '好きです' ",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "python",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "str1 = '私は'\nstr2 = 'バスケットが'\nstr3 = '好きです' ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 5
   },
@@ -158,22 +182,26 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "期待する出力結果",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "期待する出力結果",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 6
   },
@@ -184,22 +212,26 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "caption": [],
-      "language": "plain text",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "私はバスケットが好きです",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "plain text",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "私はバスケットが好きです",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 7
   },
@@ -210,24 +242,28 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "color": "default_background",
-      "icon": {
-        "type": ""
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "答え",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "default_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "答え",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": ""
         }
-      ]
+      }
     },
     "order": 8
   },
@@ -238,22 +274,26 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "caption": [],
-      "language": "python",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "# 次の文字列を結合して新しい文字列を作成し、画面に出力してください\n# str1 = '私は'\n# str2 = 'バスケットが'\n# str3 = '好きです' \n\nstr1 = '私は'\nstr2 = 'バスケットが'\nstr3 = '好きです' \n\njoined_str = str1 + str2 + str3\nprint(joined_str)",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "python",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "# 次の文字列を結合して新しい文字列を作成し、画面に出力してください\n# str1 = '私は'\n# str2 = 'バスケットが'\n# str3 = '好きです' \n\nstr1 = '私は'\nstr2 = 'バスケットが'\nstr3 = '好きです' \n\njoined_str = str1 + str2 + str3\nprint(joined_str)",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -264,22 +304,26 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "問題2",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "問題2",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 9
   },
@@ -290,21 +334,25 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ユーザーから入力された文字列の最初の文字と最後の文字を出力してください",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ユーザーから入力された文字列の最初の文字と最後の文字を出力してください",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 10
   },
@@ -315,21 +363,25 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "※プログラムは「prac4-2.py」として保存",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "※プログラムは「prac4-2.py」として保存",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 11
   },
@@ -340,22 +392,26 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "期待する出力結果",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "期待する出力結果",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 12
   },
@@ -366,22 +422,26 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "caption": [],
-      "language": "plain text",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "文字列を入力 : Hello, Horizon\n最初の文字 : H\n最後の文字 : n",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "plain text",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "文字列を入力 : Hello, Horizon\n最初の文字 : H\n最後の文字 : n",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 13
   },
@@ -392,24 +452,28 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "color": "default_background",
-      "icon": {
-        "type": ""
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "答え",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "default_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "答え",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": ""
         }
-      ]
+      }
     },
     "order": 14
   },
@@ -420,22 +484,26 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "caption": [],
-      "language": "python",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "# ユーザーから入力されたされた文字列の最初の文字と最後の文字を出力してください\n\nstr = input('文字列を入力 : ')\nprint('最初の文字 : ' + str[0])\nprint('最後の文字 : ' + str[-1])",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "python",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "# ユーザーから入力されたされた文字列の最初の文字と最後の文字を出力してください\n\nstr = input('文字列を入力 : ')\nprint('最初の文字 : ' + str[0])\nprint('最後の文字 : ' + str[-1])",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -446,22 +514,26 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "問題3",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "問題3",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 15
   },
@@ -472,21 +544,25 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "ユーザーから入力された文字列の3文字目から5文字目までを取り出し、画面に出力してください。",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ユーザーから入力された文字列の3文字目から5文字目までを取り出し、画面に出力してください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 16
   },
@@ -497,21 +573,25 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "※プログラムは「prac4-3.py」として保存",
-          "href": null
-        }
-      ]
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "※プログラムは「prac4-3.py」として保存",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 17
   },
@@ -522,22 +602,26 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "color": "default",
-      "is_toggleable": false,
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "期待する出力結果",
-          "href": null
-        }
-      ]
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "期待する出力結果",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
     },
     "order": 18
   },
@@ -548,22 +632,26 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "caption": [],
-      "language": "plain text",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "文字列を入力 : こんにちは！最近は花粉がきついですね\n3文字目から5文字目までを表示します\nにちは",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "plain text",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "文字列を入力 : こんにちは！最近は花粉がきついですね\n3文字目から5文字目までを表示します\nにちは",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 19
   },
@@ -574,24 +662,28 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "color": "default_background",
-      "icon": {
-        "type": ""
-      },
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "答え",
-          "href": null
+      "type": "callout",
+      "callout": {
+        "color": "default_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "答え",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": ""
         }
-      ]
+      }
     },
     "order": 20
   },
@@ -602,22 +694,26 @@
     "curriculumId": "287a501ef337805e8394c55c7120aa06",
     "pageId": "287a501ef337805e8394c55c7120aa06",
     "data": {
-      "caption": [],
-      "language": "python",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "# ユーザーから入力された文字列の2文字目から5文字目までを取り出し、画面に出力してください。\n# ※先頭を0文字目と考えること\n\nstr = input('文字列を入力 : ')\nsliced_str = str[2:6]\nprint('2文字目から5文字目までを表示します')\nprint(sliced_str)",
-          "href": null
-        }
-      ]
+      "type": "code",
+      "code": {
+        "language": "python",
+        "caption": [],
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "# ユーザーから入力された文字列の2文字目から5文字目までを取り出し、画面に出力してください。\n# ※先頭を0文字目と考えること\n\nstr = input('文字列を入力 : ')\nsliced_str = str[2:6]\nprint('2文字目から5文字目までを表示します')\nprint(sliced_str)",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   }

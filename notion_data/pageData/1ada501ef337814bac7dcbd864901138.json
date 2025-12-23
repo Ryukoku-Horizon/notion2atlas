@@ -6,45 +6,51 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "ここでは、プログラミング初学者におすすめとされるプログラミング言語である",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "ここでは、プログラミング初学者におすすめとされるプログラミング言語である",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": true,
-            "code": false,
-            "color": "orange",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "orange",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Python",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Python",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "の基礎文法を学びます。",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "の基礎文法を学びます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 0
   },
@@ -55,45 +61,51 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "color": "default",
-      "parent": [
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Pythonのパソコンへのインストールがまだという方は",
+            "href": null,
+            "is_same_bp": false
           },
-          "plain_text": "Pythonのパソコンへのインストールがまだという方は",
-          "href": null
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "こちら",
+            "href": "/posts/curriculums/1d8a501ef3378046aa5fe50c89a862f6",
+            "is_same_bp": false
           },
-          "plain_text": "こちら",
-          "href": "/posts/curriculums/1d8a501ef3378046aa5fe50c89a862f6"
-        },
-        {
-          "annotations": {
-            "bold": false,
-            "code": false,
-            "color": "default",
-            "italic": false,
-            "strikethrough": false,
-            "underline": false
-          },
-          "plain_text": "からどうぞ",
-          "href": null
-        }
-      ]
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "からどうぞ",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
     },
     "order": 1
   },
@@ -104,10 +116,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "0. VSCodeでプログラムを始める"
+      "type": "child_page",
+      "child_page": {
+        "parent": "0. VSCodeでプログラムを始める",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 2
   },
@@ -118,10 +133,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "1. Hello World! "
+      "type": "child_page",
+      "child_page": {
+        "parent": "1. Hello World! ",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 3
   },
@@ -132,10 +150,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "2. 変数 "
+      "type": "child_page",
+      "child_page": {
+        "parent": "2. 変数 ",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 4
   },
@@ -146,10 +167,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "3. 変数の型"
+      "type": "child_page",
+      "child_page": {
+        "parent": "3. 変数の型",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 5
   },
@@ -160,10 +184,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "4. 四則演算 "
+      "type": "child_page",
+      "child_page": {
+        "parent": "4. 四則演算 ",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 6
   },
@@ -174,10 +201,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "📝",
-      "parent": "練習問題1"
+      "type": "child_page",
+      "child_page": {
+        "parent": "練習問題1",
+        "iconType": "emoji",
+        "iconUrl": "📝",
+        "coverUrl": ""
+      }
     },
     "order": 7
   },
@@ -188,10 +218,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "5. 入力"
+      "type": "child_page",
+      "child_page": {
+        "parent": "5. 入力",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 8
   },
@@ -202,10 +235,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "6. 条件分岐（if文）"
+      "type": "child_page",
+      "child_page": {
+        "parent": "6. 条件分岐（if文）",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 9
   },
@@ -216,10 +252,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "📝",
-      "parent": "練習問題2 "
+      "type": "child_page",
+      "child_page": {
+        "parent": "練習問題2 ",
+        "iconType": "emoji",
+        "iconUrl": "📝",
+        "coverUrl": ""
+      }
     },
     "order": 10
   },
@@ -230,10 +269,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "7. リストと辞書"
+      "type": "child_page",
+      "child_page": {
+        "parent": "7. リストと辞書",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 11
   },
@@ -244,10 +286,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "8. 繰り返し（for文）"
+      "type": "child_page",
+      "child_page": {
+        "parent": "8. 繰り返し（for文）",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 12
   },
@@ -258,10 +303,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "📝",
-      "parent": "練習問題3"
+      "type": "child_page",
+      "child_page": {
+        "parent": "練習問題3",
+        "iconType": "emoji",
+        "iconUrl": "📝",
+        "coverUrl": ""
+      }
     },
     "order": 13
   },
@@ -272,10 +320,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "9. 文字列"
+      "type": "child_page",
+      "child_page": {
+        "parent": "9. 文字列",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 14
   },
@@ -286,10 +337,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "📝",
-      "parent": "練習問題4"
+      "type": "child_page",
+      "child_page": {
+        "parent": "練習問題4",
+        "iconType": "emoji",
+        "iconUrl": "📝",
+        "coverUrl": ""
+      }
     },
     "order": 15
   },
@@ -300,10 +354,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "10. 関数とは"
+      "type": "child_page",
+      "child_page": {
+        "parent": "10. 関数とは",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 16
   },
@@ -314,10 +371,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "coverUrl": "",
-      "iconType": "",
-      "iconUrl": "",
-      "parent": "11. 関数を作ろう！"
+      "type": "child_page",
+      "child_page": {
+        "parent": "11. 関数を作ろう！",
+        "iconType": "",
+        "iconUrl": "",
+        "coverUrl": ""
+      }
     },
     "order": 17
   },
@@ -328,10 +388,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "📝",
-      "parent": "練習問題5"
+      "type": "child_page",
+      "child_page": {
+        "parent": "練習問題5",
+        "iconType": "emoji",
+        "iconUrl": "📝",
+        "coverUrl": ""
+      }
     },
     "order": 18
   },
@@ -342,10 +405,13 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "📝",
-      "parent": "Pythonまとめ問題"
+      "type": "child_page",
+      "child_page": {
+        "parent": "Pythonまとめ問題",
+        "iconType": "emoji",
+        "iconUrl": "📝",
+        "coverUrl": ""
+      }
     },
     "order": 19
   },
@@ -356,8 +422,11 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 20
   },
@@ -368,8 +437,11 @@
     "curriculumId": "1ada501ef337814bac7dcbd864901138",
     "pageId": "1ada501ef337814bac7dcbd864901138",
     "data": {
-      "color": "default",
-      "parent": []
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
     },
     "order": 21
   }
