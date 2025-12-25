@@ -8,6 +8,11 @@ import (
 )
 
 func RewriteToAtlEntity(bps []domain.BasePage) error {
+	err := addOgpDataToPage()
+	if err != nil {
+		fmt.Println("error in postprocess/ToAtlEntity/addOgpDataToPage")
+		return err
+	}
 	pageEntities, err := filemanager.ReadJson[[]domain.PageEntity](constants.PAGE_PATH)
 	if err != nil {
 		fmt.Println("error in postprocess/ToAtlEntity/filemanager.ReadJson:11")

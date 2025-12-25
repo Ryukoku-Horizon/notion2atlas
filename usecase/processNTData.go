@@ -126,9 +126,9 @@ func processEditNTData[T domain.BasePage](editItems []domain.BasePage, resourceT
 			fmt.Println("error in usecase/processEditNTData/InitCurriculumRelatedDir")
 			return err
 		}
-		err = SaveNotionData[T](item, resourceType)
+		err = saveNtData[T](item, resourceType)
 		if err != nil {
-			fmt.Println("error in usecase/processEditNTData/SaveNotionData")
+			fmt.Println("error in usecase/processEditNTData/saveNtData")
 			return err
 		}
 	}
@@ -137,9 +137,9 @@ func processEditNTData[T domain.BasePage](editItems []domain.BasePage, resourceT
 
 func processNewNTData[T domain.BasePage](newItems []domain.BasePage, resourceType domain.ResourceType) error {
 	for _, item := range newItems {
-		err := SaveNotionData[T](item, resourceType)
+		err := saveNtData[T](item, resourceType)
 		if err != nil {
-			fmt.Println("error in usecase/processNewNTData/usecase.SaveNotionData")
+			fmt.Println("error in usecase/processNewNTData/usecase.saveNtData")
 			return err
 		}
 	}

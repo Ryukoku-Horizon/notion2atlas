@@ -22,4 +22,5 @@ const (
 	INFO_PATH       = INFO_DIR + "/data.json"
 	ANSWER_PATH     = ANSWER_DIR + "/data.json"
 	SYNCED_PATH     = SYNCED_DIR + "/data.json"
+	TMP_PAGE_PATH   = TMP_DIR + "/page.json"
 )

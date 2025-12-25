@@ -5,23 +5,23 @@ import (
 	"notion2atlas/domain"
 )
 
-func SaveNotionData[T domain.BasePage](item domain.Entity, resourceType domain.ResourceType) error {
+func saveNtData[T domain.BasePage](item domain.Entity, resourceType domain.ResourceType) error {
 	var err error = nil
 	curr := item.(T)
 	pageBuffer := []domain.PageEntity{}
-	pageBuffer, err = InsertNotionBlocks(curr, pageBuffer, resourceType.GetStr())
+	pageBuffer, err = saveNtBlockInPage(curr, pageBuffer, resourceType.GetStr())
 	if err != nil {
-		fmt.Println("error in usecase/SaveNotionData/InsertCurriculumBlocks New")
+		fmt.Println("error in usecase/saveNtData/InsertCurriculumBlocks New")
 		return err
 	}
 	err = FlushPageBuffer(pageBuffer, curr.GetId())
 	if err != nil {
-		fmt.Println("error in usecase/SaveNotionData/FlushPageBuffer")
+		fmt.Println("error in usecase/saveNtData/FlushPageBuffer")
 		return err
 	}
 	err = UpsertBasePage(curr.GetId(), curr, resourceType)
 	if err != nil {
-		fmt.Println("error in usecase/SaveNotionData/UpsertCurriculum")
+		fmt.Println("error in usecase/saveNtData/UpsertCurriculum")
 		return err
 	}
 	fmt.Println("✅ complete read : " + curr.GetTitle())

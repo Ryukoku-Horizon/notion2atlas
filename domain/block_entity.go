@@ -166,6 +166,10 @@ type ParagraphEntity struct {
 	Parent []RichTextEntity `json:"parent"`
 }
 
+func (p ParagraphEntity) GetConcatenatedText() string {
+	return concatenateRichTextsText(p.Parent)
+}
+
 func (p ParagraphEntity) GetType() string {
 	return "paragraph"
 }
@@ -189,6 +193,10 @@ type TodoEntity struct {
 	Color   string           `json:"color"`
 	Parent  []RichTextEntity `json:"parent"`
 	Checked bool             `json:"checked"`
+}
+
+func (p TodoEntity) GetConcatenatedText() string {
+	return concatenateRichTextsText(p.Parent)
 }
 
 func (p TodoEntity) GetType() string {
@@ -221,6 +229,10 @@ func (t HeaderEntity) GetCombinedPlainText() string {
 		plain_text = plain_text + s.PlainText
 	}
 	return plain_text
+}
+
+func (p HeaderEntity) GetConcatenatedText() string {
+	return concatenateRichTextsText(p.Parent)
 }
 
 func (p HeaderEntity) GetType() string {
@@ -394,6 +406,10 @@ type CalloutEntity struct {
 	Icon   IconProperty     `json:"icon"`
 }
 
+func (p CalloutEntity) GetConcatenatedText() string {
+	return concatenateRichTextsText(p.Parent)
+}
+
 func (p CalloutEntity) GetType() string {
 	return "callout"
 }
@@ -433,6 +449,14 @@ type RichTextEntity struct {
 	Href        *string             `json:"href"`
 	Scroll      *string             `json:"scroll,omitempty"`
 	Mention     *MentionEntity      `json:"mention,omitempty"`
+}
+
+func concatenateRichTextsText(richTexts []RichTextEntity) string {
+	concatenatedText := ""
+	for _, r := range richTexts {
+		concatenatedText = concatenatedText + r.PlainText
+	}
+	return concatenatedText
 }
 
 func (r RichTextEntity) ToAtlEntity(IsSameBP bool) AtlRichTextEntity {

@@ -15,7 +15,7 @@ func InitDir() error {
 			return err
 		}
 	}
-	require_files := [6]string{constants.CURRICULUM_PATH, constants.PAGE_PATH, constants.CATEGORY_PATH, constants.INFO_PATH, constants.ANSWER_PATH, constants.SYNCED_PATH}
+	require_files := [7]string{constants.CURRICULUM_PATH, constants.PAGE_PATH, constants.CATEGORY_PATH, constants.INFO_PATH, constants.ANSWER_PATH, constants.SYNCED_PATH, constants.TMP_PAGE_PATH}
 	for _, path := range require_files {
 		exists, err := filemanager.CreateFileIfNotExist(path)
 		if err != nil {

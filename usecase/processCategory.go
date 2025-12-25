@@ -8,7 +8,7 @@ import (
 func ProcessCategory(categories []domain.CategoryEntity) error {
 	processed := []domain.CategoryEntity{}
 	for _, c := range categories {
-		urls, _, err := insertBasePage(c)
+		urls, _, err := saveBasePage(c)
 		if err != nil {
 			fmt.Println("error in presentation/updateCategory/usecase.InsertBasePage")
 			return err

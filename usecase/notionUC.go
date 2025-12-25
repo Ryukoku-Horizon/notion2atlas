@@ -46,18 +46,8 @@ func GetChildDB(id string) ([]domain.NtDBQueryEntity, error) {
 func Test(id string) (any, error) {
 	var data, err = gateway.GetNotionData(domain.Block, id)
 	if err != nil {
-		fmt.Println("error in usecase/GetDBQuery/gateway.GetNotionData")
 		return nil, err
 	}
-	// results := data["results"].([]any)
-	// queryModel, err := domain.Res2NTDBQueryEntity(results)
-	// if err != nil {
-	// 	fmt.Println("error in usecase/GetDBQuery/domain.Res2NTDBQueryEntity")
-	// 	return nil, err
-	// }
-	// if queryModel == nil {
-	// 	return nil, fmt.Errorf("queryModel is nil")
-	// }
 	return data, nil
 }
 

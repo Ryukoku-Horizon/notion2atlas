@@ -360,7 +360,33 @@
               "strikethrough": false,
               "underline": false
             },
-            "plain_text": "import flet as ft\n\ndef main(page: ft.Page):\n    counter = ft.Text(\"0\", size=50, data=0)\n\n    def increment_click(e):\n        counter.data += 1\n        counter.value = str(counter.data)\n        counter.update()\n\n    def route_change(route):  #\n        page.views.clear()  #\n\n        if page.route == \"/info\":  #\n            page.views.append(  #\n                ft.View(  #\n                    route=\"/info\",  #\n                    controls=[  #\n                        ft.Text(\"これはFletで作られたアプリです。\"),  #\n                        ft.ElevatedButton(\"カウンターへ\", on_click=lambda _: page.go(\"/\"))  #\n                    ]  #\n                )  #\n            )  #\n\n        else:  #\n            page.views.append(  #\n                ft.View(  #\n                    route=\"/\",  #\n                    controls=[  #\n                        ft.SafeArea(ft.Container(counter, alignment=ft.alignment.center), expand=True),  #\n                        ft.ElevatedButton(\"情報ページへ\", on_click=lambda _: page.go(\"/info\"))  #\n                    ],  #\n                    floating_action_button=ft.FloatingActionButton(  #\n                        icon=ft.Icons.ADD, on_click=increment_click  #\n                    )  #\n                )  #\n            )  #\n\n        page.update()  #\n\n    page.on_route_change = route_change  #\n    page.go(page.route)  #\n\nft.app(main)\n",
+            "plain_text": "import flet as ft\n\ndef main(page: ft.Page):\n    counter = ft.Text(\"0\", size=50, data=0)\n\n    def increment_click(e):\n        counter.data += 1\n        counter.value = str(counter.data)\n        counter.update()\n\n    ",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "def route_change(route):\n        page.views.clear() \n\n        if page.route == \"/info\":\n            page.views.append(\n                ft.View(\n                    route=\"/info\",\n                    controls=[\n                        ft.Text(\"これはFletで作られたアプリです。\"),\n                        ft.ElevatedButton(\"カウンターへ\", on_click=lambda _: page.go(\"/\"))\n                    ]\n                )\n            )\n\n        else:\n            page.views.append(\n                ft.View(\n                    route=\"/\",\n                    controls=[\n                        ft.SafeArea(ft.Container(counter, alignment=ft.alignment.center), expand=True),\n                        ft.ElevatedButton(\"情報ページへ\", on_click=lambda _: page.go(\"/info\"))\n                    ],\n                    floating_action_button=ft.FloatingActionButton(\n                        icon=ft.Icons.ADD, on_click=increment_click\n                    )\n                )\n            )\n\n        page.update()\n\n    page.on_route_change = route_change\n    page.go(page.route)",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "\n\nft.app(main)\n",
             "href": null,
             "is_same_bp": false
           }

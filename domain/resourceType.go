@@ -15,6 +15,7 @@ const (
 	INFO
 	ANSWER
 	SYNCED
+	TMP_PAGE
 )
 
 func (r ResourceType) GetStr() string {
@@ -50,6 +51,8 @@ func (r ResourceType) GetFilePathFromResourceType() (string, error) {
 		return constants.ANSWER_PATH, nil
 	case SYNCED:
 		return constants.SYNCED_PATH, nil
+	case TMP_PAGE:
+		return constants.TMP_PAGE_PATH, nil
 	default:
 		return "", fmt.Errorf("unexpected resourceType")
 	}

@@ -803,7 +803,20 @@
               "strikethrough": false,
               "underline": false
             },
-            "plain_text": "import flet as ft\n\n\ndef main(page: ft.Page):\n    counter = ft.Text(\"0\", size=50, data=0)\n\n    def increment_click(e):\n        counter.data += 1\n        counter.value = str(counter.data)\n        counter.update()\n\n  ",
+            "plain_text": "import flet as ft\n\n\ndef main(page: ft.Page):\n    counter = ft.Text(\"0\", size=50, data=0)\n\n    def increment_click(e):\n        counter.data += 1\n        counter.value = str(counter.data)\n        counter.update()\n\n",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default_background",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "  ",
             "href": null,
             "is_same_bp": false
           },
@@ -811,12 +824,12 @@
             "annotations": {
               "bold": true,
               "code": false,
-              "color": "default",
+              "color": "default_background",
               "italic": false,
               "strikethrough": false,
               "underline": false
             },
-            "plain_text": "  home_view = ft.View(\n        route=\"/\",\n        controls=[\n            ft.SafeArea(\n                ft.Container(\n                    counter,\n                    alignment=ft.alignment.center,\n                ),  #\n                expand=True,\n            ) \n        ],\n        floating_action_button=ft.FloatingActionButton(\n            icon=ft.Icons.ADD, on_click=increment_click\n        )\n    )\n    page.views.append(home_view)\n    page.update()",
+            "plain_text": "  home_view = ft.View(\n        route=\"/\",\n        controls=[\n            ft.SafeArea(\n                ft.Container(\n                    counter,\n                    alignment=ft.alignment.center,\n                ),\n                expand=True,\n            ) \n        ],\n        floating_action_button=ft.FloatingActionButton(\n            icon=ft.Icons.ADD, on_click=increment_click\n        )\n    )\n    page.views.append(home_view)\n    page.update()",
             "href": null,
             "is_same_bp": false
           },
