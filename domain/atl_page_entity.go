@@ -5,7 +5,7 @@ type AtlPageEntity struct {
 	CurriculumId string  `json:"curriculumId"`
 	IconType     string  `json:"iconType"`
 	IconUrl      string  `json:"iconUrl"`
-	CoverUrl     string  `json:"cover"`
+	CoverUrl     string  `json:"coverUrl"`
 	CoverType    string  `json:"coverType"`
 	Order        int     `json:"order"`
 	ParentId     string  `json:"parentId"`
@@ -32,17 +32,17 @@ func NewAtlPageEntity(
 	Ogp PageOgp,
 ) AtlPageEntity {
 	return AtlPageEntity{
-		Id,
-		CurriculumId,
-		IconType,
-		IconUrl,
-		CoverType,
-		CoverUrl,
-		Order,
-		ParentId,
-		Title,
-		Type,
-		Ogp,
+		Id:           Id,
+		CurriculumId: CurriculumId,
+		IconType:     IconType,
+		IconUrl:      IconUrl,
+		CoverType:    CoverType,
+		CoverUrl:     CoverUrl,
+		Order:        Order,
+		ParentId:     ParentId,
+		Title:        Title,
+		Type:         Type,
+		Ogp:          Ogp,
 	}
 }
 

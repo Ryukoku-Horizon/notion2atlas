@@ -7,7 +7,7 @@ type PageEntity struct {
 	CurriculumId string `json:"curriculumId"`
 	IconType     string `json:"iconType"`
 	IconUrl      string `json:"iconUrl"`
-	CoverUrl     string `json:"cover"`
+	CoverUrl     string `json:"coverUrl"`
 	CoverType    string `json:"coverType"`
 	Order        int    `json:"order"`
 	ParentId     string `json:"parentId"`
