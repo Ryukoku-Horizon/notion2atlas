@@ -22,23 +22,23 @@ func RewriteToAtlEntity(bps []domain.BasePage) error {
 	for _, page := range allPages {
 		pageId := page.GetId()
 		path := fmt.Sprintf("%s/%s.json", constants.TMP_DIR, pageId)
-		dataArr, err := filemanager.ReadJson[[]domain.BlockEntity](path)
+		blockEntities, err := filemanager.ReadJson[[]domain.BlockEntity](path)
 		if err != nil {
 			fmt.Println("error in postprocess/ToAtlEntity/filemanager.ReadJson:20")
 			return err
 		}
-		atlBlocks, err := blockToAtlEntity(dataArr, pageEntities)
+		atlBlocks, err := blockToAtlEntity(blockEntities, pageEntities)
 		if err != nil {
 			fmt.Println("error in postprocess/RewriteToAtlEntity/blockToAtlEntity")
 			return err
 		}
-		acpath := fmt.Sprintf("%s/%s.json", constants.PAGE_DATA_DIR, pageId)
-		_, err = filemanager.CreateFileIfNotExist(acpath)
+		pageDataPath := fmt.Sprintf("%s/%s.json", constants.PAGE_DATA_DIR, pageId)
+		_, err = filemanager.CreateFileIfNotExist(pageDataPath)
 		if err != nil {
 			fmt.Println("error in postprocess/ToAtlEntity/filemanager.CreateFileIfNotExist")
 			return err
 		}
-		err = filemanager.WriteJson(atlBlocks, acpath)
+		err = filemanager.WriteJson(atlBlocks, pageDataPath)
 		if err != nil {
 			fmt.Println("error in postprocess/ToAtlEntity/filemanager.WriteJson")
 			return err
@@ -82,17 +82,24 @@ func blockToAtlEntity(blocks []domain.BlockEntity, pageEntities []domain.PageEnt
 			if item.Data.Synced == nil || *item.Data.Synced == "" {
 				continue
 			}
-			atlEntity = item.ToAtlEntity(item.Data.ToAtlData(nil))
-			childrenPt, err := processSyncedChild(atlEntity)
-			if err != nil {
-				fmt.Println("error in postprocess/ToAtlEntity/processSyncedChild")
-				return nil, err
+			if *item.Data.Synced == "original" {
+				atlData := domain.AtlBlockEntityData{
+					Type:   item.Data.Type,
+					Synced: item.Data.Synced,
+				}
+				atlBlocks = append(atlBlocks, item.ToAtlEntity(atlData))
+			} else {
+				atlEntity = item.ToAtlEntity(item.Data.ToAtlData(nil))
+				childrenPt, err := processSyncedChild(atlEntity)
+				if err != nil {
+					fmt.Println("error in postprocess/ToAtlEntity/processSyncedChild")
+					return nil, err
+				}
+				if childrenPt != nil {
+					atlChildren := *childrenPt
+					atlBlocks = append(atlBlocks, atlChildren...)
+				}
 			}
-			if childrenPt == nil {
-				continue
-			}
-			atlChildren := *childrenPt
-			atlBlocks = append(atlBlocks, atlChildren...)
 		default:
 			if item.Type == "table_of_contents" {
 				data := processTOC(blocks)

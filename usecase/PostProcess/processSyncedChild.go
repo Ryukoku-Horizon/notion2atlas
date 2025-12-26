@@ -64,18 +64,27 @@ func processSyncedChild(atlEntity domain.AtlBlockEntity) (*[]domain.AtlBlockEnti
 				Order:        ent.Order,
 			}
 			oriChildren = append(oriChildren, child)
-			oriChildren = appendChild(oriChildren, atlEntities, ent.Id)
+			oriChildren = appendChild(oriChildren, atlEntities, child)
 		}
 	}
 	return &oriChildren, nil
 }
 
-func appendChild(oriChildren []domain.AtlBlockEntity, entities []domain.AtlBlockEntity, parentId string) []domain.AtlBlockEntity {
+func appendChild(oriChildren []domain.AtlBlockEntity, entities []domain.AtlBlockEntity, parent domain.AtlBlockEntity) []domain.AtlBlockEntity {
 	children := []domain.AtlBlockEntity{}
 	for _, ent := range entities {
-		if ent.PageId == parentId {
-			children = append(oriChildren, ent)
-			children = appendChild(oriChildren, entities, ent.Id)
+		if ent.ParentId == parent.Id {
+			child := domain.AtlBlockEntity{
+				Id:           ent.Id,
+				Type:         ent.Type,
+				ParentId:     parent.Id,
+				CurriculumId: parent.CurriculumId,
+				PageId:       parent.PageId,
+				Data:         ent.Data,
+				Order:        ent.Order,
+			}
+			children = append(children, child)
+			children = appendChild(children, entities, child)
 		}
 	}
 	return append(oriChildren, children...)
@@ -104,7 +113,7 @@ func processEntities(entities []domain.BlockEntity, originalId string, originalP
 func appendEntChild(children []domain.BlockEntity, allEntities []domain.BlockEntity, parentId string) []domain.BlockEntity {
 	newChildren := []domain.BlockEntity{}
 	for _, ent := range allEntities {
-		if ent.PageId == parentId {
+		if ent.ParentId == parentId {
 			newChildren = append(newChildren, ent)
 			newChildren = appendEntChild(newChildren, allEntities, ent.Id)
 		}

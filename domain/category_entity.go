@@ -51,6 +51,7 @@ func (c CategoryEntity) ToPageEntity() (*PageEntity, error) {
 		"",
 		c.Title,
 		"curriculum",
+		c.LastEditedTime,
 	)
 	if err != nil {
 		fmt.Println("error in domain/CategoryEntity.ToPageEntity/NewPageEntity")

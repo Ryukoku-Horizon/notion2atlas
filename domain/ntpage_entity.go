@@ -7,14 +7,14 @@ import (
 )
 
 type NtPageEntity struct {
-	Id        string `json:"id"`
-	IconUrl   string `json:"iconUrl"`
-	IconType  string `json:"iconType"`
-	CoverUrl  string `json:"coverUrl"`
-	CoverType string `json:"coverType"`
-	Title     string `json:"title"`
-	Type      string `json:"type"`
-	Object    string `json:"object"` //
+	Id             string `json:"id"`
+	IconUrl        string `json:"iconUrl"`
+	IconType       string `json:"iconType"`
+	CoverUrl       string `json:"coverUrl"`
+	CoverType      string `json:"coverType"`
+	Title          string `json:"title"`
+	Type           string `json:"type"`
+	LastEditedTime string `json:"last_edited_time"`
 }
 
 func (p NtPageEntity) GetTitle() string {
@@ -28,6 +28,28 @@ func (p NtPageEntity) GetIcon() (IconType string, IconUrl string) {
 }
 func (p NtPageEntity) GetCover() (CoverType string, CoverUrl string) {
 	return p.CoverType, p.CoverUrl
+}
+
+func NewNtPageEntity(
+	Id string,
+	IconUrl string,
+	IconType string,
+	CoverUrl string,
+	CoverType string,
+	Title string,
+	Type string,
+	LastEditedTime string,
+) NtPageEntity {
+	return NtPageEntity{
+		Id:             Id,
+		IconUrl:        IconUrl,
+		IconType:       IconType,
+		CoverUrl:       CoverUrl,
+		CoverType:      CoverType,
+		Title:          Title,
+		Type:           Type,
+		LastEditedTime: LastEditedTime,
+	}
 }
 
 func ResNtPageEntity(res map[string]any, type_ string) (*NtPageEntity, error) {
@@ -63,15 +85,16 @@ func ResNtPageEntity(res map[string]any, type_ string) (*NtPageEntity, error) {
 			coverType = block.Cover.Type
 			coverUrl = block.Cover.GetCoverUrl()
 		}
-		var page = NtPageEntity{
-			Id:        id,
-			IconUrl:   iconUrl,
-			IconType:  iconType,
-			CoverUrl:  coverUrl,
-			CoverType: coverType,
-			Title:     title,
-			Type:      type_,
-		}
+		var page = NewNtPageEntity(
+			id,
+			iconUrl,
+			iconType,
+			coverUrl,
+			coverType,
+			title,
+			type_,
+			block.LastEditedTime,
+		)
 		return &page, nil
 	} else {
 		return nil, ErrNotionErrorResponse

@@ -20,6 +20,16 @@ type CurriculumEntity struct {
 	Update         bool     `json:"update"`
 }
 
+func (c CurriculumEntity) GetCategories() []string {
+	return c.Category
+}
+func (c CurriculumEntity) GetVisilities() []string {
+	return c.Visibility
+}
+func (c CurriculumEntity) GetTags() []string {
+	return c.Tag
+}
+
 func (c CurriculumEntity) GetId() string {
 	return c.Id
 }
@@ -52,6 +62,7 @@ func (c CurriculumEntity) ToPageEntity() (*PageEntity, error) {
 		"",
 		c.Title,
 		"curriculum",
+		c.LastEditedTime,
 	)
 	if err != nil {
 		fmt.Println("error in domain/CurriculumEntity.ToPageEntity/NewPageEntity")

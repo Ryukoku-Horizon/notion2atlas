@@ -3,16 +3,17 @@ package domain
 import "fmt"
 
 type PageEntity struct {
-	Id           string `json:"id"`
-	CurriculumId string `json:"curriculumId"`
-	IconType     string `json:"iconType"`
-	IconUrl      string `json:"iconUrl"`
-	CoverUrl     string `json:"coverUrl"`
-	CoverType    string `json:"coverType"`
-	Order        int    `json:"order"`
-	ParentId     string `json:"parentId"`
-	Title        string `json:"title"`
-	Type         string `json:"type"`
+	Id             string `json:"id"`
+	CurriculumId   string `json:"curriculumId"`
+	IconType       string `json:"iconType"`
+	IconUrl        string `json:"iconUrl"`
+	CoverUrl       string `json:"coverUrl"`
+	CoverType      string `json:"coverType"`
+	Order          int    `json:"order"`
+	ParentId       string `json:"parentId"`
+	Title          string `json:"title"`
+	Type           string `json:"type"`
+	LastEditedTime string `json:"last_edited_time"`
 }
 
 func (p PageEntity) GetTitle() string {
@@ -39,6 +40,7 @@ func (p PageEntity) ChangePageEntityUrl(iconUrl string, coverUrl string) (*PageE
 		p.ParentId,
 		p.Title,
 		p.Type,
+		p.LastEditedTime,
 	)
 	if err != nil {
 		fmt.Println("error in domain/PageEntity.ChangePageEntityUrl/NewPageEntity")
@@ -58,21 +60,23 @@ func NewPageEntity(
 	ParentId string,
 	Title string,
 	Type string,
+	LastEditedTime string,
 ) (*PageEntity, error) {
 	if Type != "curriculum" && Type != "info" && Type != "answer" {
 		return nil, fmt.Errorf("unexpected type: %s", Type)
 	}
 	return &PageEntity{
-		Id:           Id,
-		CurriculumId: CurriculumId,
-		IconType:     IconType,
-		IconUrl:      IconUrl,
-		CoverUrl:     CoverUrl,
-		CoverType:    CoverType,
-		Order:        Order,
-		ParentId:     ParentId,
-		Title:        Title,
-		Type:         Type,
+		Id:             Id,
+		CurriculumId:   CurriculumId,
+		IconType:       IconType,
+		IconUrl:        IconUrl,
+		CoverUrl:       CoverUrl,
+		CoverType:      CoverType,
+		Order:          Order,
+		ParentId:       ParentId,
+		Title:          Title,
+		Type:           Type,
+		LastEditedTime: LastEditedTime,
 	}, nil
 }
 

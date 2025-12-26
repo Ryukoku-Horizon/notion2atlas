@@ -17,6 +17,16 @@ type AnswerEntity struct {
 	Update         bool   `json:"update"`
 }
 
+func (c AnswerEntity) GetCategories() []string {
+	return []string{"解答"}
+}
+func (c AnswerEntity) GetVisilities() []string {
+	return []string{"基礎班", "発展班"}
+}
+func (c AnswerEntity) GetTags() []string {
+	return []string{"解答"}
+}
+
 func (c AnswerEntity) GetId() string {
 	return c.Id
 }
@@ -48,6 +58,7 @@ func (c AnswerEntity) ToPageEntity() (*PageEntity, error) {
 		"",
 		c.Title,
 		"answer",
+		c.LastEditedTime,
 	)
 	if err != nil {
 		fmt.Println("error in domain/CategoryEntity.ToPageEntity/NewPageEntity")

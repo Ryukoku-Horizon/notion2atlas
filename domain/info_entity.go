@@ -17,6 +17,16 @@ type InfoEntity struct {
 	Update         bool   `json:"update"`
 }
 
+func (c InfoEntity) GetCategories() []string {
+	return []string{"部活情報"}
+}
+func (c InfoEntity) GetVisilities() []string {
+	return []string{"基礎班", "発展班"}
+}
+func (c InfoEntity) GetTags() []string {
+	return []string{"情報"}
+}
+
 func (c InfoEntity) GetId() string {
 	return c.Id
 }
@@ -48,6 +58,7 @@ func (c InfoEntity) ToPageEntity() (*PageEntity, error) {
 		"",
 		c.Title,
 		"info",
+		c.LastEditedTime,
 	)
 	if err != nil {
 		fmt.Println("error in domain/CategoryEntity.ToPageEntity/NewPageEntity")

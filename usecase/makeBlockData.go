@@ -188,14 +188,16 @@ func makeChildPageData(pageId string, type_ string) (*domain.BlockEntityData, *d
 		Type:      childPageEntity.GetType(),
 		ChildPage: &childPageEntity,
 	}
-	pageRepo := domain.NtPageEntity{
-		Id:        pageDataAddress.Id,
-		IconUrl:   urls.IconUrl,
-		IconType:  pageDataAddress.IconType,
-		CoverUrl:  urls.CoverUrl,
-		CoverType: pageDataAddress.CoverType,
-		Title:     pageDataAddress.Title,
-	}
+	pageRepo := domain.NewNtPageEntity(
+		pageDataAddress.Id,
+		urls.IconUrl,
+		pageDataAddress.IconType,
+		urls.CoverUrl,
+		pageDataAddress.CoverType,
+		pageDataAddress.Title,
+		pageDataAddress.Type,
+		pageDataAddress.LastEditedTime,
+	)
 	return &data, &pageRepo, nil
 }
 

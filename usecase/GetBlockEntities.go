@@ -244,6 +244,7 @@ func appendBlock(
 			parentId,
 			pageDataAddress.Title,
 			type_,
+			pageDataAddress.LastEditedTime,
 		)
 		if err != nil {
 			fmt.Println("error in usecase/appendBlock/domain.NewPageEntity")

@@ -7,7 +7,8 @@ type PageProperty struct {
 	Properties struct {
 		Title TitleProperty `json:"title"`
 	} `json:"properties"`
-	Object string `json:"object"`
+	Object         string `json:"object"`
+	LastEditedTime string `json:"last_edited_time"`
 }
 
 type ParagraphProperty struct {

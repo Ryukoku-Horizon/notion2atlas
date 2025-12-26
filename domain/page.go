@@ -12,3 +12,10 @@ type BasePage interface {
 	GetTitle() string
 	ToPageEntity() (*PageEntity, error)
 }
+
+type DBBasePage interface {
+	GetCategories() []string
+	GetVisilities() []string
+	GetTags() []string
+	GetId() string
+}
